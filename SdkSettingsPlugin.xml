@@ -1,0 +1,6 @@
+<application>
+  <component name="no.eirikb.avatest.settings.AppSettingsState">
+    <option name="inputPath" value="node_modules/ava/entrypoints/cli.mjs" />
+    <option name="npmScriptsText" />
+  </component>
+</application>
