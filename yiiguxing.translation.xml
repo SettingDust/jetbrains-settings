@@ -1,0 +1,76 @@
+<application>
+  <component name="AppStorage">
+    <option name="maxHistorySize" value="100" />
+    <option name="newTranslationDialogWidth" value="598" />
+    <option name="newTranslationDialogX" value="752" />
+    <option name="newTranslationDialogY" value="436" />
+    <histories>
+      <item value="Whirl" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="ENGLISH" value="1" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1669803389614" />
+  </component>
+  <component name="Settings">
+    <option name="aliTranslateSettings">
+      <app-key>
+        <option name="appId" value="LTAI4GF8jN84vDxT5YC93iat" />
+      </app-key>
+    </option>
+    <option name="baiduTranslateSettings">
+      <app-key>
+        <option name="appId" value="20200512000450419" />
+      </app-key>
+    </option>
+    <option name="keepFormat" value="true" />
+    <option name="primaryFontFamily" value="Sarasa UI SC Light" />
+    <option name="translateDocumentation" value="true" />
+  </component>
+  <component name="Translation.Cache">
+    <option name="lastTrimTime" value="1684636762845" />
+  </component>
+  <component name="Translation.States">
+    <option name="newTranslationDialogWidth" value="598" />
+    <option name="newTranslationDialogX" value="623" />
+    <option name="newTranslationDialogY" value="364" />
+    <histories>
+      <item value="Concentric" />
+      <item value="true if this injector should inject appropriate RETURN opcodes which allow it to be cancelled" />
+      <item value="Anglers" />
+      <item value="nglers" />
+      <item value="aid" />
+      <item value="Invincible" />
+      <item value="This injection point searches for INVOKEVIRTUAL, INVOKESTATIC and INVOKESPECIAL opcodes matching its arguments and returns a list of insns after the matching instructions, with special handling for methods invocations which return a value and immediately assign it to a local variable. It accepts the following parameters from At:" />
+      <item value="yaw" />
+      <item value="pitch" />
+      <item value="Discrete" />
+      <item value="essence" />
+      <item value="accumulated" />
+      <item value="panic" />
+      <item value="depleted" />
+      <item value="deplated" />
+      <item value="Vessel" />
+      <item value="Paragliding" />
+      <item value="ascending Winds" />
+      <item value="ascending" />
+      <item value="STRIP" />
+      <item value="A general interface for the 2D layout model. The layout model provides the necessary components to a LayoutAlgorithm2D in order to draw a graph. Its responsibility is to provide the available drawable area, to be able to store and answer queries about vertex coordinates, and to allow someone to fix (make permanent) a vertex location." />
+      <item value="ambiguous" />
+      <item value="SILK" />
+      <item value="Toss" />
+      <item value="Satchel" />
+      <item value="stuffed" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="22" />
+        <entry key="ENGLISH" value="23" />
+      </map>
+    </option>
+  </component>
+</application>
