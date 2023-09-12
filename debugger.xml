@@ -96,11 +96,6 @@
     <data-views />
     <general />
     <debuggers>
-      <debugger id="ObjectiveC">
-        <configuration>
-          <nt-symbol-settings />
-        </configuration>
-      </debugger>
       <debugger id="javascript">
         <configuration>
           <custom-object-presentation />
