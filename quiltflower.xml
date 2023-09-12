@@ -2,5 +2,13 @@
   <component name="net.earthcomputer.quiltflowerintellij.QuiltflowerState">
     <option name="enabled" value="false" />
     <option name="quiltflowerVersionStr" value="1.9.0" />
+    <option name="quiltflowerSettings">
+      <map>
+        <entry key="__dump_original_lines__" value="1" />
+        <entry key="ega" value="1" />
+        <entry key="iec" value="1" />
+        <entry key="jrt" value="1" />
+      </map>
+    </option>
   </component>
 </application>
