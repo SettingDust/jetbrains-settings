@@ -1,8 +1,8 @@
 <application>
   <component name="aminer-codegeex">
-    <option name="askCodegeexLanguageEnum" value="zh-CN" />
     <option name="telemetryEnabled" value="true" />
     <option name="telemetryConfigured" value="true" />
+    <option name="enableCompletions" value="false" />
     <option name="checkForUpdate" value="false" />
     <option name="sessionId" value="295356cb-f51c-4d7e-8ebc-e954c38a670f" />
     <option name="userId" value="63f7d6045d7046ef9b5294a5ff52e752" />
