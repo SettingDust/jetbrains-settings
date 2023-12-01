@@ -48,31 +48,15 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="clean" value="r[false] def[true] Whether to execute `git clean -ffdx &amp;&amp; git reset --hard HEAD` before fetching" />
-                  <entry key="fetch-depth" value="r[false] def[1] Number of commits to fetch. 0 indicates all history for all branches and tags." />
-                  <entry key="lfs" value="r[false] def[false] Whether to download Git-LFS files" />
-                  <entry key="path" value="r[false]  Relative path under $GITHUB_WORKSPACE to place the repository" />
-                  <entry key="persist-credentials" value="r[false] def[true] Whether to configure the token or SSH key with the local git config" />
-                  <entry key="ref" value="r[false] " />
-                  <entry key="repository" value="r[false] def[${{ github.repository }}] Repository name with owner. For example, actions/checkout" />
-                  <entry key="set-safe-directory" value="r[false] def[true] Add repository path as safe.directory for Git global config by running `git config --global --add safe.directory &lt;path&gt;`" />
-                  <entry key="ssh-key" value="r[false] " />
-                  <entry key="ssh-known-hosts" value="r[false] " />
-                  <entry key="ssh-strict" value="r[false] def[true]" />
-                  <entry key="submodules" value="r[false] def[false]" />
-                  <entry key="token" value="r[false] def[${{ github.token }}]" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/checkout/v2/action.yml" />
-                  <entry key="expiryTime" value="1701358662704" />
+                  <entry key="expiryTime" value="1702569958474" />
                   <entry key="githubUrl" value="https://github.com/actions/checkout/tree/v2#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/checkout" />
                   <entry key="usesValue" value="actions/checkout@v2" />
@@ -169,32 +153,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="debug" value="r[false] def[false] Whether to tell the GitHub client to log details of its requests" />
-                  <entry key="github-token" value="r[false] def[${{ github.token }}] The GitHub token used to create an authenticated client" />
-                  <entry key="previews" value="r[false]  A comma-separated list of API previews to accept" />
-                  <entry key="result-encoding" value="r[false] def[json] Either &quot;string&quot; or &quot;json&quot; (default &quot;json&quot;)—how the result will be encoded" />
-                  <entry key="script" value="r[true]  The script to run" />
-                  <entry key="user-agent" value="r[false] def[actions/github-script] An optional user-agent string" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/github-script/v4/action.yml" />
-                  <entry key="expiryTime" value="1701362328844" />
+                  <entry key="expiryTime" value="1702573558467" />
                   <entry key="githubUrl" value="https://github.com/actions/github-script/tree/v4#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/github-script" />
                   <entry key="usesValue" value="actions/github-script@v4" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="result" value=" The return value of the script, stringified with `JSON.stringify`" />
                 </map>
               </option>
             </GitHubAction>
@@ -265,37 +235,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="allow-prereleases" value="r[false] def[false] When 'true', a version range passed to 'python-version' input will match prerelease versions if no GA versions are found. Only 'x.y' version range is supported for CPython." />
-                  <entry key="architecture" value="r[false]  The target architecture (x86, x64) of the Python or PyPy interpreter." />
-                  <entry key="cache" value="r[false]  Used to specify a package manager for caching in the default directory. Supported values: pip, pipenv, poetry." />
-                  <entry key="cache-dependency-path" value="r[false]  Used to specify the path to dependency files. Supports wildcards or a list of file names for caching multiple dependencies." />
-                  <entry key="check-latest" value="r[false] def[false] Set this option if you want the action to check for the latest available version that satisfies the version spec." />
-                  <entry key="python-version" value="r[false]  Version range or exact version of Python or PyPy to use, using SemVer's version range syntax. Reads from .python-version if unset." />
-                  <entry key="python-version-file" value="r[false]  File containing the Python version to use. Example: .python-version" />
-                  <entry key="token" value="r[false] def[${{ github.server_url == 'https://github.com' &amp;&amp; github.token || '' }}] The token used to authenticate when fetching Python distributions from https://github.com/actions/python-versions. When running this action on github.com, the default value is sufficient. When running on GHES, you can pass a personal access token for github.com if you are experiencing rate limiting." />
-                  <entry key="update-environment" value="r[false] def[true] Set this option if you want the action to update environment variables." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/setup-python/v4/action.yml" />
-                  <entry key="expiryTime" value="1701362851961" />
+                  <entry key="expiryTime" value="1702573558466" />
                   <entry key="githubUrl" value="https://github.com/actions/setup-python/tree/v4#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/setup-python" />
                   <entry key="usesValue" value="actions/setup-python@v4" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="cache-hit" value=" A boolean value to indicate a cache entry was found" />
-                  <entry key="python-path" value=" The absolute path to the Python or PyPy executable." />
-                  <entry key="python-version" value=" The installed Python or PyPy version. Useful when given a version range as input." />
                 </map>
               </option>
             </GitHubAction>
