@@ -255,36 +255,15 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="allow-dependencies-licenses" value="r[false]  Comma-separated list of dependencies in purl format (e.g. &quot;pkg:npm/express, pkg:pip/pycrypto&quot;). These dependencies will be permitted to use any license, no matter what license policy is enforced otherwise." />
-                  <entry key="allow-ghsas" value="r[false]  Comma-separated list of allowed GitHub Advisory IDs (e.g. &quot;GHSA-abcd-1234-5679, GHSA-efgh-1234-5679&quot;)" />
-                  <entry key="allow-licenses" value="r[false]  Comma-separated list of allowed licenses (e.g. &quot;MIT, GPL 3.0, BSD 2 Clause&quot;)" />
-                  <entry key="base-ref" value="r[false]  The base git ref to be used for this check. Has a default value when the workflow event is `pull_request` or `pull_request_target`. Must be provided otherwise." />
-                  <entry key="comment-summary-in-pr" value="r[false]  Determines if the summary is posted as a comment in the PR itself. Setting this to `always` or `on-failure` requires you to give the workflow the write permissions for pull-requests" />
-                  <entry key="config-file" value="r[false]  A path to the configuration file for the action." />
-                  <entry key="deny-groups" value="r[false]  A comma-separated list of package URLs for group(s)/namespace(s) to deny (e.g. &quot;pkg:npm/express, pkg:pip/pycrypto&quot;)" />
-                  <entry key="deny-licenses" value="r[false]  Comma-separated list of forbidden licenses (e.g. &quot;MIT, GPL 3.0, BSD 2 Clause&quot;)" />
-                  <entry key="deny-packages" value="r[false]  A comma-separated list of package URLs to deny (e.g. &quot;pkg:npm/express, pkg:pip/pycrypto&quot;)" />
-                  <entry key="external-repo-token" value="r[false]  A token for fetching external configuration file if it lives in another repository. It is required if the repository is private" />
-                  <entry key="fail-on-scopes" value="r[false]  Dependency scopes to block PRs on. Comma-separated list. Possible values are 'unknown', 'runtime', and 'development' (e.g. &quot;runtime, development&quot;)" />
-                  <entry key="fail-on-severity" value="r[false]  Don't block PRs below this severity. Possible values are `low`, `moderate`, `high`, `critical`." />
-                  <entry key="head-ref" value="r[false]  The head git ref to be used for this check. Has a default value when the workflow event is `pull_request` or `pull_request_target`. Must be provided otherwise." />
-                  <entry key="license-check" value="r[false]  A boolean to determine if license checks should be performed" />
-                  <entry key="repo-token" value="r[false] def[${{ github.token }}] Token for the repository. Can be passed in using `{{ secrets.GITHUB_TOKEN }}`." />
-                  <entry key="retry-on-snapshot-warnings" value="r[false] def[false] Whether to retry on snapshot warnings" />
-                  <entry key="retry-on-snapshot-warnings-timeout" value="r[false] def[120] Number of seconds to wait before stopping snapshot retries." />
-                  <entry key="vulnerability-check" value="r[false]  A boolean to determine if vulnerability checks should be performed" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/dependency-review-action/v3/action.yml" />
-                  <entry key="expiryTime" value="1701791350844" />
+                  <entry key="expiryTime" value="1703002279168" />
                   <entry key="githubUrl" value="https://github.com/actions/dependency-review-action/tree/v3#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/dependency-review-action" />
                   <entry key="usesValue" value="actions/dependency-review-action@v3" />
