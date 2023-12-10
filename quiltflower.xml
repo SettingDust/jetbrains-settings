@@ -1,8 +1,7 @@
 <application>
   <component name="net.earthcomputer.quiltflowerintellij.QuiltflowerState">
     <option name="enabled" value="false" />
-    <option name="enableSnapshots" value="true" />
-    <option name="quiltflowerVersionStr" value="1.10.0-20230616.180341-95" />
+    <option name="quiltflowerVersionStr" value="1.9.0" />
     <option name="quiltflowerSettings">
       <map>
         <entry key="__dump_original_lines__" value="1" />
