@@ -297,37 +297,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="architecture" value="r[false] def[x64] The architecture (x86, x64) of the package." />
-                  <entry key="gpg-passphrase" value="r[false]  Environment variable name for the GPG private key passphrase. Default is&#10;       $GPG_PASSPHRASE." />
-                  <entry key="gpg-private-key" value="r[false]  GPG private key to import. Default is empty string." />
-                  <entry key="java-package" value="r[false] def[jdk] The package type (jre, jdk, jdk+fx)" />
-                  <entry key="java-version" value="r[true]  The Java version to make available on the path. Takes a whole&#10;       or semver Java version, or 1.x syntax (e.g. 1.8 =&gt; Java 8.x).&#10;       Early access versions can be specified in the form of e.g. 14-ea,&#10;       14.0.0-ea, or 14.0.0-ea.28" />
-                  <entry key="jdkFile" value="r[false]  Path to where the compressed JDK is located. The path could&#10;       be in your source repository or a local path on the agent." />
-                  <entry key="server-id" value="r[false] def[github] ID of the distributionManagement repository in the pom.xml&#10;       file. Default is `github`" />
-                  <entry key="server-password" value="r[false] def[GITHUB_TOKEN] Environment variable name for password or token for&#10;       authentication to the Apache Maven repository. Default is $GITHUB_TOKEN" />
-                  <entry key="server-username" value="r[false] def[GITHUB_ACTOR] Environment variable name for the username for authentication&#10;       to the Apache Maven repository. Default is $GITHUB_ACTOR" />
-                  <entry key="settings-path" value="r[false]  Path to where the settings.xml file will be written. Default is ~/.m2." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/setup-java/v1/action.yml" />
-                  <entry key="expiryTime" value="1702460105708" />
+                  <entry key="expiryTime" value="1703676559829" />
                   <entry key="githubUrl" value="https://github.com/actions/setup-java/tree/v1#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/setup-java" />
                   <entry key="usesValue" value="actions/setup-java@v1" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="path" value=" Path to where the java environment has been installed (same as $JAVA_HOME)" />
-                  <entry key="version" value=" Actual version of the java environment that has been installed" />
                 </map>
               </option>
             </GitHubAction>
@@ -411,22 +392,15 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="if-no-files-found" value="r[false] def[warn]" />
-                  <entry key="name" value="r[false] def[artifact] Artifact name" />
-                  <entry key="path" value="r[true]  A file, directory or wildcard pattern that describes what to upload" />
-                  <entry key="retention-days" value="r[false] " />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/upload-artifact/v2/action.yml" />
-                  <entry key="expiryTime" value="1702460105708" />
+                  <entry key="expiryTime" value="1703676559829" />
                   <entry key="githubUrl" value="https://github.com/actions/upload-artifact/tree/v2#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/upload-artifact" />
                   <entry key="usesValue" value="actions/upload-artifact@v2" />
@@ -489,29 +463,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="allow-checksums" value="r[false]  Accept arbitrary user-defined checksums as valid. Comma separated list of SHA256 checksums (lowercase hex)." />
-                  <entry key="allow-snapshots" value="r[false] def[false] Allow Gradle snapshot versions during checksum verification. Boolean, true or false." />
-                  <entry key="min-wrapper-count" value="r[false] def[1] Minimum number expected gradle-wrapper.jar files found in the repository. Non-negative number. Higher number is useful in monorepos where each project might have their own wrapper." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/gradle/wrapper-validation-action/v1/action.yml" />
-                  <entry key="expiryTime" value="1702460105705" />
+                  <entry key="expiryTime" value="1703676559826" />
                   <entry key="githubUrl" value="https://github.com/gradle/wrapper-validation-action/tree/v1#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="gradle/wrapper-validation-action" />
                   <entry key="usesValue" value="gradle/wrapper-validation-action@v1" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="failed-wrapper" value=" The path of the Gradle Wrapper(s) JAR that failed validation." />
                 </map>
               </option>
             </GitHubAction>
