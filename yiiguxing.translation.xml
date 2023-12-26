@@ -34,11 +34,20 @@
   <component name="Translation.Cache">
     <option name="lastTrimTime" value="1703504747157" />
   </component>
+  <component name="Translation.Settings">
+    <option name="keepFormat" value="true" />
+    <option name="phoneticFontFamily" value="Sarasa UI SC" />
+    <option name="primaryFontFamily" value="Sarasa UI SC" />
+    <option name="primaryLanguage" value="CHINESE" />
+    <option name="translator" value="GOOGLE" />
+  </component>
   <component name="Translation.States">
     <option name="newTranslationDialogWidth" value="598" />
     <option name="newTranslationDialogX" value="623" />
     <option name="newTranslationDialogY" value="364" />
     <histories>
+      <item value="Synchronous Resource Reloader" />
+      <item value="Override" />
       <item value="Blend" />
       <item value="A resource processor that allows the arbitrary addition of attributes to the first MANIFEST.MF that is found in the set of JARs being processed, or to a newly created manifest for the shaded JAR. &lt;p&gt; Modified from org.apache.maven.plugins.shade.resource.ManifestResourceTransformer @author Jason van Zyl @author John Engelman" />
       <item value="Satchel" />
@@ -78,8 +87,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="34" />
-        <entry key="ENGLISH" value="35" />
+        <entry key="CHINESE" value="35" />
+        <entry key="ENGLISH" value="36" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
