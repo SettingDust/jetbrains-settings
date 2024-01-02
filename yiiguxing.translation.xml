@@ -32,7 +32,7 @@
     <option name="translateDocumentation" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1703504747157" />
+    <option name="lastTrimTime" value="1704179189007" />
   </component>
   <component name="Translation.Settings">
     <option name="keepFormat" value="true" />
@@ -46,6 +46,8 @@
     <option name="newTranslationDialogX" value="623" />
     <option name="newTranslationDialogY" value="364" />
     <histories>
+      <item value="drain" />
+      <item value="Drains" />
       <item value="Synchronous Resource Reloader" />
       <item value="Override" />
       <item value="Blend" />
@@ -87,8 +89,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="35" />
-        <entry key="ENGLISH" value="36" />
+        <entry key="CHINESE" value="37" />
+        <entry key="ENGLISH" value="38" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
