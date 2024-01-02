@@ -2,13 +2,12 @@
   <component name="aminer-codegeex">
     <option name="telemetryEnabled" value="true" />
     <option name="telemetryConfigured" value="true" />
-    <option name="enableCompletions" value="false" />
     <option name="checkForUpdate" value="false" />
-    <option name="sessionId" value="295356cb-f51c-4d7e-8ebc-e954c38a670f" />
-    <option name="userId" value="63f7d6045d7046ef9b5294a5ff52e752" />
-    <option name="userName" value="SettingDust" />
-    <option name="source" value="github" />
-    <option name="sourceId" value="19922286" />
+    <option name="sessionId" value="5ffd6c1e-6b6e-47e3-bd80-27da74cccc1c" />
+    <option name="userId" value="fec24fc8e10240ef9420d3555bd2b486" />
+    <option name="userName" value="新用户11002" />
+    <option name="source" value="codeGeeX" />
+    <option name="sourceId" value="fec24fc8e10240ef9420d3555bd2b486" />
     <option name="lastPluginVersion" value="2.3.1" />
   </component>
 </application>
