@@ -240,7 +240,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/dependency-review-action/v3/action.yml" />
-                  <entry key="expiryTime" value="1704255682836" />
+                  <entry key="expiryTime" value="1705465814461" />
                   <entry key="githubUrl" value="https://github.com/actions/dependency-review-action/tree/v3#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />

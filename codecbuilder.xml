@@ -2,7 +2,7 @@
   <component name="codecbuilder">
     <option name="value">
       <list>
-        <option value="settingdust.heraclesforvillagers.RegistryValues" />
+        <option value="com.feywild.quest_giver.quest.QuestDisplay" />
       </list>
     </option>
   </component>
