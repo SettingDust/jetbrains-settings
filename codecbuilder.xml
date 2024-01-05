@@ -3,6 +3,7 @@
     <option name="value">
       <list>
         <option value="com.feywild.quest_giver.quest.QuestDisplay" />
+        <option value="snownee.lychee.core.LycheeRecipeContext" />
       </list>
     </option>
   </component>

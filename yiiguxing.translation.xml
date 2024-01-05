@@ -42,10 +42,14 @@
     <option name="translator" value="GOOGLE" />
   </component>
   <component name="Translation.States">
-    <option name="newTranslationDialogWidth" value="598" />
+    <option name="newTranslationDialogHeight" value="260" />
+    <option name="newTranslationDialogWidth" value="596" />
     <option name="newTranslationDialogX" value="623" />
     <option name="newTranslationDialogY" value="364" />
     <histories>
+      <item value="挥发" />
+      <item value="短暂的" />
+      <item value="Transient" />
       <item value="满足" />
       <item value="绑定到的实体" />
       <item value="发布任务的村民已经死亡" />
@@ -93,8 +97,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="41" />
-        <entry key="ENGLISH" value="41" />
+        <entry key="CHINESE" value="43" />
+        <entry key="ENGLISH" value="42" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
