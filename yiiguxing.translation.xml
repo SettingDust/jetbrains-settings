@@ -47,6 +47,8 @@
     <option name="newTranslationDialogX" value="623" />
     <option name="newTranslationDialogY" value="364" />
     <histories>
+      <item value="Dummy" />
+      <item value="Visit" />
       <item value="Receive" />
       <item value="subtitle" />
       <item value="Acquire" />
@@ -95,13 +97,11 @@
       <item value="ascending" />
       <item value="STRIP" />
       <item value="A general interface for the 2D layout model. The layout model provides the necessary components to a LayoutAlgorithm2D in order to draw a graph. Its responsibility is to provide the available drawable area, to be able to store and answer queries about vertex coordinates, and to allow someone to fix (make permanent) a vertex location." />
-      <item value="ambiguous" />
-      <item value="SILK" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="47" />
-        <entry key="ENGLISH" value="48" />
+        <entry key="CHINESE" value="50" />
+        <entry key="ENGLISH" value="51" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
