@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="accesstransformer.cfg" type="Access Transformers" />
       <mapping pattern="thaumicaugmentation_at.cfg" type="Access Transformers" />
+      <mapping ext="hocon" type="HOCON" />
       <mapping pattern="*.png.mcmeta" type="JSON" />
       <mapping pattern="pack.mcmeta" type="JSON" />
       <mapping pattern="mcmod.info" type="JSON" />
