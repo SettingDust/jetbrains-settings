@@ -258,6 +258,16 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="debug" value="r[false] def[false] Whether to tell the GitHub client to log details of its requests" />
+                  <entry key="github-token" value="r[false] def[${{ github.token }}] The GitHub token used to create an authenticated client" />
+                  <entry key="previews" value="r[false]  A comma-separated list of API previews to accept" />
+                  <entry key="result-encoding" value="r[false] def[json] Either &quot;string&quot; or &quot;json&quot; (default &quot;json&quot;)—how the result will be encoded" />
+                  <entry key="script" value="r[true]  The script to run" />
+                  <entry key="user-agent" value="r[false] def[actions/github-script] An optional user-agent string" />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/github-script/v4/action.yml" />
@@ -267,9 +277,15 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/github-script" />
                   <entry key="usesValue" value="actions/github-script@v4" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="result" value=" The return value of the script, stringified with `JSON.stringify`" />
                 </map>
               </option>
             </GitHubAction>
