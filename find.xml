@@ -1,8 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="项目文件" />
-    <option name="defaultScopeName" value="项目文件" />
-    <option name="SEARCH_SCOPE" value="项目文件" />
+    <option name="customScope" value="项目和库" />
+    <option name="defaultScopeName" value="项目和库" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="SEARCH_SCOPE" value="项目和库" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
