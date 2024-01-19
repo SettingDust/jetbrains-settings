@@ -47,6 +47,7 @@
     <option name="newTranslationDialogX" value="623" />
     <option name="newTranslationDialogY" value="364" />
     <histories>
+      <item value="targets" />
       <item value="Fortified" />
       <item value="Desert Fortified" />
       <item value="Christmas" />
@@ -96,12 +97,11 @@
       <item value="panic" />
       <item value="depleted" />
       <item value="deplated" />
-      <item value="Vessel" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="55" />
-        <entry key="ENGLISH" value="56" />
+        <entry key="CHINESE" value="56" />
+        <entry key="ENGLISH" value="57" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
