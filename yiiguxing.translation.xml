@@ -47,6 +47,10 @@
     <option name="newTranslationDialogX" value="623" />
     <option name="newTranslationDialogY" value="364" />
     <histories>
+      <item value="Fortified" />
+      <item value="Desert Fortified" />
+      <item value="Christmas" />
+      <item value="Alpine" />
       <item value="HEURISTIC" />
       <item value="Dummy" />
       <item value="Visit" />
@@ -93,15 +97,11 @@
       <item value="depleted" />
       <item value="deplated" />
       <item value="Vessel" />
-      <item value="Paragliding" />
-      <item value="ascending Winds" />
-      <item value="ascending" />
-      <item value="STRIP" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="51" />
-        <entry key="ENGLISH" value="52" />
+        <entry key="CHINESE" value="55" />
+        <entry key="ENGLISH" value="56" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
