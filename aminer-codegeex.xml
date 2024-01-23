@@ -2,6 +2,7 @@
   <component name="aminer-codegeex">
     <option name="telemetryEnabled" value="true" />
     <option name="telemetryConfigured" value="true" />
+    <option name="enableCompletions" value="false" />
     <option name="checkForUpdate" value="false" />
     <option name="sessionId" value="5ffd6c1e-6b6e-47e3-bd80-27da74cccc1c" />
     <option name="userId" value="fec24fc8e10240ef9420d3555bd2b486" />
