@@ -453,39 +453,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="architecture" value="r[false] def[x64] The architecture (x86, x64) of the package." />
-                  <entry key="gpg-passphrase" value="r[false]  Environment variable name for the GPG private key passphrase. Default is&#10;       $GPG_PASSPHRASE." />
-                  <entry key="gpg-private-key" value="r[false]  GPG private key to import. Default is empty string." />
-                  <entry key="java-package" value="r[false] def[jdk] The package type (jre, jdk, jdk+fx)" />
-                  <entry key="java-version" value="r[true]  The Java version to make available on the path. Takes a whole&#10;       or semver Java version, or 1.x syntax (e.g. 1.8 =&gt; Java 8.x).&#10;       Early access versions can be specified in the form of e.g. 14-ea,&#10;       14.0.0-ea, or 14.0.0-ea.28" />
-                  <entry key="jdkFile" value="r[false]  Path to where the compressed JDK is located. The path could&#10;       be in your source repository or a local path on the agent." />
-                  <entry key="server-id" value="r[false] def[github] ID of the distributionManagement repository in the pom.xml&#10;       file. Default is `github`" />
-                  <entry key="server-password" value="r[false] def[GITHUB_TOKEN] Environment variable name for password or token for&#10;       authentication to the Apache Maven repository. Default is $GITHUB_TOKEN" />
-                  <entry key="server-username" value="r[false] def[GITHUB_ACTOR] Environment variable name for the username for authentication&#10;       to the Apache Maven repository. Default is $GITHUB_ACTOR" />
-                  <entry key="settings-path" value="r[false]  Path to where the settings.xml file will be written. Default is ~/.m2." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/setup-java/v1/action.yml" />
-                  <entry key="expiryTime" value="1706149278360" />
+                  <entry key="expiryTime" value="1707361540775" />
                   <entry key="githubUrl" value="https://github.com/actions/setup-java/tree/v1#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/setup-java" />
                   <entry key="usesValue" value="actions/setup-java@v1" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="path" value=" Path to where the java environment has been installed (same as $JAVA_HOME)" />
-                  <entry key="version" value=" Actual version of the java environment that has been installed" />
                 </map>
               </option>
             </GitHubAction>
@@ -572,7 +551,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/upload-artifact/v2/action.yml" />
-                  <entry key="expiryTime" value="1706149278360" />
+                  <entry key="expiryTime" value="1707361540777" />
                   <entry key="githubUrl" value="https://github.com/actions/upload-artifact/tree/v2#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -643,7 +622,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/gradle/wrapper-validation-action/v1/action.yml" />
-                  <entry key="expiryTime" value="1706149278358" />
+                  <entry key="expiryTime" value="1707361540777" />
                   <entry key="githubUrl" value="https://github.com/gradle/wrapper-validation-action/tree/v1#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
