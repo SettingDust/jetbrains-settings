@@ -3,6 +3,7 @@
     <option name="value">
       <list>
         <option value="snownee.lychee.context.ItemShapelessContext" />
+        <option value="snownee.lychee.recipes.BlockCrushingRecipeType" />
       </list>
     </option>
   </component>
