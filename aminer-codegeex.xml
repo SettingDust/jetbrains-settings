@@ -3,6 +3,7 @@
     <option name="telemetryEnabled" value="true" />
     <option name="telemetryConfigured" value="true" />
     <option name="checkForUpdate" value="false" />
-    <option name="lastPluginVersion" value="2.4.0" />
+    <option name="macAddress" value="EC-D6-8A-F5-8B-23" />
+    <option name="lastPluginVersion" value="2.5.1" />
   </component>
 </application>
