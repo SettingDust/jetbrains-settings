@@ -2,7 +2,7 @@
   <component name="codecbuilder">
     <option name="value">
       <list>
-        <option value="snownee.lychee.recipes.dripstone_dripping.DripstoneRecipe" />
+        <option value="snownee.lychee.util.action.PostActionCommonProperties" />
       </list>
     </option>
   </component>
