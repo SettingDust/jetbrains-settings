@@ -47,6 +47,7 @@
     <option name="newTranslationDialogX" value="623" />
     <option name="newTranslationDialogY" value="364" />
     <histories>
+      <item value="Adding all the drops in this iterate" />
       <item value="homogeneous" />
       <item value="is Stalactite Start Pos" />
       <item value="corrupted" />
@@ -96,12 +97,11 @@
       <item value="true if this injector should inject appropriate RETURN opcodes which allow it to be cancelled" />
       <item value="Anglers" />
       <item value="nglers" />
-      <item value="aid" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="67" />
-        <entry key="ENGLISH" value="68" />
+        <entry key="CHINESE" value="68" />
+        <entry key="ENGLISH" value="69" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
