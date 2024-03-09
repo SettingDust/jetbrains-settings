@@ -504,6 +504,53 @@
             </GitHubAction>
           </value>
         </entry>
+        <entry key="ietf-tools/semver-action@v1">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="additionalCommits" value="r[false]  A list of additional commit messages to parse in order to calculate semver." />
+                  <entry key="branch" value="r[false] def[main] The branch to use when fetching list of commits to compare against" />
+                  <entry key="fromTag" value="r[false]  Override the tag to use when comparing against the branch in order to fetch the list of commits." />
+                  <entry key="majorList" value="r[false]  Comma separated commit prefixes, used to bump Major version" />
+                  <entry key="maxTagsToFetch" value="r[false] def[10] Maximum number of tags to fetch from latest." />
+                  <entry key="minorList" value="r[false] def[feat, feature] Comma separated commit prefixes, used to bump Minor version" />
+                  <entry key="noNewCommitBehavior" value="r[false] def[error] Whether to exit with an error, warning or silently when there are no new commits since the latest tag. (error, warn, current, silent)" />
+                  <entry key="noVersionBumpBehavior" value="r[false] def[error] Whether to exit with an error, warning or silently when none of the commits result in a version bump. (error, warn, current, patch, silent)" />
+                  <entry key="patchAll" value="r[false] def[false] If set to true, will ignore patchList and count any commit as a Patch" />
+                  <entry key="patchList" value="r[false] def[fix, bugfix, perf, refactor, test, tests] Comma separated commit prefixes, used to bump Patch version" />
+                  <entry key="prefix" value="r[false]  A prefix that will be striped when parsing tags (e.g. `foobar/`). Any other prefix will be ignored. The prefix will be added back to the output values." />
+                  <entry key="skipInvalidTags" value="r[false] def[false] If set to true, will skip tags that are not valid semver until it finds a proper one (up to maxTagsFetch from latest)." />
+                  <entry key="token" value="r[true]  GitHub Token" />
+                </map>
+              </option>
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="https://raw.githubusercontent.com/ietf-tools/semver-action/v1/action.yml" />
+                  <entry key="expiryTime" value="1711188828136" />
+                  <entry key="githubUrl" value="https://github.com/ietf-tools/semver-action/tree/v1#readme" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="ietf-tools/semver-action" />
+                  <entry key="usesValue" value="ietf-tools/semver-action@v1" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="bump" value=" Next version behavior." />
+                  <entry key="current" value=" Current version number / latest tag." />
+                  <entry key="next" value=" Next version number in format v0.0.0" />
+                  <entry key="nextMajor" value=" Next version major number in format v0" />
+                  <entry key="nextMajorStrict" value=" Next version major number only." />
+                  <entry key="nextStrict" value=" Next version number without the v prefix." />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
         <entry key="mikepenz/gradle-dependency-submission">
           <value>
             <GitHubAction>
@@ -645,6 +692,65 @@
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="mikepenz/gradle-dependency-submission" />
                   <entry key="usesValue" value="mikepenz/gradle-dependency-submission@}" />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
+        <entry key="ncipollo/release-action@v1.12.0">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="allowUpdates" value="r[false]  An optional flag which indicates if we should update a release if it already exists. Defaults to false." />
+                  <entry key="artifact" value="r[false]  An optional set of paths representing artifacts to upload to the release. This may be a single path or a comma delimited list of paths (or globs)" />
+                  <entry key="artifactContentType" value="r[false]  The content type of the artifact. Defaults to raw" />
+                  <entry key="artifactErrorsFailBuild" value="r[false]  An optional flag which indicates if artifact read or upload errors should fail the build." />
+                  <entry key="artifacts" value="r[false]  An optional set of paths representing artifacts to upload to the release. This may be a single path or a comma delimited list of paths (or globs)" />
+                  <entry key="body" value="r[false]  An optional body for the release." />
+                  <entry key="bodyFile" value="r[false]  An optional body file for the release. This should be the path to the file" />
+                  <entry key="commit" value="r[false]  An optional commit reference. This will be used to create the tag if it does not exist." />
+                  <entry key="discussionCategory" value="r[false]  When provided this will generate a discussion of the specified category. The category must exist otherwise this will cause the action to fail. This isn't used with draft releases" />
+                  <entry key="draft" value="r[false]  Optionally marks this release as a draft release. Set to true to enable." />
+                  <entry key="generateReleaseNotes" value="r[false] def[false] Indicates if release notes should be automatically generated." />
+                  <entry key="makeLatest" value="r[false] def[legacy] Indicates if the release should be the &quot;latest&quot; release or not." />
+                  <entry key="name" value="r[false]  An optional name for the release. If this is omitted the tag will be used." />
+                  <entry key="omitBody" value="r[false] def[false] Indicates if the release body should be omitted." />
+                  <entry key="omitBodyDuringUpdate" value="r[false] def[false] Indicates if the release body should be omitted during updates. The body will still be applied for newly created releases. This will preserve the existing body during updates." />
+                  <entry key="omitDraftDuringUpdate" value="r[false] def[false] Indicates if the draft flag should be omitted during updates. The draft flag will still be applied for newly created releases. This will preserve the existing draft state during updates." />
+                  <entry key="omitName" value="r[false] def[false] Indicates if the release name should be omitted." />
+                  <entry key="omitNameDuringUpdate" value="r[false] def[false] Indicates if the release name should be omitted during updates. The name will still be applied for newly created releases. This will preserve the existing name during updates." />
+                  <entry key="omitPrereleaseDuringUpdate" value="r[false] def[false] Indicates if the prerelease flag should be omitted during updates. The prerelease flag will still be applied for newly created releases. This will preserve the existing prerelease state during updates." />
+                  <entry key="owner" value="r[false]  Optionally specify the owner of the repo where the release should be generated. Defaults to current repo's owner." />
+                  <entry key="prerelease" value="r[false]  Optionally marks this release as prerelease. Set to true to enable." />
+                  <entry key="removeArtifacts" value="r[false] def[false] Indicates if existing release artifacts should be removed, Defaults to false." />
+                  <entry key="replacesArtifacts" value="r[false] def[true] Indicates if existing release artifacts should be replaced. Defaults to true." />
+                  <entry key="repo" value="r[false]  Optionally specify the repo where the release should be generated. Defaults to current repo" />
+                  <entry key="skipIfReleaseExists" value="r[false] def[false] When skipIfReleaseExists is enabled the action will be skipped if a non-draft release already exists for the provided tag." />
+                  <entry key="tag" value="r[false]  An optional tag for the release. If this is omitted the git ref will be used (if it is a tag)." />
+                  <entry key="token" value="r[false] def[${{ github.token }}] The Github token." />
+                  <entry key="updateOnlyUnreleased" value="r[false] def[false] When allowUpdates is enabled, this will fail the action if the release it is updating is not a draft or a prerelease." />
+                </map>
+              </option>
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="https://raw.githubusercontent.com/ncipollo/release-action/v1.12.0/action.yml" />
+                  <entry key="expiryTime" value="1711188828136" />
+                  <entry key="githubUrl" value="https://github.com/ncipollo/release-action/tree/v1.12.0#readme" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="ncipollo/release-action" />
+                  <entry key="usesValue" value="ncipollo/release-action@v1.12.0" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="html_url" value=" The HTML URL of the release." />
+                  <entry key="id" value=" The identifier of the created release." />
+                  <entry key="upload_url" value=" The URL for uploading assets to the release." />
                 </map>
               </option>
             </GitHubAction>
