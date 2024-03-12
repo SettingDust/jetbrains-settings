@@ -1,0 +1,9 @@
+<application>
+  <component name="codecbuilder">
+    <option name="value">
+      <list>
+        <option value="settingdust.dynamictextures.client.datagen.DynamicTextureProvider" />
+      </list>
+    </option>
+  </component>
+</application>
