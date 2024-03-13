@@ -47,6 +47,7 @@
     <option name="newTranslationDialogX" value="623" />
     <option name="newTranslationDialogY" value="364" />
     <histories>
+      <item value="obstructed" />
       <item value="abreast" />
       <item value="x&#10;y&#10;z" />
       <item value="Composite" />
@@ -96,12 +97,11 @@
       <item value="Structure kind for maps of an arbitrary length. Serializers typically encode classes with calls to Encoder.beginCollection and CompositeEncoder.endStructure, writing the elements of the map between these calls. Built-in map serializers treat elements as homogeneous, though application-specific serializers may impose application-specific restrictions on specific MAP types." />
       <item value="Polymorphic kind represents a (bounded) polymorphic value, that is referred by some base class or interface, but its structure is defined by one of the possible implementations. Polymorphic kind is, by its definition, a union kind and is extracted to its own subtype to emphasize bounded and sealed polymorphism common property: not knowing the actual type statically and requiring formats to additionally encode it." />
       <item value="olymorphic kind represents a (bounded) polymorphic value, that is referred by some base class or interface, but its structure is defined by one of the possible implementations. Polymorphic kind is, by its definition, a union kind and is extracted to its own subtype to emphasize bounded and sealed polymorphism common property: not knowing the actual type statically and requiring formats to additionally encode it." />
-      <item value="In general, injectors are intended to &quot;fail soft&quot; in that a failure to locate the injection point in the target method is not considered an error condition. Another transformer may have changed the method structure or any number of reasons may cause an injection to fail. This also makes it possible to define several injections to achieve the same task given expected mutation of the target class and the injectors which fail are simply ignored. However, this behaviour is not always desirable. For example, if your application depends on a particular injection succeeding you may wish to detect the injection failure as an error condition. This argument is thus provided to allow you to stipulate a minimum number of successful injections for this callback handler. If the number of injections specified is not achieved then an InjectionError is thrown at application time. Use this option with care." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="72" />
-        <entry key="ENGLISH" value="73" />
+        <entry key="CHINESE" value="73" />
+        <entry key="ENGLISH" value="74" />
         <entry key="HINDI" value="1" />
       </map>
     </option>

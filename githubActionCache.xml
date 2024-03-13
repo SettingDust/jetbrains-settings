@@ -294,6 +294,23 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="clean" value="r[false] def[true] Whether to execute `git clean -ffdx &amp;&amp; git reset --hard HEAD` before fetching" />
+                  <entry key="fetch-depth" value="r[false] def[1] Number of commits to fetch. 0 indicates all history for all branches and tags." />
+                  <entry key="lfs" value="r[false] def[false] Whether to download Git-LFS files" />
+                  <entry key="path" value="r[false]  Relative path under $GITHUB_WORKSPACE to place the repository" />
+                  <entry key="persist-credentials" value="r[false] def[true] Whether to configure the token or SSH key with the local git config" />
+                  <entry key="ref" value="r[false] " />
+                  <entry key="repository" value="r[false] def[${{ github.repository }}] Repository name with owner. For example, actions/checkout" />
+                  <entry key="set-safe-directory" value="r[false] def[true] Add repository path as safe.directory for Git global config by running `git config --global --add safe.directory &lt;path&gt;`" />
+                  <entry key="ssh-key" value="r[false] " />
+                  <entry key="ssh-known-hosts" value="r[false] " />
+                  <entry key="ssh-strict" value="r[false] def[true]" />
+                  <entry key="submodules" value="r[false] def[false]" />
+                  <entry key="token" value="r[false] def[${{ github.token }}]" />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/checkout/v2/action.yml" />
@@ -303,6 +320,7 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/checkout" />
                   <entry key="usesValue" value="actions/checkout@v2" />
@@ -399,6 +417,20 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="architecture" value="r[false] def[x64] The architecture (x86, x64) of the package." />
+                  <entry key="gpg-passphrase" value="r[false]  Environment variable name for the GPG private key passphrase. Default is&#10;       $GPG_PASSPHRASE." />
+                  <entry key="gpg-private-key" value="r[false]  GPG private key to import. Default is empty string." />
+                  <entry key="java-package" value="r[false] def[jdk] The package type (jre, jdk, jdk+fx)" />
+                  <entry key="java-version" value="r[true]  The Java version to make available on the path. Takes a whole&#10;       or semver Java version, or 1.x syntax (e.g. 1.8 =&gt; Java 8.x).&#10;       Early access versions can be specified in the form of e.g. 14-ea,&#10;       14.0.0-ea, or 14.0.0-ea.28" />
+                  <entry key="jdkFile" value="r[false]  Path to where the compressed JDK is located. The path could&#10;       be in your source repository or a local path on the agent." />
+                  <entry key="server-id" value="r[false] def[github] ID of the distributionManagement repository in the pom.xml&#10;       file. Default is `github`" />
+                  <entry key="server-password" value="r[false] def[GITHUB_TOKEN] Environment variable name for password or token for&#10;       authentication to the Apache Maven repository. Default is $GITHUB_TOKEN" />
+                  <entry key="server-username" value="r[false] def[GITHUB_ACTOR] Environment variable name for the username for authentication&#10;       to the Apache Maven repository. Default is $GITHUB_ACTOR" />
+                  <entry key="settings-path" value="r[false]  Path to where the settings.xml file will be written. Default is ~/.m2." />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/setup-java/v1/action.yml" />
@@ -408,9 +440,16 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/setup-java" />
                   <entry key="usesValue" value="actions/setup-java@v1" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="path" value=" Path to where the java environment has been installed (same as $JAVA_HOME)" />
+                  <entry key="version" value=" Actual version of the java environment that has been installed" />
                 </map>
               </option>
             </GitHubAction>
@@ -483,6 +522,27 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="arguments" value="r[false]  Gradle command line arguments (supports multi-line input)" />
+                  <entry key="artifact-retention-days" value="r[false]  Specifies the number of days to retain any artifacts generated by the action. If not set, the default retention settings for the repository will apply." />
+                  <entry key="build-root-directory" value="r[false]  Path to the root directory of the build. Default is the root of the GitHub workspace." />
+                  <entry key="cache-disabled" value="r[false] def[false] When 'true', all caching is disabled. No entries will be written to or read from the cache." />
+                  <entry key="cache-overwrite-existing" value="r[false] def[false] When 'true', a pre-existing Gradle User Home will not prevent the cache from being restored." />
+                  <entry key="cache-read-only" value="r[false] def[${{ github.event.repository != null &amp;&amp; github.ref_name != github.event.repository.default_branch }}]" />
+                  <entry key="cache-write-only" value="r[false] def[false]" />
+                  <entry key="dependency-graph" value="r[false] def[disabled] Specifies if a GitHub dependency snapshot should be generated for each Gradle build, and if so, how. Valid values are 'disabled' (default), 'generate', 'generate-and-submit', 'download-and-submit' and 'clear'." />
+                  <entry key="generate-job-summary" value="r[false] def[true] When 'false', no Job Summary will be generated for the Job." />
+                  <entry key="github-token" value="r[false] def[${{ github.token }}] The GitHub token used to authenticate when submitting via the Dependency Submission API." />
+                  <entry key="gradle-executable" value="r[false]  Path to the Gradle executable. If specified, this executable will be added to the PATH and used for invoking Gradle." />
+                  <entry key="gradle-home-cache-cleanup" value="r[false] def[false] When 'true', the action will attempt to remove any stale/unused entries from the Gradle User Home prior to saving to the GitHub Actions cache." />
+                  <entry key="gradle-home-cache-excludes" value="r[false]  Paths within Gradle User Home to exclude from cache." />
+                  <entry key="gradle-home-cache-includes" value="r[false]  Paths within Gradle User Home to cache." />
+                  <entry key="gradle-home-cache-strict-match" value="r[false] def[false] When 'true', the action will not attempt to restore the Gradle User Home entries from other Jobs." />
+                  <entry key="gradle-version" value="r[false]  Gradle version to use. If specified, this Gradle version will be downloaded, added to the PATH and used for invoking Gradle." />
+                  <entry key="workflow-job-context" value="r[false] def[${{ toJSON(matrix) }}] Used to uniquely identify the current job invocation. Defaults to the matrix values for this job; this should not be overridden by users (INTERNAL)." />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/gradle/gradle-build-action/v2/action.yml" />
@@ -492,9 +552,17 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="gradle/gradle-build-action" />
                   <entry key="usesValue" value="gradle/gradle-build-action@v2" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="build-scan-url" value=" Link to the Build Scan® generated by a Gradle build. Note that this output applies to a Step executing Gradle, not to the `gradle-build-action` Step itself." />
+                  <entry key="dependency-graph-file" value=" Path to the GitHub Dependency Graph snapshot file generated by a Gradle build. Note that this output applies to a Step executing Gradle, not to the `gradle-build-action` Step itself." />
+                  <entry key="gradle-version" value=" Version of Gradle that was setup by the action" />
                 </map>
               </option>
             </GitHubAction>
