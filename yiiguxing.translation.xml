@@ -47,6 +47,8 @@
     <option name="newTranslationDialogX" value="623" />
     <option name="newTranslationDialogY" value="364" />
     <histories>
+      <item value="Trivial" />
+      <item value="asian" />
       <item value="Moulding" />
       <item value="frame" />
       <item value="obstructed" />
@@ -95,13 +97,11 @@
       <item value="Inpired" />
       <item value="List Option" />
       <item value="Function" />
-      <item value="Phantom" />
-      <item value="Structure kind for maps of an arbitrary length. Serializers typically encode classes with calls to Encoder.beginCollection and CompositeEncoder.endStructure, writing the elements of the map between these calls. Built-in map serializers treat elements as homogeneous, though application-specific serializers may impose application-specific restrictions on specific MAP types." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="75" />
-        <entry key="ENGLISH" value="76" />
+        <entry key="CHINESE" value="77" />
+        <entry key="ENGLISH" value="78" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
