@@ -47,6 +47,8 @@
     <option name="newTranslationDialogX" value="623" />
     <option name="newTranslationDialogY" value="364" />
     <histories>
+      <item value="Moulding" />
+      <item value="frame" />
       <item value="obstructed" />
       <item value="abreast" />
       <item value="x&#10;y&#10;z" />
@@ -95,13 +97,11 @@
       <item value="Function" />
       <item value="Phantom" />
       <item value="Structure kind for maps of an arbitrary length. Serializers typically encode classes with calls to Encoder.beginCollection and CompositeEncoder.endStructure, writing the elements of the map between these calls. Built-in map serializers treat elements as homogeneous, though application-specific serializers may impose application-specific restrictions on specific MAP types." />
-      <item value="Polymorphic kind represents a (bounded) polymorphic value, that is referred by some base class or interface, but its structure is defined by one of the possible implementations. Polymorphic kind is, by its definition, a union kind and is extracted to its own subtype to emphasize bounded and sealed polymorphism common property: not knowing the actual type statically and requiring formats to additionally encode it." />
-      <item value="olymorphic kind represents a (bounded) polymorphic value, that is referred by some base class or interface, but its structure is defined by one of the possible implementations. Polymorphic kind is, by its definition, a union kind and is extracted to its own subtype to emphasize bounded and sealed polymorphism common property: not knowing the actual type statically and requiring formats to additionally encode it." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="73" />
-        <entry key="ENGLISH" value="74" />
+        <entry key="CHINESE" value="75" />
+        <entry key="ENGLISH" value="76" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
