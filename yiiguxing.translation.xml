@@ -42,11 +42,9 @@
     <option name="translator" value="GOOGLE" />
   </component>
   <component name="Translation.States">
-    <option name="newTranslationDialogHeight" value="260" />
-    <option name="newTranslationDialogWidth" value="596" />
-    <option name="newTranslationDialogX" value="623" />
-    <option name="newTranslationDialogY" value="364" />
     <histories>
+      <item value="CHORUS" />
+      <item value="Gadget" />
       <item value="Trivial" />
       <item value="luxury" />
       <item value="asian" />
@@ -95,13 +93,11 @@
       <item value="Blend" />
       <item value="A resource processor that allows the arbitrary addition of attributes to the first MANIFEST.MF that is found in the set of JARs being processed, or to a newly created manifest for the shaded JAR. &lt;p&gt; Modified from org.apache.maven.plugins.shade.resource.ManifestResourceTransformer @author Jason van Zyl @author John Engelman" />
       <item value="Satchel" />
-      <item value="Inpired" />
-      <item value="List Option" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="78" />
-        <entry key="ENGLISH" value="79" />
+        <entry key="CHINESE" value="80" />
+        <entry key="ENGLISH" value="81" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
