@@ -32,7 +32,7 @@
     <option name="translateDocumentation" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1710215002817" />
+    <option name="lastTrimTime" value="1710651105880" />
   </component>
   <component name="Translation.Settings">
     <option name="keepFormat" value="true" />
@@ -43,6 +43,9 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Lerp" />
+      <item value="Lerping Boss" />
+      <item value="Lerping" />
       <item value="CHORUS" />
       <item value="Gadget" />
       <item value="Trivial" />
@@ -90,14 +93,11 @@
       <item value="Drains" />
       <item value="Synchronous Resource Reloader" />
       <item value="Override" />
-      <item value="Blend" />
-      <item value="A resource processor that allows the arbitrary addition of attributes to the first MANIFEST.MF that is found in the set of JARs being processed, or to a newly created manifest for the shaded JAR. &lt;p&gt; Modified from org.apache.maven.plugins.shade.resource.ManifestResourceTransformer @author Jason van Zyl @author John Engelman" />
-      <item value="Satchel" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="80" />
-        <entry key="ENGLISH" value="81" />
+        <entry key="CHINESE" value="84" />
+        <entry key="ENGLISH" value="85" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
