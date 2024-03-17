@@ -43,6 +43,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="降级 `onConstructed` 到实现类" />
       <item value="Lerp" />
       <item value="Lerping Boss" />
       <item value="Lerping" />
@@ -92,11 +93,10 @@
       <item value="drain" />
       <item value="Drains" />
       <item value="Synchronous Resource Reloader" />
-      <item value="Override" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="84" />
+        <entry key="CHINESE" value="85" />
         <entry key="ENGLISH" value="85" />
         <entry key="HINDI" value="1" />
       </map>
