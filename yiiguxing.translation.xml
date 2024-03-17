@@ -43,6 +43,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="homogeneous" />
       <item value="降级 `onConstructed` 到实现类" />
       <item value="Lerp" />
       <item value="Lerping Boss" />
@@ -60,7 +61,6 @@
       <item value="Composite" />
       <item value="Compound" />
       <item value="Adding all the drops in this iterate" />
-      <item value="homogeneous" />
       <item value="is Stalactite Start Pos" />
       <item value="corrupted" />
       <item value="swallow" />
@@ -97,7 +97,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="85" />
-        <entry key="ENGLISH" value="85" />
+        <entry key="ENGLISH" value="86" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
