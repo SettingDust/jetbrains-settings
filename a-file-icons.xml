@@ -1,11 +1,8 @@
 <application>
   <component name="AtomFileIconsConfig">
-    <option name="enabledNewUiIcons" value="true" />
+    <option name="arrowsStyle" value="Darcula" />
     <option name="enabledPsiIcons" value="false" />
     <option name="enabledUIIcons" value="false" />
-    <option name="isEnabledNewUiIcons" value="true" />
-    <option name="isEnabledUIIcons" value="false" />
     <option name="monochromeColor" value="546e7a" />
-    <option name="isEnabledPsiIcons" value="false" />
   </component>
 </application>
