@@ -43,6 +43,8 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="substitution" />
+      <item value="Substitution" />
       <item value="homogeneous" />
       <item value="降级 `onConstructed` 到实现类" />
       <item value="Lerp" />
@@ -91,13 +93,11 @@
       <item value="发布任务的村民已经死亡" />
       <item value="Duct" />
       <item value="drain" />
-      <item value="Drains" />
-      <item value="Synchronous Resource Reloader" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="85" />
-        <entry key="ENGLISH" value="86" />
+        <entry key="CHINESE" value="87" />
+        <entry key="ENGLISH" value="88" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
