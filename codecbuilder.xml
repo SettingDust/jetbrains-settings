@@ -1,9 +1,0 @@
-<application>
-  <component name="codecbuilder">
-    <option name="value">
-      <list>
-        <option value="com.feywild.quest_giver.entity.QuestGuardVillager" />
-      </list>
-    </option>
-  </component>
-</application>
