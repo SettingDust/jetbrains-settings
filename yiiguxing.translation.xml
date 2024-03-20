@@ -43,6 +43,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="blit" />
       <item value="Wildcard needn't anymore in Lychee. Emit the field will act as a wildcard if it's optional." />
       <item value="substitution" />
       <item value="Substitution" />
@@ -92,13 +93,13 @@
       <item value="满足" />
       <item value="绑定到的实体" />
       <item value="发布任务的村民已经死亡" />
-      <item value="Duct" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="88" />
+        <entry key="CHINESE" value="89" />
         <entry key="ENGLISH" value="89" />
         <entry key="HINDI" value="1" />
+        <entry key="NORWEGIAN" value="1" />
       </map>
     </option>
   </component>
