@@ -1,0 +1,13 @@
+<application>
+  <component name="CodeGPT_CustomServiceSettings">
+    <option name="headers">
+      <map>
+        <entry key="Content-Type" value="application/json" />
+        <entry key="X-LLM-Application-Tag" value="codegpt" />
+      </map>
+    </option>
+    <option name="template" value="Ollama" />
+    <option name="url" value="http://localhost:11434/v1/chat/completions" />
+    <option name="body" value="{&quot;stream&quot;:true,&quot;temperature&quot;:0.1,&quot;messages&quot;:&quot;$OPENAI_MESSAGES&quot;,&quot;model&quot;:&quot;qwen:7b&quot;}" />
+  </component>
+</application>
