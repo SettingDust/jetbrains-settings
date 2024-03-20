@@ -3,7 +3,12 @@
     <option name="telemetryEnabled" value="true" />
     <option name="telemetryConfigured" value="true" />
     <option name="checkForUpdate" value="false" />
+    <option name="sessionId" value="b9061a2b-a5e0-459b-84a4-dabdc78837a3" />
     <option name="macAddress" value="EC-D6-8A-F5-8B-23" />
+    <option name="userId" value="fec24fc8e10240ef9420d3555bd2b486" />
+    <option name="userName" value="新用户11002" />
+    <option name="source" value="codeGeeX" />
+    <option name="sourceId" value="fec24fc8e10240ef9420d3555bd2b486" />
     <option name="lastPluginVersion" value="2.5.3" />
   </component>
 </application>
