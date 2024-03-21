@@ -43,6 +43,8 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Register" />
+      <item value="Registrar" />
       <item value=" F. whatever. who cares?&#10;" />
       <item value="Dangeling" />
       <item value="blit" />
@@ -91,13 +93,11 @@
       <item value="Interlocutor" />
       <item value="挥发" />
       <item value="短暂的" />
-      <item value="Transient" />
-      <item value="满足" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="90" />
-        <entry key="ENGLISH" value="90" />
+        <entry key="CHINESE" value="91" />
+        <entry key="ENGLISH" value="92" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
