@@ -43,6 +43,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="depleted" />
       <item value="vessels" />
       <item value="Register" />
       <item value="Registrar" />
@@ -92,12 +93,11 @@
       <item value="Acquire" />
       <item value="AVAILABLE" />
       <item value="Interlocutor" />
-      <item value="挥发" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="92" />
-        <entry key="ENGLISH" value="93" />
+        <entry key="CHINESE" value="93" />
+        <entry key="ENGLISH" value="94" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
