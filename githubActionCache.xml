@@ -728,46 +728,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="additionalCommits" value="r[false]  A list of additional commit messages to parse in order to calculate semver." />
-                  <entry key="branch" value="r[false] def[main] The branch to use when fetching list of commits to compare against" />
-                  <entry key="fromTag" value="r[false]  Override the tag to use when comparing against the branch in order to fetch the list of commits." />
-                  <entry key="majorList" value="r[false]  Comma separated commit prefixes, used to bump Major version" />
-                  <entry key="maxTagsToFetch" value="r[false] def[10] Maximum number of tags to fetch from latest." />
-                  <entry key="minorList" value="r[false] def[feat, feature] Comma separated commit prefixes, used to bump Minor version" />
-                  <entry key="noNewCommitBehavior" value="r[false] def[error] Whether to exit with an error, warning or silently when there are no new commits since the latest tag. (error, warn, current, silent)" />
-                  <entry key="noVersionBumpBehavior" value="r[false] def[error] Whether to exit with an error, warning or silently when none of the commits result in a version bump. (error, warn, current, patch, silent)" />
-                  <entry key="patchAll" value="r[false] def[false] If set to true, will ignore patchList and count any commit as a Patch" />
-                  <entry key="patchList" value="r[false] def[fix, bugfix, perf, refactor, test, tests] Comma separated commit prefixes, used to bump Patch version" />
-                  <entry key="prefix" value="r[false]  A prefix that will be striped when parsing tags (e.g. `foobar/`). Any other prefix will be ignored. The prefix will be added back to the output values." />
-                  <entry key="skipInvalidTags" value="r[false] def[false] If set to true, will skip tags that are not valid semver until it finds a proper one (up to maxTagsFetch from latest)." />
-                  <entry key="token" value="r[true]  GitHub Token" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/ietf-tools/semver-action/v1/action.yml" />
-                  <entry key="expiryTime" value="1712398573902" />
+                  <entry key="expiryTime" value="1713611744383" />
                   <entry key="githubUrl" value="https://github.com/ietf-tools/semver-action/tree/v1#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="ietf-tools/semver-action" />
                   <entry key="usesValue" value="ietf-tools/semver-action@v1" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="bump" value=" Next version behavior." />
-                  <entry key="current" value=" Current version number / latest tag." />
-                  <entry key="next" value=" Next version number in format v0.0.0" />
-                  <entry key="nextMajor" value=" Next version major number in format v0" />
-                  <entry key="nextMajorStrict" value=" Next version major number only." />
-                  <entry key="nextStrict" value=" Next version number without the v prefix." />
                 </map>
               </option>
             </GitHubAction>
@@ -926,7 +898,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/ncipollo/release-action/v1.12.0/action.yml" />
-                  <entry key="expiryTime" value="1712398573903" />
+                  <entry key="expiryTime" value="1713611744385" />
                   <entry key="githubUrl" value="https://github.com/ncipollo/release-action/tree/v1.12.0#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
