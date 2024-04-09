@@ -32,7 +32,7 @@
     <option name="translateDocumentation" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1712197006589" />
+    <option name="lastTrimTime" value="1712645464335" />
   </component>
   <component name="Translation.Settings">
     <option name="keepFormat" value="true" />
@@ -43,6 +43,8 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="immediate Claiming" />
+      <item value="mass" />
       <item value="depleted" />
       <item value="vessels" />
       <item value="Register" />
@@ -91,13 +93,11 @@
       <item value="Receive" />
       <item value="subtitle" />
       <item value="Acquire" />
-      <item value="AVAILABLE" />
-      <item value="Interlocutor" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="93" />
-        <entry key="ENGLISH" value="94" />
+        <entry key="CHINESE" value="95" />
+        <entry key="ENGLISH" value="96" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
