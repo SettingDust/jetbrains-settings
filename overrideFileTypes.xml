@@ -1,6 +1,0 @@
-<application>
-  <component name="OverrideFileTypeManager">
-    <file url="file://D:/Projects/Minecraft/HoconResourceLoader/mod/run/resourcepacks/test-resources/assets/minecraft/lang/en_us.hocon" value="HOCON" />
-    <file url="file://D:/Projects/Minecraft/HoconResourceLoader/mod/run/resourcepacks/test-resources/assets/minecraft/models/item/dirt.hocon.patch" value="HOCON" />
-  </component>
-</application>
