@@ -43,6 +43,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="lenient" />
       <item value="immediate Claiming" />
       <item value="mass" />
       <item value="depleted" />
@@ -92,12 +93,11 @@
       <item value="Visit" />
       <item value="Receive" />
       <item value="subtitle" />
-      <item value="Acquire" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="95" />
-        <entry key="ENGLISH" value="96" />
+        <entry key="CHINESE" value="97" />
+        <entry key="ENGLISH" value="98" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
