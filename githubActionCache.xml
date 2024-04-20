@@ -725,7 +725,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/ietf-tools/semver-action/v1/action.yml" />
-                  <entry key="expiryTime" value="1713611744383" />
+                  <entry key="expiryTime" value="1714822642304" />
                   <entry key="githubUrl" value="https://github.com/ietf-tools/semver-action/tree/v1#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -892,7 +892,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/ncipollo/release-action/v1.12.0/action.yml" />
-                  <entry key="expiryTime" value="1713611744385" />
+                  <entry key="expiryTime" value="1714822642305" />
                   <entry key="githubUrl" value="https://github.com/ncipollo/release-action/tree/v1.12.0#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
