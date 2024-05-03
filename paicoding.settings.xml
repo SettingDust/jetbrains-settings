@@ -1,0 +1,21 @@
+<application>
+  <component name="AICodingConfiguration">
+    <option name="refactoringMethodName">
+      <refactoringName>
+        <providers>
+          <provider name="Custom" isEnable="true" />
+          <provider name="OpenAI" isEnable="true" />
+          <provider name="Cursor" isEnable="true" />
+          <provider name="Ollama" isEnable="true" />
+          <provider name="Bing" isEnable="true" />
+          <provider name="Claude" isEnable="true" />
+          <provider name="Coze" isEnable="true" />
+          <provider name="You" isEnable="true" />
+          <provider name="QianFan" isEnable="true" />
+          <provider name="Gemini" isEnable="true" />
+          <provider name="Kimi" isEnable="true" />
+        </providers>
+      </refactoringName>
+    </option>
+  </component>
+</application>
