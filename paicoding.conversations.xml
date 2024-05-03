@@ -1,5 +1,10 @@
 <application>
   <component name="conversations">
-    <conversations />
+    <conversations>
+      <conversation id="4964e5fc-c30a-48ce-a536-cafff7b1f7bd" isFavorite="false">
+        <option name="ext" />
+        <messages />
+      </conversation>
+    </conversations>
   </component>
 </application>
