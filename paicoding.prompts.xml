@@ -3,104 +3,104 @@
     <option name="defaultPrompts">
       <list>
         <promptsEntry>
-          <option name="id" value="7bc752d5-f838-4bdb-9b75-2beec1fc6586" />
+          <option name="id" value="83eb3641-1c5f-4ce6-b332-b6ada5625fd6" />
           <option name="name" value="Smart+programmer" />
           <option name="prompt" value="# Instructions&#10;You are an intelligent programmer named Guawazi. You are helping a colleague answer a programming question.&#10;Please make your response as concise as possible, and avoid being too verbose.&#10;You will be given a query and various pieces of context which may or may not be helpful in answering the query.&#10;Your goal is to answer their query in a freeform markdown-formatted response in a faithful manner. You must not lie or make up facts.&#10;&#10;When writing out new code blocks, please specify the language ID after the initial backticks, like so:&#10;```java&#10;{{ code }}&#10;```" />
           <option name="waitForInput" value="false" />
           <option name="category" value="SYSTEM_ACTIONS" />
-          <option name="gmtCreated" value="1714719358694" />
-          <option name="gmtModified" value="1714719358694" />
+          <option name="gmtCreated" value="1714874235204" />
+          <option name="gmtModified" value="1714874235204" />
         </promptsEntry>
         <promptsEntry>
-          <option name="id" value="34af46b0-9c59-45af-8a9c-14389444ae21" />
+          <option name="id" value="47be8bb6-14a7-4a0a-92d3-4737da1c36a5" />
           <option name="name" value="%F0%9F%90%9BFind+problems" />
           <option name="prompt" value="查找代码中的潜在问题:&#10;&#10;$SELECTION" />
           <option name="waitForInput" value="false" />
           <option name="category" value="CODE_EDITING_ACTIONS" />
-          <option name="gmtCreated" value="1714719358694" />
-          <option name="gmtModified" value="1714719358694" />
+          <option name="gmtCreated" value="1714874235204" />
+          <option name="gmtModified" value="1714874235204" />
         </promptsEntry>
         <promptsEntry>
-          <option name="id" value="84ff37e9-3939-4c7c-9286-4b04037b231c" />
+          <option name="id" value="822cca65-a012-4ae0-aaf6-9816bc432bbc" />
           <option name="name" value="%F0%9F%A7%90Explain" />
           <option name="prompt" value="解释以下$SELECTION_LANG代码:&#10;&#10;$SELECTION" />
           <option name="waitForInput" value="false" />
           <option name="category" value="CODE_EDITING_ACTIONS" />
-          <option name="gmtCreated" value="1714719358694" />
-          <option name="gmtModified" value="1714719358694" />
+          <option name="gmtCreated" value="1714874235204" />
+          <option name="gmtModified" value="1714874235204" />
         </promptsEntry>
         <promptsEntry>
-          <option name="id" value="15aa984d-9edc-45d5-9ffb-395b12cea42b" />
+          <option name="id" value="5ed731df-7a02-463e-9201-6f318ffa99b0" />
           <option name="name" value="%E2%99%BB%EF%B8%8FRefactor" />
           <option name="prompt" value="重构下面的代码:&#10;&#10;$SELECTION" />
           <option name="waitForInput" value="false" />
           <option name="category" value="CODE_EDITING_ACTIONS" />
-          <option name="gmtCreated" value="1714719358694" />
-          <option name="gmtModified" value="1714719358694" />
+          <option name="gmtCreated" value="1714874235204" />
+          <option name="gmtModified" value="1714874235204" />
         </promptsEntry>
         <promptsEntry>
-          <option name="id" value="4a9ec505-50b8-42d3-9879-688e88740d5e" />
+          <option name="id" value="32bfbddb-da38-4748-8884-421ee33e21f6" />
           <option name="name" value="Basic" />
           <option name="prompt" value="Write an insightful but concise Git commit message in a complete sentence in present tense for the following diff without prefacing it with anything, the response must be in the language `$LOCALE_LANGUAGE` and must NOT be longer than 74 characters. The sent text will be the differences between files, where deleted lines are prefixed with a single minus sign and added lines are prefixed with a single plus sign.&#10;$VCS_DIFF" />
           <option name="waitForInput" value="false" />
           <option name="category" value="VCS_COMMIT_ACTIONS" />
-          <option name="gmtCreated" value="1714719358694" />
-          <option name="gmtModified" value="1714719358694" />
+          <option name="gmtCreated" value="1714874235204" />
+          <option name="gmtModified" value="1714874235204" />
         </promptsEntry>
         <promptsEntry>
-          <option name="id" value="f527d612-0dc3-4bf5-b396-d6e46ac0e5c8" />
+          <option name="id" value="e2c93f4f-d55b-4730-a351-683730b9860e" />
           <option name="name" value="Conventional" />
           <option name="prompt" value="Write a commit message in the conventional commit convention. I'll send you an output of 'git diff --staged' command, and you convert it into a commit message. Lines must not be longer than 74 characters. You must use the language `$LOCALE_LANGUAGE` to answer. End commit title with issue number if you can get it from the branch name: $VCS_BRANCH in parenthesis.&#10;$VCS_DIFF" />
           <option name="waitForInput" value="false" />
           <option name="category" value="VCS_COMMIT_ACTIONS" />
-          <option name="gmtCreated" value="1714719358694" />
-          <option name="gmtModified" value="1714719358694" />
+          <option name="gmtCreated" value="1714874235204" />
+          <option name="gmtModified" value="1714874235204" />
         </promptsEntry>
         <promptsEntry>
-          <option name="id" value="348a2632-50ff-4493-ae49-f5d76b55db4f" />
+          <option name="id" value="a0b4ff6f-579f-4d05-96d7-c26cb276db54" />
           <option name="name" value="Emoji" />
           <option name="prompt" value="Write a clean and comprehensive commit message in the conventional commit convention. I'll send you an output of 'git diff --staged' command, and you convert it into a commit message. Use GitMoji convention to preface the commit. Do NOT add any descriptions to the commit, only commit message. Use the present tense. Lines must not be longer than 74 characters. You must use the language `$LOCALE_LANGUAGE` to answer.&#10;$VCS_DIFF" />
           <option name="waitForInput" value="false" />
           <option name="category" value="VCS_COMMIT_ACTIONS" />
-          <option name="gmtCreated" value="1714719358694" />
-          <option name="gmtModified" value="1714719358694" />
+          <option name="gmtCreated" value="1714874235204" />
+          <option name="gmtModified" value="1714874235204" />
         </promptsEntry>
         <promptsEntry>
-          <option name="id" value="198d51d6-57b5-4012-9b14-69a01e191077" />
+          <option name="id" value="60b4a211-11c2-49ef-aa87-b9a05257d907" />
           <option name="name" value="Basic" />
           <option name="prompt" value="As a helpful assistant with expertise in code debugging, your objective is to identify the roots of runtime problems by analyzing console logs and providing general solutions to fix the issues. When assisting users, follow these rules:&#10;&#10;1. Always be helpful and professional.&#10;2. Use your mastery in code debugging to determine the cause of runtime problems by looking at console logs.&#10;3. Provide fixes to the bugs causing the runtime problems when given the code.&#10;4. Ensure that your solutions are not temporary &quot;duct tape&quot; fixes, but instead, provide long-term solutions.&#10;5. You must use the language `$LOCALE_LANGUAGE` to answer.&#10;6. If you can fix the problem strictly by modifying the code, do so. For instance, if a library is missing, it is preferable to rewrite the code without the library rather than suggesting to install the library.&#10;7. Always follow these rules to ensure the best assistance possible for the user.&#10;&#10;Now, consider this user request:&#10;&#10;Please help me understand what the problem is and try to fix the code. Here's the console output:&#10;&#10;```&#10;$CONSOLE_OUTPUT&#10;```&#10;&#10;#if($CODE_CONTEXT and $CODE_CONTEXT != '')##&#10;Here's the code context:&#10;$CODE_CONTEXT&#10;&#10;#end##&#10;Provide a helpful response that addresses the user's concerns, adheres to the rules, and offers a solution for the runtime problem." />
           <option name="waitForInput" value="false" />
           <option name="category" value="ERROR_EXPLAIN_ACTIONS" />
-          <option name="gmtCreated" value="1714719358694" />
-          <option name="gmtModified" value="1714719358694" />
+          <option name="gmtCreated" value="1714874235204" />
+          <option name="gmtModified" value="1714874235204" />
         </promptsEntry>
         <promptsEntry>
-          <option name="id" value="ce0ac5bc-2abb-4045-8fd7-195d8d55c54b" />
+          <option name="id" value="a8dcc2f7-dfcd-4884-8808-f73ebf74558a" />
           <option name="name" value="Basic" />
           <option name="prompt" value="As an assistant with coding expertise, your goal is to rename bad names. When helping users, follow these rules:&#10;&#10;- Always helpful and professional.&#10;- `$PLACEHOLDER_NAME` is a bad $OBJECT_TYPE name, please generate 5 better names.&#10;#if($NAMING_CONVENTION and $NAMING_CONVENTION != '')##&#10;- Use the $NAMING_CONVENTION naming convention.&#10;#end##&#10;- The response must be a comma separated list of names. Exclude any additional information.&#10;- Always follow these rules to ensure the best possible assistance to users.&#10;&#10;Now, consider this user request:&#10;&#10;Please help me rename the bad name. This is the code content:&#10;&#10;```` $CODE_LANGUAGE&#10;$CODE_CONTEXT&#10;````" />
           <option name="waitForInput" value="false" />
           <option name="category" value="NAME_SUGGESTION_ACTIONS" />
-          <option name="gmtCreated" value="1714719358694" />
-          <option name="gmtModified" value="1714719358694" />
+          <option name="gmtCreated" value="1714874235204" />
+          <option name="gmtModified" value="1714874235204" />
         </promptsEntry>
         <promptsEntry>
-          <option name="id" value="ce1c6a8e-4431-4bfe-8988-4b9413a83c0f" />
+          <option name="id" value="8530d7be-d91a-4046-ba36-0add1915b262" />
           <option name="name" value="Java" />
           <option name="prompt" value="Write `$NEW_FILE_NAME` tests for the `$METHOD_NAME` method in the `$FILE_NAME` class.&#10;&#10;Guideline:&#10;```&#10;- You must use the language `$LOCALE_LANGUAGE` to answer.&#10;- Write a description of the class and the method being tested.&#10;- Test file should be complete and compilable, without need for further actions.&#10;- Ensure that each test focuses on a single use case to maintain clarity and readability.&#10;- Instead of using `@BeforeEach` methods for setup, include all necessary code initialization within each individual test method, do not write parametrized tests.&#10;#if($IS_SPRING_RELATED == 'true')##&#10;- Use appropriate Spring test annotations such as `@MockBean`, `@Autowired`, `@WebMvcTest`, `@DataJpaTest`, `@AutoConfigureTestDatabase`, `@AutoConfigureMockMvc`, `@SpringBootTest` etc.&#10;- Follow the common Spring code style by using the AssertJ library.&#10;- Assume that the database is empty before each test and create valid entities with consideration for data constraints (jakarta.validation.constraints).&#10;#end##&#10;```&#10;&#10;$CODE_CONTEXT&#10;&#10;$RELATED_CODE_CONTEXT" />
           <option name="waitForInput" value="false" />
           <option name="category" value="TEST_GENERATION_ACTIONS" />
-          <option name="gmtCreated" value="1714719358695" />
-          <option name="gmtModified" value="1714719358695" />
+          <option name="gmtCreated" value="1714874235208" />
+          <option name="gmtModified" value="1714874235208" />
           <option name="language" value="JAVA" />
         </promptsEntry>
         <promptsEntry>
-          <option name="id" value="b66fc678-ddfd-414a-beb4-ca5a72e56314" />
+          <option name="id" value="023028d9-6928-42e4-acb2-4c7739c06152" />
           <option name="name" value="Python" />
           <option name="prompt" value="Write enough tests for the $DECLARATION_NAME in Python.&#10;Implementation code file path: $RELATIVE_FILE_PATH&#10;&#10;Guideline:&#10;```&#10;- You must use the language `$LOCALE_LANGUAGE` to answer.&#10;- Import implementation based on file path&#10;- Follow PEP 8 conventions&#10;- Do not add implementation to tests&#10;- Use $TEST_ENGINE for tests generation&#10;- The project uses Python version $SDK_VERSION. Use the same Python version for writing the tests.&#10;- Test file should be complete and compilable, without need for further actions.&#10;- Ensure that each test focuses on a single use case to maintain clarity and readability.&#10;- You don't need to include content of the original method in the response.&#10;```&#10;&#10;$CODE_CONTEXT" />
           <option name="waitForInput" value="false" />
           <option name="category" value="TEST_GENERATION_ACTIONS" />
-          <option name="gmtCreated" value="1714719358695" />
-          <option name="gmtModified" value="1714719358695" />
+          <option name="gmtCreated" value="1714874235208" />
+          <option name="gmtModified" value="1714874235208" />
           <option name="language" value="Python" />
         </promptsEntry>
       </list>

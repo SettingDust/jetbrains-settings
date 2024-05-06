@@ -7,7 +7,7 @@
       <option name="topK" value="40" />
       <option name="username" value="" />
       <option name="useHttpAuthentication" value="false" />
-      <option name="connectTimeout" value="20" />
+      <option name="connectTimeout" value="30" />
       <option name="loginAnonymously" value="false" />
       <option name="default" value="true" />
       <option name="ext" />
