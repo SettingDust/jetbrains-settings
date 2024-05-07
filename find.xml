@@ -3,15 +3,16 @@
     <option name="customScope" value="所有位置" />
     <option name="defaultScopeName" value="所有位置" />
     <option name="SEARCH_SCOPE" value="所有位置" />
+    <option name="FILE_MASK" value="*.kt" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.lang</mask>
-    <mask>*.kt</mask>
     <mask>*.json</mask>
     <mask>*.kts</mask>
     <mask>*.java</mask>
+    <mask>*.kt</mask>
   </component>
 </application>
