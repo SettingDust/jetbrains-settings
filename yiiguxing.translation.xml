@@ -46,6 +46,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="判断" />
       <item value="Modulator" />
       <item value="Inconsistent" />
       <item value="coward" />
@@ -95,11 +96,10 @@
       <item value="Desert Fortified" />
       <item value="Christmas" />
       <item value="Alpine" />
-      <item value="HEURISTIC" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="100" />
+        <entry key="CHINESE" value="101" />
         <entry key="ENGLISH" value="101" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
