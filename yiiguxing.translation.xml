@@ -46,6 +46,11 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="bush" />
+      <item value="sprout" />
+      <item value="leaf pile" />
+      <item value="flower patch" />
+      <item value="clover" />
       <item value="Frogspawn" />
       <item value="Crop" />
       <item value="判断" />
@@ -91,16 +96,11 @@
       <item value="shrink" />
       <item value="Sturdy" />
       <item value="assemble" />
-      <item value="assembling" />
-      <item value="squared" />
-      <item value="targets" />
-      <item value="Fortified" />
-      <item value="Desert Fortified" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="102" />
-        <entry key="ENGLISH" value="103" />
+        <entry key="CHINESE" value="107" />
+        <entry key="ENGLISH" value="108" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
