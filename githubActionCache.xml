@@ -423,49 +423,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="architecture" value="r[false]  The architecture of the package (defaults to the action runner's architecture)" />
-                  <entry key="cache" value="r[false]  Name of the build platform to cache dependencies. It can be &quot;maven&quot;, &quot;gradle&quot; or &quot;sbt&quot;." />
-                  <entry key="cache-dependency-path" value="r[false]  The path to a dependency file: pom.xml, build.gradle, build.sbt, etc. This option can be used with the `cache` option. If this option is omitted, the action searches for the dependency file in the entire repository. This option supports wildcards and a list of file names for caching multiple dependencies." />
-                  <entry key="check-latest" value="r[false] def[false] Set this option if you want the action to check for the latest available version that satisfies the version spec" />
-                  <entry key="distribution" value="r[true]  Java distribution. See the list of supported distributions in README file" />
-                  <entry key="gpg-passphrase" value="r[false]  Environment variable name for the GPG private key passphrase. Default is&#10;       $GPG_PASSPHRASE." />
-                  <entry key="gpg-private-key" value="r[false]  GPG private key to import. Default is empty string." />
-                  <entry key="java-package" value="r[false] def[jdk] The package type (jdk, jre, jdk+fx, jre+fx)" />
-                  <entry key="java-version" value="r[false]  The Java version to set up. Takes a whole or semver Java version. See examples of supported syntax in README file" />
-                  <entry key="java-version-file" value="r[false]  The path to the `.java-version` file. See examples of supported syntax in README file" />
-                  <entry key="jdkFile" value="r[false]  Path to where the compressed JDK is located" />
-                  <entry key="job-status" value="r[false] def[${{ job.status }}] Workaround to pass job status to post job step. This variable is not intended for manual setting" />
-                  <entry key="mvn-toolchain-id" value="r[false]  Name of Maven Toolchain ID if the default name of &quot;${distribution}_${java-version}&quot; is not wanted. See examples of supported syntax in Advanced Usage file" />
-                  <entry key="mvn-toolchain-vendor" value="r[false]  Name of Maven Toolchain Vendor if the default name of &quot;${distribution}&quot; is not wanted. See examples of supported syntax in Advanced Usage file" />
-                  <entry key="overwrite-settings" value="r[false] def[true] Overwrite the settings.xml file if it exists. Default is &quot;true&quot;." />
-                  <entry key="server-id" value="r[false] def[github] ID of the distributionManagement repository in the pom.xml&#10;       file. Default is `github`" />
-                  <entry key="server-password" value="r[false] def[GITHUB_TOKEN] Environment variable name for password or token for&#10;       authentication to the Apache Maven repository. Default is $GITHUB_TOKEN" />
-                  <entry key="server-username" value="r[false] def[GITHUB_ACTOR] Environment variable name for the username for authentication&#10;       to the Apache Maven repository. Default is $GITHUB_ACTOR" />
-                  <entry key="settings-path" value="r[false]  Path to where the settings.xml file will be written. Default is ~/.m2." />
-                  <entry key="token" value="r[false] def[${{ github.server_url == 'https://github.com' &amp;&amp; github.token || '' }}] The token used to authenticate when fetching version manifests hosted on github.com, such as for the Microsoft Build of OpenJDK. When running this action on github.com, the default value is sufficient. When running on GHES, you can pass a personal access token for github.com if you are experiencing rate limiting." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/setup-java/v4/action.yml" />
-                  <entry key="expiryTime" value="1716293300689" />
+                  <entry key="expiryTime" value="1717503188325" />
                   <entry key="githubUrl" value="https://github.com/actions/setup-java/tree/v4#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/setup-java" />
                   <entry key="usesValue" value="actions/setup-java@v4" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="cache-hit" value=" A boolean value to indicate an exact match was found for the primary key" />
-                  <entry key="distribution" value=" Distribution of Java that has been installed" />
-                  <entry key="path" value=" Path to where the java environment has been installed (same as $JAVA_HOME)" />
-                  <entry key="version" value=" Actual version of the java environment that has been installed" />
                 </map>
               </option>
             </GitHubAction>
@@ -538,54 +507,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="add-job-summary" value="r[false] def[always] Specifies when a Job Summary should be inluded in the action results. Valid values are 'never', 'always' (default), and 'on-failure'." />
-                  <entry key="add-job-summary-as-pr-comment" value="r[false] def[never] Specifies when each Job Summary should be added as a PR comment. Valid values are 'never' (default), 'always', and 'on-failure'. No action will be taken if the workflow was not triggered from a pull request." />
-                  <entry key="arguments" value="r[false]  Gradle command line arguments (supports multi-line input)" />
-                  <entry key="artifact-retention-days" value="r[false]  Specifies the number of days to retain any artifacts generated by the action. If not set, the default retention settings for the repository will apply." />
-                  <entry key="build-root-directory" value="r[false]  Path to the root directory of the build. Default is the root of the GitHub workspace." />
-                  <entry key="build-scan-publish" value="r[false] def[false]" />
-                  <entry key="build-scan-terms-of-service-agree" value="r[false]  Indicate that you agree to the Build Scan® terms of use. This input value must be &quot;yes&quot;." />
-                  <entry key="build-scan-terms-of-service-url" value="r[false]  The URL to the Build Scan® terms of use. This input must be set to 'https://gradle.com/terms-of-service'." />
-                  <entry key="build-scan-terms-of-use-agree" value="r[false]  Indicate that you agree to the Build Scan® terms of use. This input value must be &quot;yes&quot;." />
-                  <entry key="build-scan-terms-of-use-url" value="r[false]  The URL to the Build Scan® terms of use. This input must be set to 'https://gradle.com/terms-of-service' or 'https://gradle.com/help/legal-terms-of-use'." />
-                  <entry key="cache-disabled" value="r[false] def[false] When 'true', all caching is disabled. No entries will be written to or read from the cache." />
-                  <entry key="cache-encryption-key" value="r[false] " />
-                  <entry key="cache-overwrite-existing" value="r[false] def[false] When 'true', a pre-existing Gradle User Home will not prevent the cache from being restored." />
-                  <entry key="cache-read-only" value="r[false] def[${{ github.event.repository != null &amp;&amp; github.ref_name != github.event.repository.default_branch }}]" />
-                  <entry key="cache-write-only" value="r[false] def[false]" />
-                  <entry key="dependency-graph" value="r[false] def[disabled]" />
-                  <entry key="dependency-graph-continue-on-failure" value="r[false] def[true] When 'false' a failure to generate or submit a dependency graph will fail the Step or Job. When 'true' a warning will be emitted but no failure will result." />
-                  <entry key="generate-job-summary" value="r[false] def[true] When 'false', no Job Summary will be generated for the Job." />
-                  <entry key="github-token" value="r[false] def[${{ github.token }}] The GitHub token used to authenticate when submitting via the Dependency Submission API." />
-                  <entry key="gradle-home-cache-cleanup" value="r[false] def[false] When 'true', the action will attempt to remove any stale/unused entries from the Gradle User Home prior to saving to the GitHub Actions cache." />
-                  <entry key="gradle-home-cache-excludes" value="r[false]  Paths within Gradle User Home to exclude from cache." />
-                  <entry key="gradle-home-cache-includes" value="r[false]  Paths within Gradle User Home to cache." />
-                  <entry key="gradle-home-cache-strict-match" value="r[false] def[false] When 'true', the action will not attempt to restore the Gradle User Home entries from other Jobs." />
-                  <entry key="gradle-version" value="r[false] " />
-                  <entry key="validate-wrappers" value="r[false] def[false]" />
-                  <entry key="workflow-job-context" value="r[false] def[${{ toJSON(matrix) }}] Used to uniquely identify the current job invocation. Defaults to the matrix values for this job; this should not be overridden by users (INTERNAL)." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/gradle/gradle-build-action/v3/action.yml" />
-                  <entry key="expiryTime" value="1716293298865" />
+                  <entry key="expiryTime" value="1717503188325" />
                   <entry key="githubUrl" value="https://github.com/gradle/gradle-build-action/tree/v3#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="gradle/gradle-build-action" />
                   <entry key="usesValue" value="gradle/gradle-build-action@v3" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="build-scan-url" value=" Link to the Build Scan® generated by a Gradle build. Note that this output applies to a Step executing Gradle, not to the `setup-gradle` Step itself." />
-                  <entry key="dependency-graph-file" value=" Path to the GitHub Dependency Graph snapshot file generated by a Gradle build. Note that this output applies to a Step executing Gradle, not to the `setup-gradle` Step itself." />
-                  <entry key="gradle-version" value=" Version of Gradle that was setup by the action" />
                 </map>
               </option>
             </GitHubAction>
@@ -825,44 +758,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="append_body" value="r[false]  Append to existing body instead of overwriting it. Default is false." />
-                  <entry key="body" value="r[false]  Note-worthy description of changes in release" />
-                  <entry key="body_path" value="r[false]  Path to load note-worthy description of changes in release from" />
-                  <entry key="discussion_category_name" value="r[false]  If specified, a discussion of the specified category is created and linked to the release. The value must be a category that already exists in the repository. If there is already a discussion linked to the release, this parameter is ignored." />
-                  <entry key="draft" value="r[false]  Creates a draft release. Defaults to false" />
-                  <entry key="fail_on_unmatched_files" value="r[false]  Fails if any of the `files` globs match nothing. Defaults to false" />
-                  <entry key="files" value="r[false]  Newline-delimited list of path globs for asset files to upload" />
-                  <entry key="generate_release_notes" value="r[false]  Whether to automatically generate the name and body for this release. If name is specified, the specified name will be used; otherwise, a name will be automatically generated. If body is specified, the body will be pre-pended to the automatically generated notes." />
-                  <entry key="make_latest" value="r[false]  Specifies whether this release should be set as the latest release for the repository. Drafts and prereleases cannot be set as latest. Can be `true`, `false`, or `legacy`. Uses GitHub api default if not provided" />
-                  <entry key="name" value="r[false]  Gives the release a custom name. Defaults to tag name" />
-                  <entry key="prerelease" value="r[false]  Identify the release as a prerelease. Defaults to false" />
-                  <entry key="repository" value="r[false]  Repository to make releases against, in &lt;owner&gt;/&lt;repo&gt; format" />
-                  <entry key="tag_name" value="r[false]  Gives a tag name. Defaults to github.GITHUB_REF" />
-                  <entry key="target_commitish" value="r[false]  Commitish value that determines where the Git tag is created from. Can be any branch or commit SHA." />
-                  <entry key="token" value="r[false] def[${{ github.token }}] Authorized secret GitHub Personal Access Token. Defaults to github.token" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/softprops/action-gh-release/v2/action.yml" />
-                  <entry key="expiryTime" value="1716293176311" />
+                  <entry key="expiryTime" value="1717503188324" />
                   <entry key="githubUrl" value="https://github.com/softprops/action-gh-release/tree/v2#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="softprops/action-gh-release" />
                   <entry key="usesValue" value="softprops/action-gh-release@v2" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="assets" value=" JSON array containing information about each uploaded asset, in the format given [here](https://docs.github.com/en/rest/reference/repos#upload-a-release-asset--code-samples) (minus the `uploader` field)" />
-                  <entry key="id" value=" Release ID" />
-                  <entry key="upload_url" value=" URL for uploading assets to the release" />
-                  <entry key="url" value=" URL to the Release HTML Page" />
                 </map>
               </option>
             </GitHubAction>
@@ -893,45 +800,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="add_options" value="r[false]  Add options (eg. -u)" />
-                  <entry key="branch" value="r[false] def[${{ github.head_ref }}] Git branch name, where changes should be pushed too. Required if Action is used on the `pull_request` event" />
-                  <entry key="commit_author" value="r[false] def[${{ github.actor }} &lt;${{ github.actor }}@users.noreply.github.com&gt;] Value used for the commit author. Defaults to the username of whoever triggered this workflow run." />
-                  <entry key="commit_message" value="r[false] def[Apply automatic changes] Commit message" />
-                  <entry key="commit_options" value="r[false]  Commit options (eg. --no-verify)" />
-                  <entry key="commit_user_email" value="r[false] def[41898282+github-actions[bot]@users.noreply.github.com] Email address used for the commit user" />
-                  <entry key="commit_user_name" value="r[false] def[github-actions[bot]] Name used for the commit user" />
-                  <entry key="create_branch" value="r[false] def[false] Create new branch with the name of `branch`-input in local and remote repository, if it doesn't exist yet." />
-                  <entry key="disable_globbing" value="r[false] def[false] Stop the shell from expanding filenames (https://www.gnu.org/software/bash/manual/html_node/Filename-Expansion.html)" />
-                  <entry key="file_pattern" value="r[false] def[.] File pattern used for `git add`. For example `src/*.js`" />
-                  <entry key="internal_git_binary" value="r[false] def[git] Internal use only! Path to git binary used to check if git is available. (Don't change this!)" />
-                  <entry key="push_options" value="r[false]  Push options (eg. --force)" />
-                  <entry key="repository" value="r[false] def[.] Local file path to the git repository. Defaults to the current directory (`.`)" />
-                  <entry key="skip_checkout" value="r[false] def[false] Skip the call to git-checkout." />
-                  <entry key="skip_dirty_check" value="r[false] def[false] Skip the check if the git repository is dirty and always try to create a commit." />
-                  <entry key="skip_fetch" value="r[false] def[false] Skip the call to git-fetch." />
-                  <entry key="status_options" value="r[false]  Status options (eg. --untracked-files=no)" />
-                  <entry key="tagging_message" value="r[false]  Message used to create a new git tag with the commit. Keep this empty, if no tag should be created." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/stefanzweifel/git-auto-commit-action/v5/action.yml" />
-                  <entry key="expiryTime" value="1716293290286" />
+                  <entry key="expiryTime" value="1717503188325" />
                   <entry key="githubUrl" value="https://github.com/stefanzweifel/git-auto-commit-action/tree/v5#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="stefanzweifel/git-auto-commit-action" />
                   <entry key="usesValue" value="stefanzweifel/git-auto-commit-action@v5" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="changes_detected" value=" Value is &quot;true&quot;, if the repository was dirty and file changes have been detected. Value is &quot;false&quot;, if no changes have been detected." />
-                  <entry key="commit_hash" value=" Full hash of the created commit. Only present if the &quot;changes_detected&quot; output is &quot;true&quot;." />
                 </map>
               </option>
             </GitHubAction>
