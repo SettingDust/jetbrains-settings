@@ -46,6 +46,8 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="lerp to" />
+      <item value="lerp" />
       <item value="拉伸" />
       <item value="也就是边框内边距离左边和顶边的距离" />
       <item value="bush" />
@@ -94,13 +96,11 @@
       <item value="is Stalactite Start Pos" />
       <item value="corrupted" />
       <item value="swallow" />
-      <item value="sensitive" />
-      <item value="shrink" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="109" />
-        <entry key="ENGLISH" value="109" />
+        <entry key="CHINESE" value="110" />
+        <entry key="ENGLISH" value="111" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
