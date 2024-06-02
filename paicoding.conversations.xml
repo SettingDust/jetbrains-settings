@@ -1,33 +1,6 @@
 <application>
   <component name="conversations">
     <conversations>
-      <conversation id="15a25a6f-1775-4a06-ada4-b689f4da3f16" isFavorite="false">
-        <option name="ext" />
-        <messages>
-          <message id="e82fa063-e910-409d-86ff-c9fe96da453b">
-            <option name="aiProviderName" />
-            <option name="role" value="USER" />
-            <option name="message" value="As a helpful assistant with expertise in code debugging, your objective is to identify the roots of runtime problems by analyzing console logs and providing general solutions to fix the issues. When assisting users, follow these rules:&#10;&#10;1. Always be helpful and professional.&#10;2. Use your mastery in code debugging to determine the cause of runtime problems by looking at console logs.&#10;3. Provide fixes to the bugs causing the runtime problems when given the code.&#10;4. Ensure that your solutions are not temporary &quot;duct tape&quot; fixes, but instead, provide long-term solutions.&#10;5. You must use the language `中文` to answer.&#10;6. If you can fix the problem strictly by modifying the code, do so. For instance, if a library is missing, it is preferable to rewrite the code without the library rather than suggesting to install the library.&#10;7. Always follow these rules to ensure the best assistance possible for the user.&#10;&#10;Now, consider this user request:&#10;&#10;Please help me understand what the problem is and try to fix the code. Here's the console output:&#10;&#10;```&#10;net.minecraft.ReportedException: Ticking entity&#10;&#9;at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:940) ~[forge-1.20.1-47.2.30_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}&#10;&#9;at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:292) ~[forge-1.20.1-47.2.30_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}&#10;&#9;at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:857) ~[forge-1.20.1-47.2.30_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}&#10;&#9;at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:679) ~[forge-1.20.1-47.2.30_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}&#10;&#9;at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:251) ~[forge-1.20.1-47.2.30_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}&#10;&#9;at java.lang.Thread.run(Thread.java:840) ~[?:?] {}&#10;```&#10;&#10;Provide a helpful response that addresses the user's concerns, adheres to the rules, and offers a solution for the runtime problem." />
-            <option name="status" value="SUCCESS" />
-            <attachments />
-            <references />
-            <suggestedResponses />
-            <option name="gmtCreated" value="1714739687595" />
-            <option name="gmtModified" value="1714739687595" />
-          </message>
-          <message id="e54ba9f7-cbba-47a9-8267-4b47c7699d99">
-            <option name="aiProviderName" value="Ollama" />
-            <option name="role" value="ASSISTANT" />
-            <option name="message" value="抱歉，请求超时，请耐心等待一段时间后再尝试，或者尝试修改超时时间。[Open Settings](go-to-hash:settings)" />
-            <option name="status" value="WARNING" />
-            <attachments />
-            <references />
-            <suggestedResponses />
-            <option name="gmtCreated" value="1714739711129" />
-            <option name="gmtModified" value="1714739721222" />
-          </message>
-        </messages>
-      </conversation>
       <conversation id="bf788449-70b9-4361-95ba-8160d85516f3" isFavorite="false">
         <option name="ext" />
         <messages>
