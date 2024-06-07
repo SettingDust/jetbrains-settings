@@ -46,6 +46,8 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="o" />
+      <item value="Dynamic" />
       <item value="intrusive" />
       <item value=" Ravine" />
       <item value="lerp to" />
@@ -94,13 +96,11 @@
       <item value="x&#10;y&#10;z" />
       <item value="Composite" />
       <item value="Compound" />
-      <item value="Adding all the drops in this iterate" />
-      <item value="is Stalactite Start Pos" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="113" />
-        <entry key="ENGLISH" value="114" />
+        <entry key="CHINESE" value="115" />
+        <entry key="ENGLISH" value="115" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
