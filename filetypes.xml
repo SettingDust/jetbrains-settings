@@ -17,6 +17,7 @@
       <removed_mapping ext="jfr" approved="true" type="JFR" />
       <removed_mapping ext="nbt" approved="true" type="Minecraft NBT" />
       <removed_mapping ext="pdf" approved="true" type="Native" />
+      <removed_mapping ext="psd" approved="true" type="Image" />
       <mapping ext="plantuml" type="PlantUML file" />
     </extensionMap>
   </component>
