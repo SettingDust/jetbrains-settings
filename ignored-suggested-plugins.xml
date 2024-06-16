@@ -4,6 +4,7 @@
       <list>
         <option value="com.intellij.kubernetes" />
         <option value="Docker" />
+        <option value="com.demonwav.minecraft-dev" />
       </list>
     </option>
   </component>
