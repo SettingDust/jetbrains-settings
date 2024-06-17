@@ -32,7 +32,7 @@
     <option name="translateDocumentation" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1717408353100" />
+    <option name="lastTrimTime" value="1718602657194" />
   </component>
   <component name="Translation.Settings">
     <option name="keepFormat" value="true" />
@@ -46,6 +46,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="As opposed to shadow, we do not filter out our entries early!, So we need to handle them accordingly." />
       <item value="o" />
       <item value="Dynamic" />
       <item value="intrusive" />
@@ -95,12 +96,11 @@
       <item value="abreast" />
       <item value="x&#10;y&#10;z" />
       <item value="Composite" />
-      <item value="Compound" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="115" />
-        <entry key="ENGLISH" value="115" />
+        <entry key="ENGLISH" value="116" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>

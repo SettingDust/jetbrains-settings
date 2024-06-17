@@ -701,12 +701,24 @@
                   <entry key="cache-write-only" value="r[false] def[false]" />
                   <entry key="dependency-graph" value="r[false] def[disabled]" />
                   <entry key="dependency-graph-continue-on-failure" value="r[false] def[true] When 'false' a failure to generate or submit a dependency graph will fail the Step or Job. When 'true' a warning will be emitted but no failure will result." />
+                  <entry key="develocity-access-key" value="r[false]  Develocity access key. Should be set to a secret containing the Develocity Access key." />
+                  <entry key="develocity-allow-untrusted-server" value="r[false]  Allow communication with an untrusted server; set to _true_ if your Develocity instance is using a self-signed." />
+                  <entry key="develocity-capture-file-fingerprints" value="r[false]  Enables capturing the paths and content hashes of each individual input file." />
+                  <entry key="develocity-ccud-plugin-version" value="r[false]  The version of the Common Custom User Data Gradle plugin to apply, if any." />
+                  <entry key="develocity-enforce-url" value="r[false]  Enforce the configured Develocity URL over a URL configured in the project's build; set to _true_ to enforce publication of build scans to the configured Develocity URL." />
+                  <entry key="develocity-injection-enabled" value="r[false]  Enables Develocity injection." />
+                  <entry key="develocity-plugin-version" value="r[false]  The version of the Develocity Gradle plugin to apply." />
+                  <entry key="develocity-token-expiry" value="r[false]  The Develocity short-lived access tokens expiry in hours. Default is 2 hours." />
+                  <entry key="develocity-url" value="r[false]  The URL for the Develocity server." />
                   <entry key="generate-job-summary" value="r[false] def[true] When 'false', no Job Summary will be generated for the Job." />
                   <entry key="github-token" value="r[false] def[${{ github.token }}] The GitHub token used to authenticate when submitting via the Dependency Submission API." />
                   <entry key="gradle-home-cache-cleanup" value="r[false] def[false] When 'true', the action will attempt to remove any stale/unused entries from the Gradle User Home prior to saving to the GitHub Actions cache." />
                   <entry key="gradle-home-cache-excludes" value="r[false]  Paths within Gradle User Home to exclude from cache." />
                   <entry key="gradle-home-cache-includes" value="r[false]  Paths within Gradle User Home to cache." />
                   <entry key="gradle-home-cache-strict-match" value="r[false] def[false] When 'true', the action will not attempt to restore the Gradle User Home entries from other Jobs." />
+                  <entry key="gradle-plugin-repository-password" value="r[false]  The password for the repository URL to use when resolving the Develocity and CCUD plugins; Consider using secrets to pass the value to this variable." />
+                  <entry key="gradle-plugin-repository-url" value="r[false]  The URL of the repository to use when resolving the Develocity and CCUD plugins; the Gradle Plugin Portal is used by default." />
+                  <entry key="gradle-plugin-repository-username" value="r[false]  The username for the repository URL to use when resolving the Develocity and CCUD." />
                   <entry key="gradle-version" value="r[false] " />
                   <entry key="validate-wrappers" value="r[false] def[false]" />
                   <entry key="workflow-job-context" value="r[false] def[${{ toJSON(matrix) }}] Used to uniquely identify the current job invocation. Defaults to the matrix values for this job; this should not be overridden by users (INTERNAL)." />
@@ -715,8 +727,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/gradle/actions/v3/setup-gradle/action.yml" />
-                  <entry key="expiryTime" value="1719480933909" />
+                  <entry key="expiryTime" value="1719812723381" />
                   <entry key="githubUrl" value="https://github.com/gradle/actions/tree/v3/setup-gradle#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isResolved" value="true" />
@@ -827,12 +841,24 @@
                   <entry key="cache-write-only" value="r[false] def[false]" />
                   <entry key="dependency-graph" value="r[false] def[disabled]" />
                   <entry key="dependency-graph-continue-on-failure" value="r[false] def[true] When 'false' a failure to generate or submit a dependency graph will fail the Step or Job. When 'true' a warning will be emitted but no failure will result." />
+                  <entry key="develocity-access-key" value="r[false]  Develocity access key. Should be set to a secret containing the Develocity Access key." />
+                  <entry key="develocity-allow-untrusted-server" value="r[false]  Allow communication with an untrusted server; set to _true_ if your Develocity instance is using a self-signed." />
+                  <entry key="develocity-capture-file-fingerprints" value="r[false]  Enables capturing the paths and content hashes of each individual input file." />
+                  <entry key="develocity-ccud-plugin-version" value="r[false]  The version of the Common Custom User Data Gradle plugin to apply, if any." />
+                  <entry key="develocity-enforce-url" value="r[false]  Enforce the configured Develocity URL over a URL configured in the project's build; set to _true_ to enforce publication of build scans to the configured Develocity URL." />
+                  <entry key="develocity-injection-enabled" value="r[false]  Enables Develocity injection." />
+                  <entry key="develocity-plugin-version" value="r[false]  The version of the Develocity Gradle plugin to apply." />
+                  <entry key="develocity-token-expiry" value="r[false]  The Develocity short-lived access tokens expiry in hours. Default is 2 hours." />
+                  <entry key="develocity-url" value="r[false]  The URL for the Develocity server." />
                   <entry key="generate-job-summary" value="r[false] def[true] When 'false', no Job Summary will be generated for the Job." />
                   <entry key="github-token" value="r[false] def[${{ github.token }}] The GitHub token used to authenticate when submitting via the Dependency Submission API." />
                   <entry key="gradle-home-cache-cleanup" value="r[false] def[false] When 'true', the action will attempt to remove any stale/unused entries from the Gradle User Home prior to saving to the GitHub Actions cache." />
                   <entry key="gradle-home-cache-excludes" value="r[false]  Paths within Gradle User Home to exclude from cache." />
                   <entry key="gradle-home-cache-includes" value="r[false]  Paths within Gradle User Home to cache." />
                   <entry key="gradle-home-cache-strict-match" value="r[false] def[false] When 'true', the action will not attempt to restore the Gradle User Home entries from other Jobs." />
+                  <entry key="gradle-plugin-repository-password" value="r[false]  The password for the repository URL to use when resolving the Develocity and CCUD plugins; Consider using secrets to pass the value to this variable." />
+                  <entry key="gradle-plugin-repository-url" value="r[false]  The URL of the repository to use when resolving the Develocity and CCUD plugins; the Gradle Plugin Portal is used by default." />
+                  <entry key="gradle-plugin-repository-username" value="r[false]  The username for the repository URL to use when resolving the Develocity and CCUD." />
                   <entry key="gradle-version" value="r[false] " />
                   <entry key="validate-wrappers" value="r[false] def[false]" />
                   <entry key="workflow-job-context" value="r[false] def[${{ toJSON(matrix) }}] Used to uniquely identify the current job invocation. Defaults to the matrix values for this job; this should not be overridden by users (INTERNAL)." />
@@ -841,7 +867,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/gradle/gradle-build-action/v3/action.yml" />
-                  <entry key="expiryTime" value="1718720602072" />
+                  <entry key="expiryTime" value="1719812519071" />
                   <entry key="githubUrl" value="https://github.com/gradle/gradle-build-action/tree/v3#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
