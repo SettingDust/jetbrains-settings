@@ -10,6 +10,24 @@
       <option name="connectTimeout" value="30" />
       <option name="loginAnonymously" value="false" />
       <option name="default" value="true" />
+      <option name="codeCompletionsDefault" value="false" />
+      <codeCompletionsRepository>
+        <codeCompletions codeBlockStartingRegex="CODE_TO_INSERT((?!```).)\s*```[a-zA-Z\d]*\s" attachmentsMaxToken="2800">
+          <promptsEntry>
+            <promptsEntry>
+              <option name="id" value="391b28b0-c1c8-4693-aaaf-e241672ca3ce" />
+              <option name="name" value="" />
+              <option name="prompt" value="#if($ATTACHMENTS and $ATTACHMENTS.size() &gt; 0)##&#10;Consider the following declarations:&#10;#foreach($attachment in $ATTACHMENTS)##&#10;&#10;```$attachment.language&#10;$attachment.code&#10;```&#10;&#10;#end##&#10;#end##&#10;&#10;What do you think, should something be inserted instead of $PLACEHOLDER in the document below or the document is already ok?&#10;&#10;* If some code should be inserted then answer with new code to insert at the position $PLACEHOLDER.&#10;* Don't generate any other text or explanation.&#10;&#10;&#10;Answer in the format:&#10;CODE_TO_INSERT:&#10;```$CODE_LANGUAGE&#10;&lt;code&gt;&#10;```&#10;&#10;Here is the original code:&#10;```$CODE_LANGUAGE&#10;$PREFIX${PLACEHOLDER}$SUFFIX&#10;```" />
+              <option name="waitForInput" value="true" />
+              <option name="category" value="CODE_COMPLETIONS_ACTIONS" />
+              <option name="enabled" value="true" />
+              <option name="gmtCreated" value="1718958639440" />
+              <option name="gmtModified" value="1718958639440" />
+              <option name="language" />
+            </promptsEntry>
+          </promptsEntry>
+        </codeCompletions>
+      </codeCompletionsRepository>
       <option name="ext" />
     </Ollama>
   </component>
