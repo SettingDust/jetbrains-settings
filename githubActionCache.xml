@@ -65,7 +65,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/Kir-Antipov/mc-publish/v3.2/action.yml" />
-                  <entry key="expiryTime" value="1719246827181" />
+                  <entry key="expiryTime" value="1720457256707" />
                   <entry key="githubUrl" value="https://github.com/Kir-Antipov/mc-publish/tree/v3.2#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -353,7 +353,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/cache/v2/action.yml" />
-                  <entry key="expiryTime" value="1719246827180" />
+                  <entry key="expiryTime" value="1720457256706" />
                   <entry key="githubUrl" value="https://github.com/actions/cache/tree/v2#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
