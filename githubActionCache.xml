@@ -9,8 +9,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com//actions/v3/setup-gradle/action.yml" />
-                  <entry key="expiryTime" value="1719480936422" />
+                  <entry key="expiryTime" value="1720690561733" />
                   <entry key="githubUrl" value="https://github.com//actions/tree/v3/setup-gradle#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
@@ -546,8 +548,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/setup-gradle/v3/action.yml" />
-                  <entry key="expiryTime" value="1719480936568" />
+                  <entry key="expiryTime" value="1720690561733" />
                   <entry key="githubUrl" value="https://github.com/actions/setup-gradle/tree/v3#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
@@ -565,8 +569,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/setup-java/v/action.yml" />
-                  <entry key="expiryTime" value="1719479600220" />
+                  <entry key="expiryTime" value="1720689976315" />
                   <entry key="githubUrl" value="https://github.com/actions/setup-java/tree/v#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
@@ -905,8 +911,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/gradle/gradle-build-action/v/action.yml" />
-                  <entry key="expiryTime" value="1719479601479" />
+                  <entry key="expiryTime" value="1720689976316" />
                   <entry key="githubUrl" value="https://github.com/gradle/gradle-build-action/tree/v#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
