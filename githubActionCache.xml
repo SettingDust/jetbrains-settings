@@ -23,6 +23,26 @@
             </GitHubAction>
           </value>
         </entry>
+        <entry key="CHANGELOG.md">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="CHANGELOG.md" />
+                  <entry key="expiryTime" value="1721465559099" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="true" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="CHANGELOG.md" />
+                  <entry key="usesValue" value="CHANGELOG.md" />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
         <entry key="D:\Projects\Minecraft\Selfish Villager\CHANGELOG.md">
           <value>
             <GitHubAction>
