@@ -46,6 +46,8 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="SCHEDULED PACKETS" />
+      <item value=" SCHEDULED" />
       <item value="Relevant" />
       <item value="BARTER" />
       <item value="Epoll" />
@@ -94,13 +96,11 @@
       <item value="Gadget" />
       <item value="Trivial" />
       <item value="luxury" />
-      <item value="asian" />
-      <item value="Moulding" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="121" />
-        <entry key="ENGLISH" value="122" />
+        <entry key="CHINESE" value="123" />
+        <entry key="ENGLISH" value="124" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
