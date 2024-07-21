@@ -43,6 +43,13 @@
           <value>
             <list>
               <option value="collection set 词义区别" />
+              <option value="/explain code" />
+              <option value="00 00 24 00 00 91 04 ff ff 在这里 i 是什么" />
+              <option value="00 00 24 00 00 91 04 ff ff" />
+              <option value="/generate comment" />
+              <option value="中文" />
+              <option value="输入 00 00 24 00 00 91 04 ff ff 会输出什么" />
+              <option value="第一个字节最高位不是 0 吗" />
             </list>
           </value>
         </entry>

@@ -46,6 +46,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="Trader block was broken by legal means!" />
       <item value="SCHEDULED PACKETS" />
       <item value=" SCHEDULED" />
       <item value="Relevant" />
@@ -95,12 +96,11 @@
       <item value="CHORUS" />
       <item value="Gadget" />
       <item value="Trivial" />
-      <item value="luxury" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="123" />
-        <entry key="ENGLISH" value="124" />
+        <entry key="CHINESE" value="124" />
+        <entry key="ENGLISH" value="125" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
