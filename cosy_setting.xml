@@ -53,6 +53,18 @@
             </list>
           </value>
         </entry>
+        <entry key="Dusty Data Sync|1687537503358964">
+          <value>
+            <list>
+              <option value="/generate optimization" />
+              <option value="翻译一下 玩家 ${forgePlayer.name} 数据被锁定且未在本服务器锁定，不允许进入" />
+              <option value="logger.warn(&quot;玩家 ${forgePlayer.name} 在本服务器被锁定，可能是退出时没有正常保存，需要用本地数据覆盖数据库数据&quot;)" />
+              <option value="翻译日志" />
+              <option value="翻译成英文" />
+              <option value="翻译" />
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="showInlineAcceptTips" value="false" />
