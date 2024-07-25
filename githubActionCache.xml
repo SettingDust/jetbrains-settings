@@ -30,8 +30,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/BrycensRanch/read-properties-action/v1/action.yml" />
-                  <entry key="expiryTime" value="1721889843136" />
+                  <entry key="expiryTime" value="1723100743116" />
                   <entry key="githubUrl" value="https://github.com/BrycensRanch/read-properties-action/tree/v1#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
@@ -49,7 +51,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="CHANGELOG.md" />
-                  <entry key="expiryTime" value="1723044761769" />
+                  <entry key="expiryTime" value="1723109743117" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
