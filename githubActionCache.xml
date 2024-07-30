@@ -51,7 +51,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="CHANGELOG.md" />
-                  <entry key="expiryTime" value="1723545863423" />
+                  <entry key="expiryTime" value="1723547663423" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
@@ -755,6 +755,25 @@
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/upload-artifact" />
                   <entry key="usesValue" value="actions/upload-artifact@v2" />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
+        <entry key="dorny/test-reporter@v1">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="https://raw.githubusercontent.com/dorny/test-reporter/v1/action.yml" />
+                  <entry key="expiryTime" value="1723546690243" />
+                  <entry key="githubUrl" value="https://github.com/dorny/test-reporter/tree/v1#readme" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="false" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="dorny/test-reporter" />
+                  <entry key="usesValue" value="dorny/test-reporter@v1" />
                 </map>
               </option>
             </GitHubAction>
