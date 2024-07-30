@@ -51,7 +51,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="CHANGELOG.md" />
-                  <entry key="expiryTime" value="1723512769541" />
+                  <entry key="expiryTime" value="1723539774519" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
@@ -440,7 +440,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/checkout/v/action.yml" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="githubUrl" value="https://github.com/actions/checkout/tree/v#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -461,7 +461,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/checkout/v2/action.yml" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="githubUrl" value="https://github.com/actions/checkout/tree/v2#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -479,37 +479,15 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="clean" value="r[false] def[true] Whether to execute `git clean -ffdx &amp;&amp; git reset --hard HEAD` before fetching" />
-                  <entry key="fetch-depth" value="r[false] def[1] Number of commits to fetch. 0 indicates all history for all branches and tags." />
-                  <entry key="fetch-tags" value="r[false] def[false] Whether to fetch tags, even if fetch-depth &gt; 0." />
-                  <entry key="github-server-url" value="r[false]  The base URL for the GitHub instance that you are trying to clone from, will use environment defaults to fetch from the same instance that the workflow is running from unless specified. Example URLs are https://github.com or https://my-ghes-server.example.com" />
-                  <entry key="lfs" value="r[false] def[false] Whether to download Git-LFS files" />
-                  <entry key="path" value="r[false]  Relative path under $GITHUB_WORKSPACE to place the repository" />
-                  <entry key="persist-credentials" value="r[false] def[true] Whether to configure the token or SSH key with the local git config" />
-                  <entry key="ref" value="r[false] " />
-                  <entry key="repository" value="r[false] def[${{ github.repository }}] Repository name with owner. For example, actions/checkout" />
-                  <entry key="set-safe-directory" value="r[false] def[true] Add repository path as safe.directory for Git global config by running `git config --global --add safe.directory &lt;path&gt;`" />
-                  <entry key="sparse-checkout" value="r[false] def[null]" />
-                  <entry key="sparse-checkout-cone-mode" value="r[false] def[true]" />
-                  <entry key="ssh-key" value="r[false] " />
-                  <entry key="ssh-known-hosts" value="r[false] " />
-                  <entry key="ssh-strict" value="r[false] def[true]" />
-                  <entry key="submodules" value="r[false] def[false]" />
-                  <entry key="token" value="r[false] def[${{ github.token }}]" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/checkout/v3/action.yml" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="githubUrl" value="https://github.com/actions/checkout/tree/v3#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/checkout" />
                   <entry key="usesValue" value="actions/checkout@v3" />
@@ -522,40 +500,15 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="clean" value="r[false] def[true] Whether to execute `git clean -ffdx &amp;&amp; git reset --hard HEAD` before fetching" />
-                  <entry key="fetch-depth" value="r[false] def[1] Number of commits to fetch. 0 indicates all history for all branches and tags." />
-                  <entry key="fetch-tags" value="r[false] def[false] Whether to fetch tags, even if fetch-depth &gt; 0." />
-                  <entry key="filter" value="r[false] def[null]" />
-                  <entry key="github-server-url" value="r[false]  The base URL for the GitHub instance that you are trying to clone from, will use environment defaults to fetch from the same instance that the workflow is running from unless specified. Example URLs are https://github.com or https://my-ghes-server.example.com" />
-                  <entry key="lfs" value="r[false] def[false] Whether to download Git-LFS files" />
-                  <entry key="path" value="r[false]  Relative path under $GITHUB_WORKSPACE to place the repository" />
-                  <entry key="persist-credentials" value="r[false] def[true] Whether to configure the token or SSH key with the local git config" />
-                  <entry key="ref" value="r[false] " />
-                  <entry key="repository" value="r[false] def[${{ github.repository }}] Repository name with owner. For example, actions/checkout" />
-                  <entry key="set-safe-directory" value="r[false] def[true] Add repository path as safe.directory for Git global config by running `git config --global --add safe.directory &lt;path&gt;`" />
-                  <entry key="show-progress" value="r[false] def[true] Whether to show progress status output when fetching." />
-                  <entry key="sparse-checkout" value="r[false] def[null]" />
-                  <entry key="sparse-checkout-cone-mode" value="r[false] def[true]" />
-                  <entry key="ssh-key" value="r[false] " />
-                  <entry key="ssh-known-hosts" value="r[false] " />
-                  <entry key="ssh-strict" value="r[false] def[true]" />
-                  <entry key="ssh-user" value="r[false] def[git]" />
-                  <entry key="submodules" value="r[false] def[false]" />
-                  <entry key="token" value="r[false] def[${{ github.token }}]" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/checkout/v4/action.yml" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="githubUrl" value="https://github.com/actions/checkout/tree/v4#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/checkout" />
                   <entry key="usesValue" value="actions/checkout@v4" />
@@ -592,7 +545,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/github-script/v4/action.yml" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="githubUrl" value="https://github.com/actions/github-script/tree/v4#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -655,7 +608,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/setup-java/v1/action.yml" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="githubUrl" value="https://github.com/actions/setup-java/tree/v1#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -694,50 +647,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="architecture" value="r[false]  The architecture of the package (defaults to the action runner's architecture)" />
-                  <entry key="cache" value="r[false]  Name of the build platform to cache dependencies. It can be &quot;maven&quot;, &quot;gradle&quot; or &quot;sbt&quot;." />
-                  <entry key="check-latest" value="r[false] def[false] Set this option if you want the action to check for the latest available version that satisfies the version spec" />
-                  <entry key="distribution" value="r[true]  Java distribution. See the list of supported distributions in README file" />
-                  <entry key="gpg-passphrase" value="r[false]  Environment variable name for the GPG private key passphrase. Default is&#10;       $GPG_PASSPHRASE." />
-                  <entry key="gpg-private-key" value="r[false]  GPG private key to import. Default is empty string." />
-                  <entry key="java-package" value="r[false] def[jdk] The package type (jdk, jre, jdk+fx, jre+fx)" />
-                  <entry key="java-version" value="r[false]  The Java version to set up. Takes a whole or semver Java version. See examples of supported syntax in README file" />
-                  <entry key="java-version-file" value="r[false]  The path to the `.java-version` file. See examples of supported syntax in README file" />
-                  <entry key="jdkFile" value="r[false]  Path to where the compressed JDK is located" />
-                  <entry key="job-status" value="r[false] def[${{ job.status }}] Workaround to pass job status to post job step. This variable is not intended for manual setting" />
-                  <entry key="mvn-toolchain-id" value="r[false]  Name of Maven Toolchain ID if the default name of &quot;${distribution}_${java-version}&quot; is not wanted. See examples of supported syntax in Advanced Usage file" />
-                  <entry key="mvn-toolchain-vendor" value="r[false]  Name of Maven Toolchain Vendor if the default name of &quot;${distribution}&quot; is not wanted. See examples of supported syntax in Advanced Usage file" />
-                  <entry key="overwrite-settings" value="r[false] def[true] Overwrite the settings.xml file if it exists. Default is &quot;true&quot;." />
-                  <entry key="server-id" value="r[false] def[github] ID of the distributionManagement repository in the pom.xml&#10;       file. Default is `github`" />
-                  <entry key="server-password" value="r[false] def[GITHUB_TOKEN] Environment variable name for password or token for&#10;       authentication to the Apache Maven repository. Default is $GITHUB_TOKEN" />
-                  <entry key="server-username" value="r[false] def[GITHUB_ACTOR] Environment variable name for the username for authentication&#10;       to the Apache Maven repository. Default is $GITHUB_ACTOR" />
-                  <entry key="settings-path" value="r[false]  Path to where the settings.xml file will be written. Default is ~/.m2." />
-                  <entry key="token" value="r[false] def[${{ github.server_url == 'https://github.com' &amp;&amp; github.token || '' }}] The token used to authenticate when fetching version manifests hosted on github.com, such as for the Microsoft Build of OpenJDK. When running this action on github.com, the default value is sufficient. When running on GHES, you can pass a personal access token for github.com if you are experiencing rate limiting." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/setup-java/v3/action.yml" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="githubUrl" value="https://github.com/actions/setup-java/tree/v3#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/setup-java" />
                   <entry key="usesValue" value="actions/setup-java@v3" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="cache-hit" value=" A boolean value to indicate an exact match was found for the primary key" />
-                  <entry key="distribution" value=" Distribution of Java that has been installed" />
-                  <entry key="path" value=" Path to where the java environment has been installed (same as $JAVA_HOME)" />
-                  <entry key="version" value=" Actual version of the java environment that has been installed" />
                 </map>
               </option>
             </GitHubAction>
@@ -804,7 +725,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/setup-python/v4/action.yml" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="githubUrl" value="https://github.com/actions/setup-python/tree/v4#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -825,7 +746,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/upload-artifact/v2/action.yml" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="githubUrl" value="https://github.com/actions/upload-artifact/tree/v2#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -996,47 +917,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="arguments" value="r[false]  Gradle command line arguments (supports multi-line input)" />
-                  <entry key="artifact-retention-days" value="r[false]  Specifies the number of days to retain any artifacts generated by the action. If not set, the default retention settings for the repository will apply." />
-                  <entry key="build-root-directory" value="r[false]  Path to the root directory of the build. Default is the root of the GitHub workspace." />
-                  <entry key="cache-disabled" value="r[false] def[false] When 'true', all caching is disabled. No entries will be written to or read from the cache." />
-                  <entry key="cache-overwrite-existing" value="r[false] def[false] When 'true', a pre-existing Gradle User Home will not prevent the cache from being restored." />
-                  <entry key="cache-read-only" value="r[false] def[${{ github.event.repository != null &amp;&amp; github.ref_name != github.event.repository.default_branch }}]" />
-                  <entry key="cache-write-only" value="r[false] def[false]" />
-                  <entry key="dependency-graph" value="r[false] def[disabled] Specifies if a GitHub dependency snapshot should be generated for each Gradle build, and if so, how. Valid values are 'disabled' (default), 'generate', 'generate-and-submit', 'download-and-submit' and 'clear'." />
-                  <entry key="generate-job-summary" value="r[false] def[true] When 'false', no Job Summary will be generated for the Job." />
-                  <entry key="github-token" value="r[false] def[${{ github.token }}] The GitHub token used to authenticate when submitting via the Dependency Submission API." />
-                  <entry key="gradle-executable" value="r[false]  Path to the Gradle executable. If specified, this executable will be added to the PATH and used for invoking Gradle." />
-                  <entry key="gradle-home-cache-cleanup" value="r[false] def[false] When 'true', the action will attempt to remove any stale/unused entries from the Gradle User Home prior to saving to the GitHub Actions cache." />
-                  <entry key="gradle-home-cache-excludes" value="r[false]  Paths within Gradle User Home to exclude from cache." />
-                  <entry key="gradle-home-cache-includes" value="r[false]  Paths within Gradle User Home to cache." />
-                  <entry key="gradle-home-cache-strict-match" value="r[false] def[false] When 'true', the action will not attempt to restore the Gradle User Home entries from other Jobs." />
-                  <entry key="gradle-version" value="r[false]  Gradle version to use. If specified, this Gradle version will be downloaded, added to the PATH and used for invoking Gradle." />
-                  <entry key="workflow-job-context" value="r[false] def[${{ toJSON(matrix) }}] Used to uniquely identify the current job invocation. Defaults to the matrix values for this job; this should not be overridden by users (INTERNAL)." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/gradle/gradle-build-action/v2/action.yml" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="githubUrl" value="https://github.com/gradle/gradle-build-action/tree/v2#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="gradle/gradle-build-action" />
                   <entry key="usesValue" value="gradle/gradle-build-action@v2" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="build-scan-url" value=" Link to the Build Scan® generated by a Gradle build. Note that this output applies to a Step executing Gradle, not to the `gradle-build-action` Step itself." />
-                  <entry key="dependency-graph-file" value=" Path to the GitHub Dependency Graph snapshot file generated by a Gradle build. Note that this output applies to a Step executing Gradle, not to the `gradle-build-action` Step itself." />
-                  <entry key="gradle-version" value=" Version of Gradle that was setup by the action" />
                 </map>
               </option>
             </GitHubAction>
@@ -1070,7 +962,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/gradle/wrapper-validation-action/v1/action.yml" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="githubUrl" value="https://github.com/gradle/wrapper-validation-action/tree/v1#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -1112,7 +1004,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="mikepenz/gradle-dependency-submission" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
@@ -1132,7 +1024,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/mikepenz/gradle-dependency-submission/latest/action.yml" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="githubUrl" value="https://github.com/mikepenz/gradle-dependency-submission/tree/latest#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -1153,7 +1045,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/mikepenz/gradle-dependency-submission/latest}/action.yml" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="githubUrl" value="https://github.com/mikepenz/gradle-dependency-submission/tree/latest}#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -1174,7 +1066,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/mikepenz/gradle-dependency-submission/v0.9.1/action.yml" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="githubUrl" value="https://github.com/mikepenz/gradle-dependency-submission/tree/v0.9.1#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -1195,7 +1087,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/mikepenz/gradle-dependency-submission/{latest}/action.yml" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="githubUrl" value="https://github.com/mikepenz/gradle-dependency-submission/tree/{latest}#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -1216,7 +1108,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/mikepenz/gradle-dependency-submission/{}/action.yml" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="githubUrl" value="https://github.com/mikepenz/gradle-dependency-submission/tree/{}#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -1237,7 +1129,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/mikepenz/gradle-dependency-submission/}/action.yml" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="githubUrl" value="https://github.com/mikepenz/gradle-dependency-submission/tree/}#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -1276,41 +1168,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="changelogFilePath" value="r[false] def[CHANGELOG.md] Path to the changelog file" />
-                  <entry key="excludeScopes" value="r[false]  Scopes to exclude from the Changelog" />
-                  <entry key="excludeTypes" value="r[false] def[build,docs,other,style] Types to exclude from the Changelog" />
-                  <entry key="fromTag" value="r[false]  The tag from which the changelog is to be determined (only if using tag range)" />
-                  <entry key="includeInvalidCommits" value="r[false] def[false] Whether to include commits that don't respect the Conventional Commits format" />
-                  <entry key="includeRefIssues" value="r[false] def[true] Should the changelog include the issues referenced for each PR." />
-                  <entry key="restrictToTypes" value="r[false]  Types to restrict to for the Changelog (overrides excludeTypes if defined)" />
-                  <entry key="reverseOrder" value="r[false] def[false] List commits in reverse order (from newer to older) instead of the default (older to newer)." />
-                  <entry key="tag" value="r[false]  The latest tag (which triggered this job) (only if using latest tag)" />
-                  <entry key="toTag" value="r[false]  The tag up to which the changelog is to be determined (only if using tag range)" />
-                  <entry key="token" value="r[true]  GitHub Token" />
-                  <entry key="useGitmojis" value="r[false] def[true] Prepend type headers with their corresponding gitmoji" />
-                  <entry key="writeToFile" value="r[false] def[true] Should CHANGELOG.md be updated with latest changelog" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/requarks/changelog-action/v1/action.yml" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="githubUrl" value="https://github.com/requarks/changelog-action/tree/v1#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="requarks/changelog-action" />
                   <entry key="usesValue" value="requarks/changelog-action@v1" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="changes" value=" Generated changelog" />
                 </map>
               </option>
             </GitHubAction>
@@ -1344,7 +1213,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/stefanzweifel/git-auto-commit-action/v4/action.yml" />
-                  <entry key="expiryTime" value="1722320902587" />
+                  <entry key="expiryTime" value="1723530774523" />
                   <entry key="githubUrl" value="https://github.com/stefanzweifel/git-auto-commit-action/tree/v4#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
