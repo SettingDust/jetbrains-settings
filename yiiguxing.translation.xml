@@ -32,7 +32,7 @@
     <option name="translateDocumentation" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1721631033101" />
+    <option name="lastTrimTime" value="1722339668148" />
   </component>
   <component name="Translation.Settings">
     <option name="keepFormat" value="true" />
@@ -46,6 +46,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="Substitute" />
       <item value="Successful claiming" />
       <item value="Sale" />
       <item value="Trader block was broken by legal means!" />
@@ -95,12 +96,11 @@
       <item value="Lerp" />
       <item value="Lerping Boss" />
       <item value="Lerping" />
-      <item value="CHORUS" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="126" />
-        <entry key="ENGLISH" value="127" />
+        <entry key="CHINESE" value="127" />
+        <entry key="ENGLISH" value="128" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
