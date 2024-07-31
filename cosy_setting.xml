@@ -66,6 +66,14 @@
             </list>
           </value>
         </entry>
+        <entry key="JsonPath|1687537503358964">
+          <value>
+            <list>
+              <option value="/explain code" />
+              <option value="为什么这断 JsonPath `&quot;\$[?@.tag.id == 'ic2:generator']&quot;` 不能匹配 `{&quot;id&quot;:&quot;ic2:te&quot;,&quot;meta&quot;:1,&quot;pos&quot;:{&quot;x&quot;:23,&quot;y&quot;:64,&quot;z&quot;:179},&quot;dimension&quot;:0,&quot;tag&quot;:{&quot;components&quot;:{&quot;energy&quot;:{&quot;storage&quot;:0.0}},&quot;fuel&quot;:0,&quot;InvSlots&quot;:{&quot;charge&quot;:{&quot;Contents&quot;:[]},&quot;fuel&quot;:{&quot;Contents&quot;:[]}},&quot;x&quot;:23,&quot;y&quot;:64,&quot;facing&quot;:2,&quot;active&quot;:0,&quot;z&quot;:179,&quot;id&quot;:&quot;ic2:generator&quot;,&quot;totalFuel&quot;:0}}`" />
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="showInlineAcceptTips" value="false" />

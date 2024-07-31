@@ -9,6 +9,7 @@
       <mapping pattern="pack.mcmeta" type="JSON" />
       <mapping pattern="mcmod.info" type="JSON" />
       <mapping ext="mca" type="NBT" />
+      <mapping ext="dat" type="NBT" />
       <mapping pattern=".env.template" type="PLAIN_TEXT" />
       <mapping ext="bin" type="PLAIN_TEXT" />
       <mapping ext="fsh" type="PLAIN_TEXT" />
