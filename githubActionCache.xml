@@ -51,7 +51,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="CHANGELOG.md" />
-                  <entry key="expiryTime" value="1723635268905" />
+                  <entry key="expiryTime" value="1723646068904" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
@@ -89,7 +89,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/DeStefano/git-auto-commit-action/v5/action.yml" />
-                  <entry key="expiryTime" value="1722431025598" />
+                  <entry key="expiryTime" value="1723640668904" />
                   <entry key="githubUrl" value="https://github.com/DeStefano/git-auto-commit-action/tree/v5#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
