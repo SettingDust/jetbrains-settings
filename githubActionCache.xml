@@ -51,7 +51,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="CHANGELOG.md" />
-                  <entry key="expiryTime" value="1723737044067" />
+                  <entry key="expiryTime" value="1723773044068" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
@@ -654,7 +654,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/setup-java/v2/action.yml" />
-                  <entry key="expiryTime" value="1722528614621" />
+                  <entry key="expiryTime" value="1723738844070" />
                   <entry key="githubUrl" value="https://github.com/actions/setup-java/tree/v2#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
