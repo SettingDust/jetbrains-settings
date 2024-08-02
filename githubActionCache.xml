@@ -51,7 +51,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="CHANGELOG.md" />
-                  <entry key="expiryTime" value="1723778449049" />
+                  <entry key="expiryTime" value="1723801327841" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
@@ -128,120 +128,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="changelog" value="r[false] def[${undefined}] The changelog for this version." />
-                  <entry key="changelog-file" value="r[false] def[${undefined}] A glob pointing to the changelog file." />
-                  <entry key="curseforge-changelog" value="r[false] def[${undefined}] The changelog for this version." />
-                  <entry key="curseforge-changelog-file" value="r[false] def[${undefined}] A glob pointing to the changelog file." />
-                  <entry key="curseforge-dependencies" value="r[false] def[${undefined}] An array of dependencies required by your project." />
-                  <entry key="curseforge-fail-mode" value="r[false] def[${undefined}] Controls how the action responds to errors during the mod&#10;      publishing process." />
-                  <entry key="curseforge-files" value="r[false] def[${undefined}] An array of globs determining which files to upload." />
-                  <entry key="curseforge-files-primary" value="r[false] def[${undefined}] A glob determining the primary files to upload." />
-                  <entry key="curseforge-files-secondary" value="r[false] def[${undefined}] A glob determining the secondary files to upload." />
-                  <entry key="curseforge-game-version-filter" value="r[false] def[${undefined}] Controls the method used to filter game versions." />
-                  <entry key="curseforge-game-versions" value="r[false] def[${undefined}] An array of supported Minecraft versions." />
-                  <entry key="curseforge-id" value="r[false] def[${undefined}] The unique identifier of your CurseForge project." />
-                  <entry key="curseforge-java" value="r[false] def[${undefined}] An array of Java versions compatible with your project." />
-                  <entry key="curseforge-loaders" value="r[false] def[${undefined}] An array of supported mod loaders." />
-                  <entry key="curseforge-name" value="r[false] def[${undefined}] The name of the version." />
-                  <entry key="curseforge-retry-attempts" value="r[false] def[${undefined}] Defines the maximum number of asset publishing attempts." />
-                  <entry key="curseforge-retry-delay" value="r[false] def[${undefined}] Specifies the delay (in milliseconds) between asset publishing attempts." />
-                  <entry key="curseforge-token" value="r[false] def[${undefined}] Your CurseForge API token." />
-                  <entry key="curseforge-version" value="r[false] def[${undefined}] The version number." />
-                  <entry key="curseforge-version-resolver" value="r[false] def[${undefined}] Controls the method used to automatically resolve game versions." />
-                  <entry key="curseforge-version-type" value="r[false] def[${undefined}] The version type - alpha, beta, or release." />
-                  <entry key="dependencies" value="r[false] def[${undefined}] An array of dependencies required by your project." />
-                  <entry key="fail-mode" value="r[false] def[fail] Controls how the action responds to errors during the mod&#10;      publishing process." />
-                  <entry key="files" value="r[false]  An array of globs determining which files to upload." />
-                  <entry key="files-primary" value="r[false] def[${undefined}] A glob determining the primary files to upload." />
-                  <entry key="files-secondary" value="r[false] def[${undefined}] A glob determining the secondary files to upload." />
-                  <entry key="game-version-filter" value="r[false] def[releases] Controls the method used to filter game versions." />
-                  <entry key="game-versions" value="r[false] def[${undefined}] An array of supported Minecraft versions." />
-                  <entry key="github-changelog" value="r[false] def[${undefined}] The changelog for this version." />
-                  <entry key="github-changelog-file" value="r[false] def[${undefined}] A glob pointing to the changelog file." />
-                  <entry key="github-commitish" value="r[false] def[${undefined}] Defines the commitish value that determines where the Git tag is&#10;      created from. Can be any branch or commit SHA. Ignored if the Git tag&#10;      already exists." />
-                  <entry key="github-dependencies" value="r[false] def[${undefined}] An array of dependencies required by your project." />
-                  <entry key="github-discussion" value="r[false] def[${undefined}] If specified, creates and links a discussion of the specified&#10;      **existing** category to the release. Ignored if the GitHub Release&#10;      already exists." />
-                  <entry key="github-draft" value="r[false] def[${undefined}] Set to true to create a draft release; false otherwise. Ignored if&#10;      the GitHub Release already exists." />
-                  <entry key="github-fail-mode" value="r[false] def[${undefined}] Controls how the action responds to errors during the mod&#10;      publishing process." />
-                  <entry key="github-files" value="r[false] def[${undefined}] An array of globs determining which files to upload." />
-                  <entry key="github-files-primary" value="r[false] def[${undefined}] A glob determining the primary files to upload." />
-                  <entry key="github-files-secondary" value="r[false] def[${undefined}] A glob determining the secondary files to upload." />
-                  <entry key="github-game-version-filter" value="r[false] def[${undefined}] Controls the method used to filter game versions." />
-                  <entry key="github-game-versions" value="r[false] def[${undefined}] An array of supported Minecraft versions." />
-                  <entry key="github-generate-changelog" value="r[false] def[${undefined}] Set to true to generate a changelog automatically for this release;&#10;      false otherwise. Ignored if the GitHub Release already exists." />
-                  <entry key="github-java" value="r[false] def[${undefined}] An array of Java versions compatible with your project." />
-                  <entry key="github-loaders" value="r[false] def[${undefined}] An array of supported mod loaders." />
-                  <entry key="github-name" value="r[false] def[${undefined}] The name of the version." />
-                  <entry key="github-prerelease" value="r[false] def[${undefined}] Set to true to mark the release as a prerelease; false otherwise.&#10;      Ignored if the GitHub Release already exists." />
-                  <entry key="github-retry-attempts" value="r[false] def[${undefined}] Defines the maximum number of asset publishing attempts." />
-                  <entry key="github-retry-delay" value="r[false] def[${undefined}] Specifies the delay (in milliseconds) between asset publishing attempts." />
-                  <entry key="github-tag" value="r[false] def[${undefined}] The tag name for the release where assets will be uploaded." />
-                  <entry key="github-token" value="r[false] def[${undefined}] Your GitHub API token." />
-                  <entry key="github-version" value="r[false] def[${undefined}] The version number." />
-                  <entry key="github-version-resolver" value="r[false] def[${undefined}] Controls the method used to automatically resolve game versions." />
-                  <entry key="github-version-type" value="r[false] def[${undefined}] The version type - alpha, beta, or release." />
-                  <entry key="java" value="r[false] def[${undefined}] An array of Java versions compatible with your project." />
-                  <entry key="loaders" value="r[false] def[${undefined}] An array of supported mod loaders." />
-                  <entry key="modrinth-changelog" value="r[false] def[${undefined}] The changelog for this version." />
-                  <entry key="modrinth-changelog-file" value="r[false] def[${undefined}] A glob pointing to the changelog file." />
-                  <entry key="modrinth-dependencies" value="r[false] def[${undefined}] An array of dependencies required by your project." />
-                  <entry key="modrinth-fail-mode" value="r[false] def[${undefined}] Controls how the action responds to errors during the mod&#10;      publishing process." />
-                  <entry key="modrinth-featured" value="r[false] def[${undefined}] Set to true to feature the version on Modrinth; false otherwise." />
-                  <entry key="modrinth-files" value="r[false] def[${undefined}] An array of globs determining which files to upload." />
-                  <entry key="modrinth-files-primary" value="r[false] def[${undefined}] A glob determining the primary files to upload." />
-                  <entry key="modrinth-files-secondary" value="r[false] def[${undefined}] A glob determining the secondary files to upload." />
-                  <entry key="modrinth-game-version-filter" value="r[false] def[${undefined}] Controls the method used to filter game versions." />
-                  <entry key="modrinth-game-versions" value="r[false] def[${undefined}] An array of supported Minecraft versions." />
-                  <entry key="modrinth-id" value="r[false] def[${undefined}] The unique identifier of your Modrinth project." />
-                  <entry key="modrinth-java" value="r[false] def[${undefined}] An array of Java versions compatible with your project." />
-                  <entry key="modrinth-loaders" value="r[false] def[${undefined}] An array of supported mod loaders." />
-                  <entry key="modrinth-name" value="r[false] def[${undefined}] The name of the version." />
-                  <entry key="modrinth-retry-attempts" value="r[false] def[${undefined}] Defines the maximum number of asset publishing attempts." />
-                  <entry key="modrinth-retry-delay" value="r[false] def[${undefined}] Specifies the delay (in milliseconds) between asset publishing attempts." />
-                  <entry key="modrinth-token" value="r[false] def[${undefined}] Your Modrinth API token." />
-                  <entry key="modrinth-unfeature-mode" value="r[false] def[subset] Sets the behavior for unfeaturing older Modrinth versions." />
-                  <entry key="modrinth-version" value="r[false] def[${undefined}] The version number." />
-                  <entry key="modrinth-version-resolver" value="r[false] def[${undefined}] Controls the method used to automatically resolve game versions." />
-                  <entry key="modrinth-version-type" value="r[false] def[${undefined}] The version type - alpha, beta, or release." />
-                  <entry key="name" value="r[false] def[${undefined}] The name of the version." />
-                  <entry key="retry-attempts" value="r[false] def[2] Defines the maximum number of asset publishing attempts." />
-                  <entry key="retry-delay" value="r[false] def[10000] Specifies the delay (in milliseconds) between asset publishing attempts." />
-                  <entry key="version" value="r[false] def[${undefined}] The version number." />
-                  <entry key="version-resolver" value="r[false] def[${undefined}] Controls the method used to automatically resolve game versions." />
-                  <entry key="version-type" value="r[false] def[${undefined}] The version type - alpha, beta, or release." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/Kir-Antipov/mc-publish/v3.3/action.yml" />
-                  <entry key="expiryTime" value="1722589964069" />
+                  <entry key="expiryTime" value="1723801327841" />
                   <entry key="githubUrl" value="https://github.com/Kir-Antipov/mc-publish/tree/v3.3#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="Kir-Antipov/mc-publish" />
                   <entry key="usesValue" value="Kir-Antipov/mc-publish@v3.3" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="curseforge-files" value=" Array of objects, each containing details about the files published&#10;      for the new version on CurseForge, such as file `name`, `id`, and download&#10;      `url`." />
-                  <entry key="curseforge-id" value=" The unique identifier of your CurseForge project." />
-                  <entry key="curseforge-url" value=" The URL directing to the newly published version on CurseForge." />
-                  <entry key="curseforge-version" value=" The unique identifier of the version published on CurseForge by&#10;      this action." />
-                  <entry key="github-files" value=" Array of objects, each containing details about the files published&#10;      for the new version on GitHub, such as file `name`, `id`, and download&#10;      `url`." />
-                  <entry key="github-repo" value=" The full repository name on GitHub, formatted as 'username/repository'." />
-                  <entry key="github-tag" value=" The Git tag associated with the new or updated release published on GitHub." />
-                  <entry key="github-url" value=" The URL directing to the newly published version on GitHub." />
-                  <entry key="modrinth-files" value=" Array of objects, each containing details about the files published&#10;      for the new version on Modrinth, such as file `name`, `id`, and download&#10;      `url`." />
-                  <entry key="modrinth-id" value=" The unique identifier of your Modrinth project." />
-                  <entry key="modrinth-url" value=" The URL directing to the newly published version on Modrinth." />
-                  <entry key="modrinth-version" value=" The unique identifier of the version published on Modrinth by this action." />
                 </map>
               </option>
             </GitHubAction>
@@ -254,7 +152,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/Kir-Antipov/mc-publish/v3.3./action.yml" />
-                  <entry key="expiryTime" value="1722589964069" />
+                  <entry key="expiryTime" value="1723801327841" />
                   <entry key="githubUrl" value="https://github.com/Kir-Antipov/mc-publish/tree/v3.3.#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -272,120 +170,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="changelog" value="r[false] def[${undefined}] The changelog for this version." />
-                  <entry key="changelog-file" value="r[false] def[${undefined}] A glob pointing to the changelog file." />
-                  <entry key="curseforge-changelog" value="r[false] def[${undefined}] The changelog for this version." />
-                  <entry key="curseforge-changelog-file" value="r[false] def[${undefined}] A glob pointing to the changelog file." />
-                  <entry key="curseforge-dependencies" value="r[false] def[${undefined}] An array of dependencies required by your project." />
-                  <entry key="curseforge-fail-mode" value="r[false] def[${undefined}] Controls how the action responds to errors during the mod&#10;      publishing process." />
-                  <entry key="curseforge-files" value="r[false] def[${undefined}] An array of globs determining which files to upload." />
-                  <entry key="curseforge-files-primary" value="r[false] def[${undefined}] A glob determining the primary files to upload." />
-                  <entry key="curseforge-files-secondary" value="r[false] def[${undefined}] A glob determining the secondary files to upload." />
-                  <entry key="curseforge-game-version-filter" value="r[false] def[${undefined}] Controls the method used to filter game versions." />
-                  <entry key="curseforge-game-versions" value="r[false] def[${undefined}] An array of supported Minecraft versions." />
-                  <entry key="curseforge-id" value="r[false] def[${undefined}] The unique identifier of your CurseForge project." />
-                  <entry key="curseforge-java" value="r[false] def[${undefined}] An array of Java versions compatible with your project." />
-                  <entry key="curseforge-loaders" value="r[false] def[${undefined}] An array of supported mod loaders." />
-                  <entry key="curseforge-name" value="r[false] def[${undefined}] The name of the version." />
-                  <entry key="curseforge-retry-attempts" value="r[false] def[${undefined}] Defines the maximum number of asset publishing attempts." />
-                  <entry key="curseforge-retry-delay" value="r[false] def[${undefined}] Specifies the delay (in milliseconds) between asset publishing attempts." />
-                  <entry key="curseforge-token" value="r[false] def[${undefined}] Your CurseForge API token." />
-                  <entry key="curseforge-version" value="r[false] def[${undefined}] The version number." />
-                  <entry key="curseforge-version-resolver" value="r[false] def[${undefined}] Controls the method used to automatically resolve game versions." />
-                  <entry key="curseforge-version-type" value="r[false] def[${undefined}] The version type - alpha, beta, or release." />
-                  <entry key="dependencies" value="r[false] def[${undefined}] An array of dependencies required by your project." />
-                  <entry key="fail-mode" value="r[false] def[fail] Controls how the action responds to errors during the mod&#10;      publishing process." />
-                  <entry key="files" value="r[false]  An array of globs determining which files to upload." />
-                  <entry key="files-primary" value="r[false] def[${undefined}] A glob determining the primary files to upload." />
-                  <entry key="files-secondary" value="r[false] def[${undefined}] A glob determining the secondary files to upload." />
-                  <entry key="game-version-filter" value="r[false] def[releases] Controls the method used to filter game versions." />
-                  <entry key="game-versions" value="r[false] def[${undefined}] An array of supported Minecraft versions." />
-                  <entry key="github-changelog" value="r[false] def[${undefined}] The changelog for this version." />
-                  <entry key="github-changelog-file" value="r[false] def[${undefined}] A glob pointing to the changelog file." />
-                  <entry key="github-commitish" value="r[false] def[${undefined}] Defines the commitish value that determines where the Git tag is&#10;      created from. Can be any branch or commit SHA. Ignored if the Git tag&#10;      already exists." />
-                  <entry key="github-dependencies" value="r[false] def[${undefined}] An array of dependencies required by your project." />
-                  <entry key="github-discussion" value="r[false] def[${undefined}] If specified, creates and links a discussion of the specified&#10;      **existing** category to the release. Ignored if the GitHub Release&#10;      already exists." />
-                  <entry key="github-draft" value="r[false] def[${undefined}] Set to true to create a draft release; false otherwise. Ignored if&#10;      the GitHub Release already exists." />
-                  <entry key="github-fail-mode" value="r[false] def[${undefined}] Controls how the action responds to errors during the mod&#10;      publishing process." />
-                  <entry key="github-files" value="r[false] def[${undefined}] An array of globs determining which files to upload." />
-                  <entry key="github-files-primary" value="r[false] def[${undefined}] A glob determining the primary files to upload." />
-                  <entry key="github-files-secondary" value="r[false] def[${undefined}] A glob determining the secondary files to upload." />
-                  <entry key="github-game-version-filter" value="r[false] def[${undefined}] Controls the method used to filter game versions." />
-                  <entry key="github-game-versions" value="r[false] def[${undefined}] An array of supported Minecraft versions." />
-                  <entry key="github-generate-changelog" value="r[false] def[${undefined}] Set to true to generate a changelog automatically for this release;&#10;      false otherwise. Ignored if the GitHub Release already exists." />
-                  <entry key="github-java" value="r[false] def[${undefined}] An array of Java versions compatible with your project." />
-                  <entry key="github-loaders" value="r[false] def[${undefined}] An array of supported mod loaders." />
-                  <entry key="github-name" value="r[false] def[${undefined}] The name of the version." />
-                  <entry key="github-prerelease" value="r[false] def[${undefined}] Set to true to mark the release as a prerelease; false otherwise.&#10;      Ignored if the GitHub Release already exists." />
-                  <entry key="github-retry-attempts" value="r[false] def[${undefined}] Defines the maximum number of asset publishing attempts." />
-                  <entry key="github-retry-delay" value="r[false] def[${undefined}] Specifies the delay (in milliseconds) between asset publishing attempts." />
-                  <entry key="github-tag" value="r[false] def[${undefined}] The tag name for the release where assets will be uploaded." />
-                  <entry key="github-token" value="r[false] def[${undefined}] Your GitHub API token." />
-                  <entry key="github-version" value="r[false] def[${undefined}] The version number." />
-                  <entry key="github-version-resolver" value="r[false] def[${undefined}] Controls the method used to automatically resolve game versions." />
-                  <entry key="github-version-type" value="r[false] def[${undefined}] The version type - alpha, beta, or release." />
-                  <entry key="java" value="r[false] def[${undefined}] An array of Java versions compatible with your project." />
-                  <entry key="loaders" value="r[false] def[${undefined}] An array of supported mod loaders." />
-                  <entry key="modrinth-changelog" value="r[false] def[${undefined}] The changelog for this version." />
-                  <entry key="modrinth-changelog-file" value="r[false] def[${undefined}] A glob pointing to the changelog file." />
-                  <entry key="modrinth-dependencies" value="r[false] def[${undefined}] An array of dependencies required by your project." />
-                  <entry key="modrinth-fail-mode" value="r[false] def[${undefined}] Controls how the action responds to errors during the mod&#10;      publishing process." />
-                  <entry key="modrinth-featured" value="r[false] def[${undefined}] Set to true to feature the version on Modrinth; false otherwise." />
-                  <entry key="modrinth-files" value="r[false] def[${undefined}] An array of globs determining which files to upload." />
-                  <entry key="modrinth-files-primary" value="r[false] def[${undefined}] A glob determining the primary files to upload." />
-                  <entry key="modrinth-files-secondary" value="r[false] def[${undefined}] A glob determining the secondary files to upload." />
-                  <entry key="modrinth-game-version-filter" value="r[false] def[${undefined}] Controls the method used to filter game versions." />
-                  <entry key="modrinth-game-versions" value="r[false] def[${undefined}] An array of supported Minecraft versions." />
-                  <entry key="modrinth-id" value="r[false] def[${undefined}] The unique identifier of your Modrinth project." />
-                  <entry key="modrinth-java" value="r[false] def[${undefined}] An array of Java versions compatible with your project." />
-                  <entry key="modrinth-loaders" value="r[false] def[${undefined}] An array of supported mod loaders." />
-                  <entry key="modrinth-name" value="r[false] def[${undefined}] The name of the version." />
-                  <entry key="modrinth-retry-attempts" value="r[false] def[${undefined}] Defines the maximum number of asset publishing attempts." />
-                  <entry key="modrinth-retry-delay" value="r[false] def[${undefined}] Specifies the delay (in milliseconds) between asset publishing attempts." />
-                  <entry key="modrinth-token" value="r[false] def[${undefined}] Your Modrinth API token." />
-                  <entry key="modrinth-unfeature-mode" value="r[false] def[subset] Sets the behavior for unfeaturing older Modrinth versions." />
-                  <entry key="modrinth-version" value="r[false] def[${undefined}] The version number." />
-                  <entry key="modrinth-version-resolver" value="r[false] def[${undefined}] Controls the method used to automatically resolve game versions." />
-                  <entry key="modrinth-version-type" value="r[false] def[${undefined}] The version type - alpha, beta, or release." />
-                  <entry key="name" value="r[false] def[${undefined}] The name of the version." />
-                  <entry key="retry-attempts" value="r[false] def[2] Defines the maximum number of asset publishing attempts." />
-                  <entry key="retry-delay" value="r[false] def[10000] Specifies the delay (in milliseconds) between asset publishing attempts." />
-                  <entry key="version" value="r[false] def[${undefined}] The version number." />
-                  <entry key="version-resolver" value="r[false] def[${undefined}] Controls the method used to automatically resolve game versions." />
-                  <entry key="version-type" value="r[false] def[${undefined}] The version type - alpha, beta, or release." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/Kir-Antipov/mc-publish/v3.3.0/action.yml" />
-                  <entry key="expiryTime" value="1722589964069" />
+                  <entry key="expiryTime" value="1723801327841" />
                   <entry key="githubUrl" value="https://github.com/Kir-Antipov/mc-publish/tree/v3.3.0#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="Kir-Antipov/mc-publish" />
                   <entry key="usesValue" value="Kir-Antipov/mc-publish@v3.3.0" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="curseforge-files" value=" Array of objects, each containing details about the files published&#10;      for the new version on CurseForge, such as file `name`, `id`, and download&#10;      `url`." />
-                  <entry key="curseforge-id" value=" The unique identifier of your CurseForge project." />
-                  <entry key="curseforge-url" value=" The URL directing to the newly published version on CurseForge." />
-                  <entry key="curseforge-version" value=" The unique identifier of the version published on CurseForge by&#10;      this action." />
-                  <entry key="github-files" value=" Array of objects, each containing details about the files published&#10;      for the new version on GitHub, such as file `name`, `id`, and download&#10;      `url`." />
-                  <entry key="github-repo" value=" The full repository name on GitHub, formatted as 'username/repository'." />
-                  <entry key="github-tag" value=" The Git tag associated with the new or updated release published on GitHub." />
-                  <entry key="github-url" value=" The URL directing to the newly published version on GitHub." />
-                  <entry key="modrinth-files" value=" Array of objects, each containing details about the files published&#10;      for the new version on Modrinth, such as file `name`, `id`, and download&#10;      `url`." />
-                  <entry key="modrinth-id" value=" The unique identifier of your Modrinth project." />
-                  <entry key="modrinth-url" value=" The URL directing to the newly published version on Modrinth." />
-                  <entry key="modrinth-version" value=" The unique identifier of the version published on Modrinth by this action." />
                 </map>
               </option>
             </GitHubAction>
@@ -549,7 +345,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/dependency-review-action/v3/action.yml" />
-                  <entry key="expiryTime" value="1722589964069" />
+                  <entry key="expiryTime" value="1723801327840" />
                   <entry key="githubUrl" value="https://github.com/actions/dependency-review-action/tree/v3#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
