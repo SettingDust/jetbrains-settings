@@ -46,6 +46,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="Obsolete" />
       <item value="weak reference" />
       <item value="as map" />
       <item value="Substitute" />
@@ -95,12 +96,11 @@
       <item value="Substitution" />
       <item value="homogeneous" />
       <item value="降级 `onConstructed` 到实现类" />
-      <item value="Lerp" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="129" />
-        <entry key="ENGLISH" value="130" />
+        <entry key="CHINESE" value="130" />
+        <entry key="ENGLISH" value="131" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
