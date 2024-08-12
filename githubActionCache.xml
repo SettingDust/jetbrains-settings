@@ -51,7 +51,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="CHANGELOG.md" />
-                  <entry key="expiryTime" value="1724651936431" />
+                  <entry key="expiryTime" value="1724652806222" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
@@ -1056,7 +1056,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/gradle/gradle-build-action/v3/action.yml" />
-                  <entry key="expiryTime" value="1723442924610" />
+                  <entry key="expiryTime" value="1724652698664" />
                   <entry key="githubUrl" value="https://github.com/gradle/gradle-build-action/tree/v3#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
