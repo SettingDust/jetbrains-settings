@@ -51,7 +51,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="CHANGELOG.md" />
-                  <entry key="expiryTime" value="1724755165032" />
+                  <entry key="expiryTime" value="1724827160392" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
@@ -720,7 +720,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/setup-java/v4/action.yml" />
-                  <entry key="expiryTime" value="1723562469071" />
+                  <entry key="expiryTime" value="1724773004237" />
                   <entry key="githubUrl" value="https://github.com/actions/setup-java/tree/v4#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -789,22 +789,15 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="if-no-files-found" value="r[false] def[warn]" />
-                  <entry key="name" value="r[false] def[artifact] Artifact name" />
-                  <entry key="path" value="r[true]  A file, directory or wildcard pattern that describes what to upload" />
-                  <entry key="retention-days" value="r[false] " />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/upload-artifact/v3/action.yml" />
-                  <entry key="expiryTime" value="1723614269857" />
+                  <entry key="expiryTime" value="1724825209231" />
                   <entry key="githubUrl" value="https://github.com/actions/upload-artifact/tree/v3#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/upload-artifact" />
                   <entry key="usesValue" value="actions/upload-artifact@v3" />
@@ -817,45 +810,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="artifact" value="r[false]  Name or regex of artifact containing test results" />
-                  <entry key="fail-on-empty" value="r[true] def[true] Set this action as failed if no test results were found" />
-                  <entry key="fail-on-error" value="r[false] def[true] Set this action as failed if test report contain any failed test" />
-                  <entry key="list-suites" value="r[false] def[all]" />
-                  <entry key="list-tests" value="r[false] def[all]" />
-                  <entry key="max-annotations" value="r[false] def[10]" />
-                  <entry key="name" value="r[true]  Name of the check run" />
-                  <entry key="only-summary" value="r[false] def[false]" />
-                  <entry key="path" value="r[true] " />
-                  <entry key="path-replace-backslashes" value="r[false] def[false]" />
-                  <entry key="reporter" value="r[true] " />
-                  <entry key="token" value="r[false] def[${{ github.token }}] GitHub Access Token" />
-                  <entry key="working-directory" value="r[false]  Relative path under $GITHUB_WORKSPACE where the repository was checked out" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/dorny/test-reporter/v1/action.yml" />
-                  <entry key="expiryTime" value="1723546690243" />
+                  <entry key="expiryTime" value="1724756804236" />
                   <entry key="githubUrl" value="https://github.com/dorny/test-reporter/tree/v1#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="dorny/test-reporter" />
                   <entry key="usesValue" value="dorny/test-reporter@v1" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="conclusion" value="" />
-                  <entry key="failed" value=" Count of failed tests" />
-                  <entry key="passed" value=" Count of passed tests" />
-                  <entry key="skipped" value=" Count of skipped tests" />
-                  <entry key="time" value=" Test execution time [ms]" />
-                  <entry key="url" value=" Check run URL" />
-                  <entry key="url_html" value=" Check run URL HTML" />
                 </map>
               </option>
             </GitHubAction>
@@ -868,7 +834,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/gradle/actions/v3/dependency-submission/action.yml" />
-                  <entry key="expiryTime" value="1723614150935" />
+                  <entry key="expiryTime" value="1724825209231" />
                   <entry key="githubUrl" value="https://github.com/gradle/actions/tree/v3/dependency-submission#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -931,7 +897,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/gradle/actions/v3/setup-gradle/action.yml" />
-                  <entry key="expiryTime" value="1723614150935" />
+                  <entry key="expiryTime" value="1724825209231" />
                   <entry key="githubUrl" value="https://github.com/gradle/actions/tree/v3/setup-gradle#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -1276,7 +1242,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/softprops/action-gh-release/v2/action.yml" />
-                  <entry key="expiryTime" value="1723562469071" />
+                  <entry key="expiryTime" value="1724773004237" />
                   <entry key="githubUrl" value="https://github.com/softprops/action-gh-release/tree/v2#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -1340,7 +1306,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/stefanzweifel/git-auto-commit-action/v5/action.yml" />
-                  <entry key="expiryTime" value="1723562469071" />
+                  <entry key="expiryTime" value="1724773004237" />
                   <entry key="githubUrl" value="https://github.com/stefanzweifel/git-auto-commit-action/tree/v5#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
