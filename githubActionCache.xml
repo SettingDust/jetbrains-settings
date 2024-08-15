@@ -51,7 +51,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="CHANGELOG.md" />
-                  <entry key="expiryTime" value="1724832791511" />
+                  <entry key="expiryTime" value="1724915948857" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
@@ -89,7 +89,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/DeStefano/git-auto-commit-action/v5/action.yml" />
-                  <entry key="expiryTime" value="1723640668904" />
+                  <entry key="expiryTime" value="1724915890630" />
                   <entry key="githubUrl" value="https://github.com/DeStefano/git-auto-commit-action/tree/v5#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -1334,7 +1334,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/stefanzweifel/git-auto-commit-action/v5k/action.yml" />
-                  <entry key="expiryTime" value="1723634065673" />
+                  <entry key="expiryTime" value="1724915890627" />
                   <entry key="githubUrl" value="https://github.com/stefanzweifel/git-auto-commit-action/tree/v5k#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
