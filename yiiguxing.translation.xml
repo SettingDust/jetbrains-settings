@@ -32,7 +32,7 @@
     <option name="translateDocumentation" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1723087006852" />
+    <option name="lastTrimTime" value="1723778125338" />
   </component>
   <component name="Translation.Settings">
     <option name="keepFormat" value="true" />
@@ -46,6 +46,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="notoriously" />
       <item value="Obsolete" />
       <item value="weak reference" />
       <item value="as map" />
@@ -95,12 +96,11 @@
       <item value="substitution" />
       <item value="Substitution" />
       <item value="homogeneous" />
-      <item value="降级 `onConstructed` 到实现类" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="130" />
-        <entry key="ENGLISH" value="131" />
+        <entry key="CHINESE" value="131" />
+        <entry key="ENGLISH" value="132" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
