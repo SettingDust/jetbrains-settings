@@ -1,5 +1,6 @@
 <application>
   <component name="AtomFileIconsConfig">
+    <option name="arrowsStyle" value="None" />
     <option name="enabledPsiIcons" value="false" />
     <option name="enabledUIIcons" value="false" />
     <option name="lowPowerMode" value="false" />
