@@ -12,6 +12,7 @@
       <mapping ext="dat" type="NBT" />
       <mapping pattern=".env.template" type="PLAIN_TEXT" />
       <mapping ext="bin" type="PLAIN_TEXT" />
+      <mapping ext="tiny" type="PLAIN_TEXT" />
       <mapping ext="fsh" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="dockerignore" approved="true" type="DockerIgnore file" />
