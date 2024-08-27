@@ -51,7 +51,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="CHANGELOG.md" />
-                  <entry key="expiryTime" value="1725958937671" />
+                  <entry key="expiryTime" value="1725972989867" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
@@ -840,7 +840,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/dorny/test-reporter/v1/action.yml" />
-                  <entry key="expiryTime" value="1724756804236" />
+                  <entry key="expiryTime" value="1725972989864" />
                   <entry key="githubUrl" value="https://github.com/dorny/test-reporter/tree/v1#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
