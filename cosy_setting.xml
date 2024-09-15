@@ -77,5 +77,6 @@
       </map>
     </option>
     <option name="showInlineAcceptTips" value="false" />
+    <option name="showInlinePrevTips" value="false" />
   </component>
 </application>
