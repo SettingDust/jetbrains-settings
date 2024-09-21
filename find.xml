@@ -11,9 +11,9 @@
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.lang</mask>
-    <mask>*.json</mask>
     <mask>*.kts</mask>
     <mask>*.kt</mask>
     <mask>*.java</mask>
+    <mask>*.json</mask>
   </component>
 </application>
