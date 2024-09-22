@@ -46,6 +46,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="mandatory" />
       <item value="Lingering Potion of Infestation" />
       <item value="notoriously" />
       <item value="Obsolete" />
@@ -95,7 +96,6 @@
       <item value="blit" />
       <item value="Wildcard needn't anymore in Lychee. Emit the field will act as a wildcard if it's optional." />
       <item value="substitution" />
-      <item value="Substitution" />
     </histories>
     <option name="languageScores">
       <map>
