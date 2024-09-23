@@ -13,9 +13,9 @@
       <mapping pattern=".env.template" type="PLAIN_TEXT" />
       <mapping ext="bin" type="PLAIN_TEXT" />
       <mapping ext="tiny" type="PLAIN_TEXT" />
-      <mapping ext="fsh" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="dockerignore" approved="true" type="DockerIgnore file" />
+      <removed_mapping ext="fsh" approved="true" type="Glsl File" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="jfr" approved="true" type="JFR" />
       <removed_mapping ext="nbt" approved="true" type="Minecraft NBT" />
