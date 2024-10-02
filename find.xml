@@ -11,8 +11,8 @@
     <mask>*.lang</mask>
     <mask>*.kts</mask>
     <mask>*.kt</mask>
-    <mask>*.java</mask>
     <mask>*.json</mask>
     <mask>*.toml</mask>
+    <mask>*.java</mask>
   </component>
 </application>

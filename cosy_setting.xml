@@ -74,9 +74,17 @@
             </list>
           </value>
         </entry>
+        <entry key="Pakku|1687537503358964">
+          <value>
+            <list>
+              <option value="/generate unit test" />
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="showInlineAcceptTips" value="false" />
     <option name="showInlinePrevTips" value="false" />
+    <option name="showInlineTriggerTips" value="false" />
   </component>
 </application>
