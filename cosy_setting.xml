@@ -81,6 +81,16 @@
             </list>
           </value>
         </entry>
+        <entry key="dawncraft-fixes|1687537503358964">
+          <value>
+            <list>
+              <option value="/explain code" />
+              <option value="给我随机生成一个 uuid" />
+              <option value="我要一个静态的但是随机的uuid" />
+              <option value="随机生成一个uuid给我" />
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="showInlineAcceptTips" value="false" />
