@@ -78,6 +78,7 @@
           <value>
             <list>
               <option value="/generate unit test" />
+              <option value="我在用 mockk" />
             </list>
           </value>
         </entry>
