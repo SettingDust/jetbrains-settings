@@ -46,6 +46,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="Rework this to only filter type IDs other than for mc versions." />
       <item value="breadth" />
       <item value="Descending" />
       <item value="mandatory" />
@@ -95,13 +96,12 @@
       <item value="Registrar" />
       <item value=" F. whatever. who cares?&#10;" />
       <item value="Dangeling" />
-      <item value="blit" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="133" />
-        <entry key="CHINESE_SIMPLIFIED" value="4" />
-        <entry key="ENGLISH" value="138" />
+        <entry key="CHINESE_SIMPLIFIED" value="5" />
+        <entry key="ENGLISH" value="139" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
