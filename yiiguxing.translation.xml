@@ -46,6 +46,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="  TODO: Contemplate life, or rather, why is this a thing&#10;  TODO: No, seriously, why (actually, bec of how I designed the original yaml, but eh)" />
       <item value="Shifting like this is discouraged because it's brittle " />
       <item value="Rework this to only filter type IDs other than for mc versions." />
       <item value="breadth" />
@@ -95,13 +96,12 @@
       <item value="vessels" />
       <item value="Register" />
       <item value="Registrar" />
-      <item value=" F. whatever. who cares?&#10;" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="133" />
-        <entry key="CHINESE_SIMPLIFIED" value="6" />
-        <entry key="ENGLISH" value="139" />
+        <entry key="CHINESE_SIMPLIFIED" value="7" />
+        <entry key="ENGLISH" value="140" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
