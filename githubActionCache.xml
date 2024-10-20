@@ -51,7 +51,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="CHANGELOG.md" />
-                  <entry key="expiryTime" value="1730601751032" />
+                  <entry key="expiryTime" value="1730612555723" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
@@ -892,34 +892,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="compression-level" value="r[false] def[6]" />
-                  <entry key="if-no-files-found" value="r[false] def[warn]" />
-                  <entry key="include-hidden-files" value="r[false] def[false]" />
-                  <entry key="name" value="r[false] def[artifact] Artifact name" />
-                  <entry key="overwrite" value="r[false] def[false]" />
-                  <entry key="path" value="r[true]  A file, directory or wildcard pattern that describes what to upload" />
-                  <entry key="retention-days" value="r[false] " />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/upload-artifact/v4/action.yml" />
-                  <entry key="expiryTime" value="1729400688912" />
+                  <entry key="expiryTime" value="1730610387708" />
                   <entry key="githubUrl" value="https://github.com/actions/upload-artifact/tree/v4#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/upload-artifact" />
                   <entry key="usesValue" value="actions/upload-artifact@v4" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="artifact-id" value="" />
-                  <entry key="artifact-url" value="" />
                 </map>
               </option>
             </GitHubAction>
@@ -967,53 +951,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="commitSha" value="r[false]  SHA of commit" />
-                  <entry key="doNotFailIfNotFound" value="r[false] def[false] Set `1` or `true` to exit with code 0 if release not found" />
-                  <entry key="draft" value="r[false]  Filter by specified &quot;draft&quot; flag value. Left empty so as not to filter" />
-                  <entry key="latest" value="r[false]  Set `1` or `true` to get the latest release" />
-                  <entry key="prerelease" value="r[false]  Filter by specified &quot;prerelease&quot; flag value. Left empty so as not to filter" />
-                  <entry key="releaseId" value="r[false]  Release Id (number)" />
-                  <entry key="releaseName" value="r[false]  Release name (returns most recent found)" />
-                  <entry key="releaseNameRegEx" value="r[false]  Release name regex (returns most recent found)" />
-                  <entry key="repo" value="r[false]  Repository name in form of &quot;owner/name&quot;. Default: current repository." />
-                  <entry key="searchLimit" value="r[false]  Optional, default: `90`. If you use `commitSha` or `releaseName` inputs you can also specify how many releases action should retrieve to perform a search" />
-                  <entry key="tag" value="r[false]  Tag name" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/cardinalby/git-get-release-action/v1/action.yml" />
-                  <entry key="expiryTime" value="1729400688915" />
+                  <entry key="expiryTime" value="1730610387709" />
                   <entry key="githubUrl" value="https://github.com/cardinalby/git-get-release-action/tree/v1#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="cardinalby/git-get-release-action" />
                   <entry key="usesValue" value="cardinalby/git-get-release-action@v1" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="assets" value=" JSON of assets object" />
-                  <entry key="assets_url" value=" assets_url" />
-                  <entry key="author" value=" JSON of author object" />
-                  <entry key="created_at" value=" created_at" />
-                  <entry key="draft" value=" draft" />
-                  <entry key="html_url" value=" html_url" />
-                  <entry key="id" value=" id" />
-                  <entry key="name" value=" name" />
-                  <entry key="node_id" value=" node_id" />
-                  <entry key="prerelease" value=" prerelease" />
-                  <entry key="published_at" value=" published_at" />
-                  <entry key="tag_name" value=" tag_name" />
-                  <entry key="tarball_url" value=" tarball_url" />
-                  <entry key="target_commitish" value=" target_commitish" />
-                  <entry key="upload_url" value=" upload_url" />
-                  <entry key="url" value=" url" />
-                  <entry key="zipball_url" value=" zipball_url" />
                 </map>
               </option>
             </GitHubAction>
@@ -1044,38 +993,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="cancel_others" value="r[false] def[false] If true, then workflow runs from outdated commits will be cancelled" />
-                  <entry key="concurrent_skipping" value="r[true] def[never] One of never, same_content, same_content_newer, outdated_runs, always" />
-                  <entry key="do_not_skip" value="r[false] def[[&quot;workflow_dispatch&quot;, &quot;schedule&quot;, &quot;merge_group&quot;]] A JSON-array with triggers that should never be skipped" />
-                  <entry key="github_token" value="r[true] def[${{ github.token }}] Your GitHub Access Token" />
-                  <entry key="paths" value="r[false] def[[]] A JSON-array with path patterns" />
-                  <entry key="paths_filter" value="r[false]  A YAML-string with named paths_ignore/paths patterns" />
-                  <entry key="paths_ignore" value="r[false] def[[]] A JSON-array with ignored path patterns" />
-                  <entry key="skip_after_successful_duplicate" value="r[false] def[true] If true, skip if an already finished duplicate run can be found" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/fkirc/skip-duplicate-actions/v5/action.yml" />
-                  <entry key="expiryTime" value="1729400688912" />
+                  <entry key="expiryTime" value="1730610387709" />
                   <entry key="githubUrl" value="https://github.com/fkirc/skip-duplicate-actions/tree/v5#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="fkirc/skip-duplicate-actions" />
                   <entry key="usesValue" value="fkirc/skip-duplicate-actions@v5" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="changed_files" value=" A two-dimensional array, with a list of changed files for each commit that was traced back" />
-                  <entry key="paths_result" value=" Returns information for each configured filter in paths_filter" />
-                  <entry key="reason" value=" The reason why the current run is considered skippable or unskippable" />
-                  <entry key="should_skip" value=" Returns true if the current run should be skipped according to your configured rules" />
-                  <entry key="skipped_by" value=" Returns information about the workflow run which caused the current run to be skipped" />
                 </map>
               </option>
             </GitHubAction>
@@ -1446,30 +1375,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="all" value="r[false] def[false] A flag to read and output all the properties from the file" />
-                  <entry key="default" value="r[false]  A value to return in case of any errors" />
-                  <entry key="file" value="r[true]  A file to read" />
-                  <entry key="property" value="r[false]  A property to read from the file" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/madhead/read-java-properties/latest/action.yml" />
-                  <entry key="expiryTime" value="1729400688915" />
+                  <entry key="expiryTime" value="1730610387709" />
                   <entry key="githubUrl" value="https://github.com/madhead/read-java-properties/tree/latest#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="madhead/read-java-properties" />
                   <entry key="usesValue" value="madhead/read-java-properties@latest" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="value" value=" Property's value" />
                 </map>
               </option>
             </GitHubAction>
@@ -1646,56 +1563,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="allowUpdates" value="r[false]  An optional flag which indicates if we should update a release if it already exists. Defaults to false." />
-                  <entry key="artifact" value="r[false]  An optional set of paths representing artifacts to upload to the release. This may be a single path or a comma delimited list of paths (or globs)" />
-                  <entry key="artifactContentType" value="r[false]  The content type of the artifact. Defaults to raw" />
-                  <entry key="artifactErrorsFailBuild" value="r[false]  An optional flag which indicates if artifact read or upload errors should fail the build." />
-                  <entry key="artifacts" value="r[false]  An optional set of paths representing artifacts to upload to the release. This may be a single path or a comma delimited list of paths (or globs)" />
-                  <entry key="body" value="r[false]  An optional body for the release." />
-                  <entry key="bodyFile" value="r[false]  An optional body file for the release. This should be the path to the file" />
-                  <entry key="commit" value="r[false]  An optional commit reference. This will be used to create the tag if it does not exist." />
-                  <entry key="discussionCategory" value="r[false]  When provided this will generate a discussion of the specified category. The category must exist otherwise this will cause the action to fail. This isn't used with draft releases" />
-                  <entry key="draft" value="r[false]  Optionally marks this release as a draft release. Set to true to enable." />
-                  <entry key="generateReleaseNotes" value="r[false] def[false] Indicates if release notes should be automatically generated." />
-                  <entry key="makeLatest" value="r[false] def[legacy] Indicates if the release should be the &quot;latest&quot; release or not." />
-                  <entry key="name" value="r[false]  An optional name for the release. If this is omitted the tag will be used." />
-                  <entry key="omitBody" value="r[false] def[false] Indicates if the release body should be omitted." />
-                  <entry key="omitBodyDuringUpdate" value="r[false] def[false] Indicates if the release body should be omitted during updates. The body will still be applied for newly created releases. This will preserve the existing body during updates." />
-                  <entry key="omitDraftDuringUpdate" value="r[false] def[false] Indicates if the draft flag should be omitted during updates. The draft flag will still be applied for newly created releases. This will preserve the existing draft state during updates." />
-                  <entry key="omitName" value="r[false] def[false] Indicates if the release name should be omitted." />
-                  <entry key="omitNameDuringUpdate" value="r[false] def[false] Indicates if the release name should be omitted during updates. The name will still be applied for newly created releases. This will preserve the existing name during updates." />
-                  <entry key="omitPrereleaseDuringUpdate" value="r[false] def[false] Indicates if the prerelease flag should be omitted during updates. The prerelease flag will still be applied for newly created releases. This will preserve the existing prerelease state during updates." />
-                  <entry key="owner" value="r[false]  Optionally specify the owner of the repo where the release should be generated. Defaults to current repo's owner." />
-                  <entry key="prerelease" value="r[false]  Optionally marks this release as prerelease. Set to true to enable." />
-                  <entry key="removeArtifacts" value="r[false] def[false] Indicates if existing release artifacts should be removed, Defaults to false." />
-                  <entry key="replacesArtifacts" value="r[false] def[true] Indicates if existing release artifacts should be replaced. Defaults to true." />
-                  <entry key="repo" value="r[false]  Optionally specify the repo where the release should be generated. Defaults to current repo" />
-                  <entry key="skipIfReleaseExists" value="r[false] def[false] When skipIfReleaseExists is enabled the action will be skipped if a non-draft release already exists for the provided tag." />
-                  <entry key="tag" value="r[false]  An optional tag for the release. If this is omitted the git ref will be used (if it is a tag)." />
-                  <entry key="token" value="r[false] def[${{ github.token }}] The Github token." />
-                  <entry key="updateOnlyUnreleased" value="r[false] def[false] When allowUpdates is enabled, this will fail the action if the release it is updating is not a draft or a prerelease." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/ncipollo/release-action/v1.14.0/action.yml" />
-                  <entry key="expiryTime" value="1729400688915" />
+                  <entry key="expiryTime" value="1730610387709" />
                   <entry key="githubUrl" value="https://github.com/ncipollo/release-action/tree/v1.14.0#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="ncipollo/release-action" />
                   <entry key="usesValue" value="ncipollo/release-action@v1.14.0" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="html_url" value=" The HTML URL of the release." />
-                  <entry key="id" value=" The identifier of the created release." />
-                  <entry key="upload_url" value=" The URL for uploading assets to the release." />
                 </map>
               </option>
             </GitHubAction>
