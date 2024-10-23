@@ -37,6 +37,7 @@
           <value>
             <list>
               <option value="把这个类转换成记录" />
+              <option value="把这个类也和其他几个网络包类一样升级" />
             </list>
           </value>
         </entry>
