@@ -64,7 +64,7 @@
         </KotlinGradleVersionMapping>
       </list>
     </option>
-    <option name="ideVersion" value="2024.2.3" />
+    <option name="ideVersion" value="2024.2.4" />
     <option name="kotlinVersions">
       <list>
         <option value="2.0.20" />
@@ -101,7 +101,7 @@
     </option>
   </component>
   <component name="KotlinWizardDependencyVersionStore">
-    <option name="ideVersion" value="2024.2.3" />
+    <option name="ideVersion" value="2024.2.4" />
     <option name="versions">
       <map>
         <entry key="androidx.activity:activity-compose" value="1.7.2" />
@@ -135,7 +135,7 @@
     <option name="failsafeVersion" value="2.22.2" />
     <option name="foojayVersion" value="0.8.0" />
     <option name="gradleAndroidVersion" value="8.1.0" />
-    <option name="ideVersion" value="2024.2.3" />
+    <option name="ideVersion" value="2024.2.4" />
     <option name="kotlinForComposeVersion" value="1.7.20" />
     <option name="kotlinPluginVersion" value="2.0.20" />
     <option name="minGradleFoojayVersion" value="7.6" />
