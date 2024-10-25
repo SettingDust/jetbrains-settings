@@ -90,6 +90,23 @@
             </list>
           </value>
         </entry>
+        <entry key="TheAbyss|1687537503358964">
+          <value>
+            <list>
+              <option value="/explain code" />
+            </list>
+          </value>
+        </entry>
+        <entry key="World In Mongo|1687537503358964">
+          <value>
+            <list>
+              <option value="生成一个 kotlin serializer" />
+              <option value="给这个类生成相应的 kotlin serializer" />
+              <option value="给这个类生成相应的 KSerializer" />
+              <option value="给这个类生成相应的 KSerializer 类" />
+            </list>
+          </value>
+        </entry>
         <entry key="dawncraft-fixes|1687537503358964">
           <value>
             <list>
