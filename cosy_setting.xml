@@ -104,6 +104,7 @@
               <option value="给这个类生成相应的 kotlin serializer" />
               <option value="给这个类生成相应的 KSerializer" />
               <option value="给这个类生成相应的 KSerializer 类" />
+              <option value="/explain code" />
             </list>
           </value>
         </entry>
