@@ -105,6 +105,7 @@
               <option value="给这个类生成相应的 KSerializer" />
               <option value="给这个类生成相应的 KSerializer 类" />
               <option value="/explain code" />
+              <option value="输入 4 和 8 结果是什么" />
             </list>
           </value>
         </entry>
