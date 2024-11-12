@@ -78,6 +78,7 @@
           <value>
             <list>
               <option value="/explain code" />
+              <option value="/generate optimization" />
             </list>
           </value>
         </entry>
