@@ -106,6 +106,14 @@
             </list>
           </value>
         </entry>
+        <entry key="PlayerWorlds|1687537503358964">
+          <value>
+            <list>
+              <option value="反混淆一下这个代码" />
+              <option value="给这些函数生成名字" />
+            </list>
+          </value>
+        </entry>
         <entry key="TheAbyss|1687537503358964">
           <value>
             <list>
@@ -122,6 +130,8 @@
               <option value="给这个类生成相应的 KSerializer 类" />
               <option value="/explain code" />
               <option value="输入 4 和 8 结果是什么" />
+              <option value="/explain code" />
+              <option value="升序排序是越大的在越前面吗" />
             </list>
           </value>
         </entry>
