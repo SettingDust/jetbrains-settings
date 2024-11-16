@@ -2,15 +2,11 @@
   <component name="FileTypeManager" version="19">
     <extensionMap>
       <mapping pattern="LICENSE" type="AUTO_DETECTED" />
-      <mapping pattern="accesstransformer.cfg" type="Access Transformers" />
-      <mapping pattern="thaumicaugmentation_at.cfg" type="Access Transformers" />
       <mapping ext="hocon" type="HOCON" />
-      <mapping pattern="*.png.mcmeta" type="JSON" />
       <mapping pattern="*.json.patch" type="JSON" />
+      <mapping pattern="*.png.mcmeta" type="JSON" />
       <mapping pattern="pack.mcmeta" type="JSON" />
       <mapping pattern="mcmod.info" type="JSON" />
-      <mapping ext="mca" type="NBT" />
-      <mapping ext="dat" type="NBT" />
       <mapping pattern=".env.template" type="PLAIN_TEXT" />
       <mapping ext="idx" type="PLAIN_TEXT" />
       <mapping ext="bin" type="PLAIN_TEXT" />
@@ -23,7 +19,11 @@
       <removed_mapping ext="nbt" approved="true" type="Minecraft NBT" />
       <removed_mapping ext="pdf" approved="true" type="Native" />
       <removed_mapping ext="psd" approved="true" type="Image" />
+      <mapping ext="dat" type="NBT" />
+      <mapping ext="mca" type="NBT" />
       <mapping ext="plantuml" type="PlantUML file" />
+      <mapping pattern="accesstransformer.cfg" type="Access Transformers" />
+      <mapping pattern="thaumicaugmentation_at.cfg" type="Access Transformers" />
     </extensionMap>
   </component>
 </application>
