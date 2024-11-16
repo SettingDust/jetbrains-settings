@@ -46,12 +46,12 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="numerator" />
       <item value="Negotiation" />
       <item value="re entrance" />
       <item value="does what ModLauncher does, but ahead of time." />
       <item value="formed" />
       <item value="exclusive screaming because i have no internet or data whatsoever&#10;" />
-      <item value="numerator" />
       <item value="pending" />
       <item value="FINER" />
       <item value="e" />
@@ -100,8 +100,8 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="133" />
-        <entry key="CHINESE_SIMPLIFIED" value="17" />
-        <entry key="ENGLISH" value="148" />
+        <entry key="CHINESE_SIMPLIFIED" value="18" />
+        <entry key="ENGLISH" value="149" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
