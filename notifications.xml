@@ -1,5 +1,6 @@
 <application>
   <component name="NotificationConfiguration">
+    <notification groupId="Activity Watcher" displayType="NONE" />
     <notification groupId="Translation Plugin" displayType="NONE" />
   </component>
 </application>
