@@ -46,6 +46,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="物品栏和中键选取逻辑一致" />
       <item value="The operation is intermediate and stateful." />
       <item value="Conversion" />
       <item value="It's not rigorous at all, and it's not a value that anyone except me can refer to, because I'm too lazy.  &#10;" />
@@ -95,12 +96,11 @@
       <item value="bush" />
       <item value="sprout" />
       <item value="leaf pile" />
-      <item value="flower patch" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="133" />
-        <entry key="CHINESE_SIMPLIFIED" value="23" />
+        <entry key="CHINESE_SIMPLIFIED" value="24" />
         <entry key="ENGLISH" value="153" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
