@@ -46,6 +46,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="Conversion" />
       <item value="It's not rigorous at all, and it's not a value that anyone except me can refer to, because I'm too lazy.  &#10;" />
       <item value="It's not rigorous at all, and it's not a value that anyone beside me can refer to, because I'm too lazy.  &#10;" />
       <item value="一点都不严谨，也不是任何人可参考的数值，因为我也懒" />
@@ -95,13 +96,12 @@
       <item value="leaf pile" />
       <item value="flower patch" />
       <item value="clover" />
-      <item value="Frogspawn" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="133" />
-        <entry key="CHINESE_SIMPLIFIED" value="21" />
-        <entry key="ENGLISH" value="151" />
+        <entry key="CHINESE_SIMPLIFIED" value="22" />
+        <entry key="ENGLISH" value="152" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
