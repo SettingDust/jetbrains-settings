@@ -46,9 +46,10 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="snap" />
+      <item value="Discrete" />
       <item value="discrete" />
       <item value="vetoable" />
-      <item value="Discrete" />
       <item value="no good? no, this man is definitely up to evil" />
       <item value="物品栏和中键选取逻辑一致" />
       <item value="The operation is intermediate and stateful." />
@@ -95,13 +96,12 @@
       <item value=" Ravine" />
       <item value="lerp to" />
       <item value="lerp" />
-      <item value="拉伸" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="133" />
-        <entry key="CHINESE_SIMPLIFIED" value="28" />
-        <entry key="ENGLISH" value="157" />
+        <entry key="CHINESE_SIMPLIFIED" value="30" />
+        <entry key="ENGLISH" value="159" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
