@@ -46,6 +46,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="discrete" />
       <item value="vetoable" />
       <item value="Discrete" />
       <item value="no good? no, this man is definitely up to evil" />
@@ -95,13 +96,12 @@
       <item value="lerp to" />
       <item value="lerp" />
       <item value="拉伸" />
-      <item value="也就是边框内边距离左边和顶边的距离" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="133" />
-        <entry key="CHINESE_SIMPLIFIED" value="27" />
-        <entry key="ENGLISH" value="156" />
+        <entry key="CHINESE_SIMPLIFIED" value="28" />
+        <entry key="ENGLISH" value="157" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
