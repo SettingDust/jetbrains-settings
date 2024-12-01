@@ -132,6 +132,9 @@
       </filter>
     </Renderer>
   </component>
+  <component name="ThreadsViewSettings">
+    <option name="SHOW_PACKAGE_NAME" value="false" />
+  </component>
   <component name="XDebuggerSettings">
     <data-views>
       <option name="showLibraryStackFrames" value="true" />
