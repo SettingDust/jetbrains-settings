@@ -1,5 +1,8 @@
 <application>
   <component name="CosySettings">
+    <option name="commitMessageLanguage" value="en" />
+    <option name="dedicatedDomainUrl" value="" />
+    <option name="localStoragePath" value="C:\Users\WINDOWS\.lingma" />
     <option name="manualOpenLocalModel" value="true" />
     <option name="parameter">
       <ChangeUserSettingParams>
