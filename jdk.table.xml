@@ -335,7 +335,7 @@
     <jdk version="2">
       <name value="graalvm-17" />
       <type value="JavaSDK" />
-      <version value="GraalVM 22.3.3 - Java 17.0.8" />
+      <version value="GraalVM 17.0.8 - VM 22.3.3" />
       <homePath value="D:/Applications/GraalVM/graalvm-ee-java17-22.3.3" />
       <roots>
         <annotationsPath>
