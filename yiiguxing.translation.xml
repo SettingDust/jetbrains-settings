@@ -46,6 +46,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="Mumfrey, look away." />
       <item value="arbitrary" />
       <item value="显著提升" />
       <item value="state flow" />
@@ -95,13 +96,12 @@
       <item value="As opposed to shadow, we do not filter out our entries early!, So we need to handle them accordingly." />
       <item value="o" />
       <item value="Dynamic" />
-      <item value="intrusive" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="133" />
-        <entry key="CHINESE_SIMPLIFIED" value="32" />
-        <entry key="ENGLISH" value="160" />
+        <entry key="CHINESE_SIMPLIFIED" value="33" />
+        <entry key="ENGLISH" value="161" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
