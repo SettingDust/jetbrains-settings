@@ -1,0 +1,16 @@
+<application>
+  <component name="CodeGPT_OllamaSettings_210">
+    <option name="availableModels">
+      <list>
+        <option value="mistral:latest" />
+        <option value="qwen:7b" />
+        <option value="qwen:latest" />
+        <option value="qwen2.5-coder:14b" />
+        <option value="wizardlm2:7b" />
+      </list>
+    </option>
+    <option name="codeCompletionsEnabled" value="true" />
+    <option name="fimTemplate" value="CodeQwen2.5" />
+    <option name="model" value="qwen2.5-coder:14b" />
+  </component>
+</application>

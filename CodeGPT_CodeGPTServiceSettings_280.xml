@@ -1,0 +1,15 @@
+<application>
+  <component name="CodeGPT_CodeGPTServiceSettings_280">
+    <option name="chatCompletionSettings">
+      <CodeGPTServiceChatCompletionSettingsState>
+        <option name="model" value="qwen-2.5-32b-chat" />
+      </CodeGPTServiceChatCompletionSettingsState>
+    </option>
+    <option name="codeCompletionSettings">
+      <CodeGPTServiceCodeCompletionSettingsState>
+        <option name="codeCompletionsEnabled" value="true" />
+        <option name="model" value="qwen-2.5-32b-code" />
+      </CodeGPTServiceCodeCompletionSettingsState>
+    </option>
+  </component>
+</application>
