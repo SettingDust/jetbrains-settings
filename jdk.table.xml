@@ -1382,7 +1382,7 @@
     <jdk version="2">
       <name value="graalvm-ce-17" />
       <type value="JavaSDK" />
-      <version value="GraalVM CE 22.3.2 - Java 17.0.7" />
+      <version value="GraalVM CE 17.0.7 - VM 22.3.2" />
       <homePath value="D:/Applications/Scoop/apps/graalvm-jdk17/current" />
       <roots>
         <annotationsPath>
