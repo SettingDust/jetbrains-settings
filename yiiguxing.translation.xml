@@ -32,7 +32,7 @@
     <option name="translateDocumentation" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1734238691958" />
+    <option name="lastTrimTime" value="1734934800594" />
   </component>
   <component name="Translation.Settings">
     <option name="keepFormat" value="true" />
@@ -46,6 +46,8 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="peril" />
+      <item value="This mapping 'stable_39' was designed for MC 1.12! Use at your own peril.&#10;" />
       <item value="Mumfrey, look away." />
       <item value="arbitrary" />
       <item value="显著提升" />
@@ -94,14 +96,12 @@
       <item value="Occurrences" />
       <item value="SMITHING" />
       <item value="As opposed to shadow, we do not filter out our entries early!, So we need to handle them accordingly." />
-      <item value="o" />
-      <item value="Dynamic" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="133" />
-        <entry key="CHINESE_SIMPLIFIED" value="33" />
-        <entry key="ENGLISH" value="161" />
+        <entry key="CHINESE_SIMPLIFIED" value="35" />
+        <entry key="ENGLISH" value="163" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
