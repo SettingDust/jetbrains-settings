@@ -264,6 +264,38 @@
             </list>
           </value>
         </entry>
+        <entry key="World In Mongo|1687537503358964">
+          <value>
+            <list>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="public class CraftServerTransformer implements IClassTransformer {&#10;    public byte[] transform(String name, String transformedName, byte[] basicClass) {&#10;        if (&quot;org.bukkit.craftbukkit.v1_12_R1.CraftServer&quot;.equals(transformedName)) {&#10;            ClassReader classReader = new ClassReader(basicClass);&#10;            ClassWriter writer = new ClassWriter(3);&#10;            classReader.accept(new ClassVisitor(327680, writer) { // from class: dev.ginyai.bukkit.getofflineplayertweak.asm.CraftServerTransformer.1&#10;                public MethodVisitor visitMethod(int access, String name2, String desc, String signature, String[] exceptions) {&#10;                    if (&quot;getOfflinePlayer&quot;.equals(name2) &amp;&amp; &quot;(Ljava/lang/String;)Lorg/bukkit/OfflinePlayer;&quot;.equals(desc)) {&#10;                        return new MethodVisitor(327680, super.visitMethod(access, name2, desc, signature, exceptions)) { // from class: dev.ginyai.bukkit.getofflineplayertweak.asm.CraftServerTransformer.1.1&#10;                            private boolean init = false;&#10;&#10;                            public void visitLabel(Label label) {&#10;                                super.visitLabel(label);&#10;                                if (!this.init) {&#10;                                    this.init = true;&#10;                                    super.visitVarInsn(25, 0);&#10;                                    super.visitVarInsn(25, 1);&#10;                                    super.visitMethodInsn(184, &quot;dev/ginyai/bukkit/getofflineplayertweak/Methods&quot;, &quot;getOfflinePlayer&quot;, &quot;(Lorg/bukkit/craftbukkit/v1_12_R1/CraftServer;Ljava/lang/String;)Lorg/bukkit/OfflinePlayer;&quot;, false);&#10;                                    super.visitInsn(176);&#10;                                }&#10;                            }&#10;                        };&#10;                    }&#10;                    return super.visitMethod(access, name2, desc, signature, exceptions);&#10;                }&#10;            }, 8);&#10;            return writer.toByteArray();&#10;        }&#10;        return basicClass;&#10;    }&#10;}&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="package dev.ginyai.mod.tweakbypassworldbordercheck.asm;&#10;&#10;import net.minecraft.launchwrapper.IClassTransformer;&#10;import net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper;&#10;import org.objectweb.asm.ClassReader;&#10;import org.objectweb.asm.ClassVisitor;&#10;import org.objectweb.asm.ClassWriter;&#10;import org.objectweb.asm.MethodVisitor;&#10;&#10;/* loaded from: Ginyai-优化-TweakBypassWorldBorderCheck-0.1.0_b1.jar:dev/ginyai/mod/tweakbypassworldbordercheck/asm/Transformer.class */&#10;public class Transformer implements IClassTransformer {&#10;    public byte[] transform(String name, String transformedName, byte[] basicClass) {&#10;        if (&quot;net.minecraft.world.World&quot;.equals(transformedName)) {&#10;            Plugin.logger.info(&quot;Find target class: {}.&quot;, transformedName);&#10;            ClassReader classReader = new ClassReader(basicClass);&#10;            ClassWriter classWriter = new ClassWriter(3);&#10;            classReader.accept(new ClassVisitor(327680, classWriter) { // from class: dev.ginyai.mod.tweakbypassworldbordercheck.asm.Transformer.1&#10;                public MethodVisitor visitMethod(int access, String name2, String desc, String signature, String[] exceptions) {&#10;                    if ((&quot;updateEntities&quot;.equals(name2) || &quot;func_72939_s&quot;.equals(name2)) &amp;&amp; &quot;()V&quot;.equals(desc)) {&#10;                        Plugin.logger.info(&quot;Find target method: {}{}.&quot;, name2, desc);&#10;                        final String containsMethodName = FMLDeobfuscatingRemapper.INSTANCE.mapMethodName(&quot;net/minecraft/world/border/WorldBorder&quot;, &quot;func_177746_a&quot;, &quot;(Lnet/minecraft/util/math/BlockPos;)Z&quot;);&#10;                        Plugin.logger.info(&quot;Deobf method name of damageItem: {}&quot;, containsMethodName);&#10;                        return new MethodVisitor(327680, super.visitMethod(access, name2, desc, signature, exceptions)) { // from class: dev.ginyai.mod.tweakbypassworldbordercheck.asm.Transformer.1.1&#10;                            public void visitMethodInsn(int opcode, String owner, String name3, String desc2, boolean itf) {&#10;                                if (182 == opcode &amp;&amp; &quot;net/minecraft/world/border/WorldBorder&quot;.equals(owner) &amp;&amp; containsMethodName.equals(name3) &amp;&amp; &quot;(Lnet/minecraft/util/math/BlockPos;)Z&quot;.equals(desc2)) {&#10;                                    Plugin.logger.info(&quot;Find target point {}.{}{}.&quot;, owner, name3, desc2);&#10;                                    super.visitMethodInsn(184, &quot;dev/ginyai/mod/tweakbypassworldbordercheck/asm/Methods&quot;, &quot;onContains&quot;, &quot;(Lnet/minecraft/world/border/WorldBorder;Lnet/minecraft/util/math/BlockPos;)Z&quot;, false);&#10;                                } else {&#10;                                    super.visitMethodInsn(opcode, owner, name3, desc2, itf);&#10;                                }&#10;                            }&#10;                        };&#10;                    }&#10;                    return super.visitMethod(access, name2, desc, signature, exceptions);&#10;                }&#10;            }, 8);&#10;            return classWriter.toByteArray();&#10;        }&#10;        return basicClass;&#10;    }&#10;}&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+            </list>
+          </value>
+        </entry>
         <entry key="Worldgen Sampler|1687537503358964">
           <value>
             <list>
