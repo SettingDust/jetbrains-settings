@@ -819,6 +819,32 @@
                   <list />
                 </option>
               </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="            for (Map.Entry&lt;ResolvedModule, Set&lt;ResolvedModule&gt;&gt; e : g1.entrySet()) {&#10;                ResolvedModule m1 = e.getKey();&#10;                // automatic module already reads all selected modules so nothing to propagate&#10;                if (!m1.descriptor().isAutomatic()) {&#10;                    Set&lt;ResolvedModule&gt; m1Reads = e.getValue();&#10;                    for (ResolvedModule m2 : m1Reads) {&#10;                        Set&lt;ResolvedModule&gt; m2RequiresTransitive = g2.get(m2);&#10;                        if (m2RequiresTransitive != null) {&#10;                            for (ResolvedModule m3 : m2RequiresTransitive) {&#10;                                if (!m1Reads.contains(m3)) {&#10;                                    // m1 reads m2, m2 requires transitive m3&#10;                                    // =&gt; need to add m1 reads m3&#10;                                    toAdd.add(m3);&#10;                                }&#10;                            }&#10;                        }&#10;                    }&#10;                    if (!toAdd.isEmpty()) {&#10;                        m1Reads.addAll(toAdd);&#10;                        toAdd.clear();&#10;                        changed = true;&#10;                    }&#10;                }&#10;            }&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="用 asm tree api 把这段代码转换成下面的逻辑             for (Map.Entry&lt;ResolvedModule, Set&lt;ResolvedModule&gt;&gt; e : g1.entrySet()) {&#10;                ResolvedModule m1 = e.getKey();&#10;                // automatic module already reads all selected modules so nothing to propagate&#10;                if (!m1.descriptor().isAutomatic()) {&#10;                    Set&lt;ResolvedModule&gt; m1Reads = e.getValue();&#10;                    for (ResolvedModule m2 : m1Reads) {&#10;                        Set&lt;ResolvedModule&gt; m2RequiresTransitive = g2.get(m2);&#10;                        if (m2RequiresTransitive != null) {&#10;                            for (ResolvedModule m3 : m2RequiresTransitive) {&#10;                                if (!m1Reads.contains(m3)) {&#10;                                    // m1 reads m2, m2 requires transitive m3&#10;                                    // =&gt; need to add m1 reads m3&#10;                                    toAdd.add(m3);&#10;                                }&#10;                            }&#10;                        }&#10;                    }&#10;                    if (!toAdd.isEmpty()) {&#10;                        m1Reads.addAll(toAdd);&#10;                        toAdd.clear();&#10;                        changed = true;&#10;                    }&#10;                }&#10;            }" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
             </list>
           </value>
         </entry>
