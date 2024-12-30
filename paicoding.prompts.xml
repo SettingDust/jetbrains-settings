@@ -84,6 +84,14 @@
           <option name="gmtModified" value="1718946684873" />
         </promptsEntry>
         <promptsEntry>
+          <option name="id" value="eaad899a-1951-4c7a-ab5e-65e594f5c559" />
+          <option name="name" value="Basic" />
+          <option name="prompt" value="#set($h3 = '###')&#10;As an assistant with coding expertise, your goal is to resolve code inspection warnings. When helping users, follow these rules:&#10;&#10;- You must strictly focus on and resolve this particular warning only.&#10;- You must only refer to any additional details or code snippets provided by the user if they are crucial for addressing the identified warning.&#10;- You must avoid mentioning or drawing from the code attachments if they do not contribute directly to resolving the specific warning.&#10;- Only if absolutely necessary, provide a revised version of the user's code that effectively resolves the identified warning without introducing any new ones.&#10;- The moment you provide revised code, it signifies the end of your reply. After this point, you must not add any further explanations or sentences.&#10;- You must only provide the lines of code you've corrected. You must not include the entire code or function unless each line is modified.&#10;- Limit your assistance to the specific code inspection warning indicated by the user in their request. You must strictly avoid addressing any other potential warnings.&#10;- You must use the language `中文` to answer.&#10;&#10;Now, you must, following the instructions, $INSPECTION_MESSAGE&#10;```$CODE_LANGUAGE&#10;$CODE_CONTEXT&#10;```&#10;&#10;#if($ATTACHMENTS and $ATTACHMENTS.size() &gt; 0)##&#10;$h3 Consider the following declarations:##&#10;#foreach($attachment in $ATTACHMENTS)##&#10;&#10;@[file:$attachment.fileName]&#10;#end##&#10;#end##" />
+          <option name="category" value="AI_QUICK_FIX_ACTIONS" />
+          <option name="gmtCreated" value="1735538391436" />
+          <option name="gmtModified" value="1735538391436" />
+        </promptsEntry>
+        <promptsEntry>
           <option name="id" value="70b546fc-fcc2-467e-b4f6-50585f81a073" />
           <option name="name" value="Java" />
           <option name="prompt" value="Write `$NEW_FILE_NAME` tests for the `$METHOD_NAME` method in the `$FILE_NAME` class.&#10;&#10;Guideline:&#10;```&#10;- You must use the language `$LOCALE_LANGUAGE` to answer.&#10;- Write a description of the class and the method being tested.&#10;- Test file should be complete and compilable, without need for further actions.&#10;- Ensure that each test focuses on a single use case to maintain clarity and readability.&#10;- Instead of using `@BeforeEach` methods for setup, include all necessary code initialization within each individual test method, do not write parametrized tests.&#10;#if($IS_SPRING_RELATED == 'true')##&#10;- Use appropriate Spring test annotations such as `@MockBean`, `@Autowired`, `@WebMvcTest`, `@DataJpaTest`, `@AutoConfigureTestDatabase`, `@AutoConfigureMockMvc`, `@SpringBootTest` etc.&#10;- Follow the common Spring code style by using the AssertJ library.&#10;- Assume that the database is empty before each test and create valid entities with consideration for data constraints (jakarta.validation.constraints).&#10;#end##&#10;```&#10;&#10;$CODE_CONTEXT&#10;&#10;$RELATED_CODE_CONTEXT" />
@@ -102,6 +110,36 @@
           <option name="gmtCreated" value="1718946684877" />
           <option name="gmtModified" value="1718946684877" />
           <option name="language" value="Python" />
+        </promptsEntry>
+        <promptsEntry>
+          <option name="id" value="32b9e9be-37e6-4abc-9e3c-24344ff1e7e6" />
+          <option name="name" value="Java" />
+          <option name="prompt" value="Write documentation for given $OBJECT_TYPE $OBJECT_VALUE.&#10;&#10;Do not return example code, do not use @author or @version or @since tags.&#10;DO NOT generate example usage.&#10;DO NOT generate usage example.&#10;DO NOT use html tags such as &lt;p&gt;, &lt;lu&gt;, &lt;li&gt;.&#10;DO NOT generate documentation for type member properties.&#10;You must use the language `$LOCALE_LANGUAGE` to answer.&#10;&#10;Write Java docstring.&#10;&#10;```$CODE_LANGUAGE&#10;$CODE_CONTEXT&#10;```" />
+          <option name="waitForInput" value="false" />
+          <option name="category" value="DOCUMENTATION_GENERATION_ACTIONS" />
+          <option name="gmtCreated" value="1735538391448" />
+          <option name="gmtModified" value="1735538391448" />
+          <option name="language" value="JAVA" />
+        </promptsEntry>
+        <promptsEntry>
+          <option name="id" value="f941364e-cf04-4f64-9220-91826b8728b1" />
+          <option name="name" value="Python" />
+          <option name="prompt" value="Write documentation for given $OBJECT_TYPE $OBJECT_VALUE.&#10;&#10;Do not return example code, do not use @author or @version or @since tags.&#10;DO NOT generate example usage.&#10;DO NOT generate usage example.&#10;DO NOT use html tags such as &lt;p&gt;, &lt;lu&gt;, &lt;li&gt;.&#10;DO NOT generate documentation for type member properties.&#10;You must use the language `$LOCALE_LANGUAGE` to answer.&#10;&#10;Write Python docstring.&#10;&#10;```$CODE_LANGUAGE&#10;$CODE_CONTEXT&#10;```" />
+          <option name="waitForInput" value="false" />
+          <option name="category" value="DOCUMENTATION_GENERATION_ACTIONS" />
+          <option name="gmtCreated" value="1735538391448" />
+          <option name="gmtModified" value="1735538391448" />
+          <option name="language" value="Python" />
+        </promptsEntry>
+        <promptsEntry>
+          <option name="id" value="3587a7c5-b53d-4223-acac-92c17e21bb17" />
+          <option name="name" value="Kotlin" />
+          <option name="prompt" value="Write documentation for given $OBJECT_TYPE $OBJECT_VALUE.&#10;&#10;Do not return example code, do not use @author or @version or @since tags.&#10;DO NOT generate example usage.&#10;DO NOT generate usage example.&#10;DO NOT use html tags such as &lt;p&gt;, &lt;lu&gt;, &lt;li&gt;.&#10;DO NOT generate documentation for type member properties.&#10;You must use the language `$LOCALE_LANGUAGE` to answer.&#10;&#10;Write Kotlin docstring.&#10;&#10;```$CODE_LANGUAGE&#10;$CODE_CONTEXT&#10;```" />
+          <option name="waitForInput" value="false" />
+          <option name="category" value="DOCUMENTATION_GENERATION_ACTIONS" />
+          <option name="gmtCreated" value="1735538391448" />
+          <option name="gmtModified" value="1735538391448" />
+          <option name="language" value="kotlin" />
         </promptsEntry>
       </list>
     </option>

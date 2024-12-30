@@ -5,15 +5,23 @@
         <providers>
           <provider name="Custom" isEnable="true" />
           <provider name="OpenAI" isEnable="true" />
-          <provider name="Cursor" isEnable="true" />
           <provider name="Ollama" isEnable="true" />
           <provider name="Bing" isEnable="true" />
           <provider name="Claude" isEnable="true" />
           <provider name="Coze" isEnable="true" />
-          <provider name="You" isEnable="true" />
           <provider name="QianFan" isEnable="true" />
           <provider name="Gemini" isEnable="true" />
           <provider name="Kimi" isEnable="true" />
+          <provider name="Groq" isEnable="true" />
+          <provider name="Anthropic" isEnable="true" />
+          <provider name="DeepSeek" isEnable="true" />
+          <provider name="Mistral" isEnable="true" />
+          <provider name="Nvidia" isEnable="true" />
+          <provider name="Cohere" isEnable="true" />
+          <provider name="Cody" isEnable="true" />
+          <provider name="xAI" isEnable="true" />
+          <provider name="HuggingFace" isEnable="true" />
+          <provider name="SiliconFlow" isEnable="true" />
         </providers>
       </refactoringName>
     </option>

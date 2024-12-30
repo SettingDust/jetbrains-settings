@@ -1,6 +1,7 @@
 <application>
   <component name="providerServers">
     <Ollama id="60eeffc4-9645-4bc3-9628-4353f23382d9" url="http://localhost:11434">
+      <headers />
       <option name="model" value="mistral:latest" />
       <option name="temperature" value="0.8" />
       <option name="topP" value="0.9" />
@@ -9,7 +10,7 @@
       <option name="useHttpAuthentication" value="false" />
       <option name="connectTimeout" value="30" />
       <option name="loginAnonymously" value="false" />
-      <option name="default" value="true" />
+      <option name="default" value="false" />
       <option name="codeCompletionsDefault" value="false" />
       <codeCompletionsRepository>
         <codeCompletions codeBlockStartingRegex="CODE_TO_INSERT((?!```).)\s*```[a-zA-Z\d]*\s" attachmentsMaxToken="2800">
@@ -28,7 +29,39 @@
           </promptsEntry>
         </codeCompletions>
       </codeCompletionsRepository>
+      <aiModel>
+        <AIModel model="mistral:latest" temperature="0.8" topP="0.9" topK="40" />
+      </aiModel>
       <option name="ext" />
     </Ollama>
+    <DeepSeek id="87dcbd5e-31bf-47a0-af84-1da70ca8e81f" url="https://api.deepseek.com">
+      <option name="username" value="" />
+      <option name="useHttpAuthentication" value="false" />
+      <option name="connectTimeout" value="10" />
+      <option name="loginAnonymously" value="false" />
+      <option name="default" value="true" />
+      <option name="codeCompletionsDefault" value="false" />
+      <codeCompletionsRepository>
+        <codeCompletions attachmentsMaxToken="2800" completionMaxTokens="2800">
+          <promptsEntry>
+            <promptsEntry>
+              <option name="id" value="ad53f1a2-c4ec-4a9b-b9a9-a6cad8529c29" />
+              <option name="name" value="" />
+              <option name="prompt" value="" />
+              <option name="waitForInput" value="true" />
+              <option name="category" value="CODE_COMPLETIONS_ACTIONS" />
+              <option name="enabled" value="true" />
+              <option name="gmtCreated" value="1735538673212" />
+              <option name="gmtModified" value="1735538673212" />
+              <option name="language" />
+            </promptsEntry>
+          </promptsEntry>
+        </codeCompletions>
+      </codeCompletionsRepository>
+      <aiModel>
+        <AIModel model="deepseek-coder" temperature="1.0" topP="1.0" />
+      </aiModel>
+      <option name="ext" />
+    </DeepSeek>
   </component>
 </application>
