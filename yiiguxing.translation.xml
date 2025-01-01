@@ -46,6 +46,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="Note that the operation is not guaranteed to be atomic if the map is being modified concurrently." />
       <item value="drain" />
       <item value="draw" />
       <item value="peril" />
@@ -95,13 +96,12 @@
       <item value="Relevant" />
       <item value="BARTER" />
       <item value="Epoll" />
-      <item value="Occurrences" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="133" />
-        <entry key="CHINESE_SIMPLIFIED" value="37" />
-        <entry key="ENGLISH" value="165" />
+        <entry key="CHINESE_SIMPLIFIED" value="38" />
+        <entry key="ENGLISH" value="166" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
