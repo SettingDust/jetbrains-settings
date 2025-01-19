@@ -32,7 +32,7 @@
     <option name="translateDocumentation" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1736246698788" />
+    <option name="lastTrimTime" value="1737274772763" />
   </component>
   <component name="Translation.Settings">
     <option name="keepFormat" value="true" />
@@ -46,6 +46,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="The value of this type parameter should be mentioned in input types (argument types, receiver type or expected type)." />
       <item value="whilst" />
       <item value="Suspends the coroutine until this job is complete. This invocation resumes normally (without exception) when the job is complete for any reason and the Job of the invoking coroutine is still active. This function also starts the corresponding coroutine if the Job was still in new state.&#10;Note that the job becomes complete only when all its children are complete.&#10;This suspending function is cancellable and always checks for a cancellation of the invoking coroutine's Job. If the Job of the invoking coroutine is cancelled or completed when this suspending function is invoked or while it is suspended, this function throws CancellationException.&#10;In particular, it means that a parent coroutine invoking join on a child coroutine throws CancellationException if the child had failed, since a failure of a child coroutine cancels parent by default, unless the child was launched from within supervisorScope.&#10;This function can be used in select invocation with onJoin clause. Use isCompleted to check for a completion of this job without waiting.&#10;There is cancelAndJoin function that combines an invocation of cancel and join." />
       <item value="Note that the operation is not guaranteed to be atomic if the map is being modified concurrently." />
@@ -95,13 +96,12 @@
       <item value="Trader block was broken by legal means!" />
       <item value="SCHEDULED PACKETS" />
       <item value=" SCHEDULED" />
-      <item value="Relevant" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="133" />
-        <entry key="CHINESE_SIMPLIFIED" value="40" />
-        <entry key="ENGLISH" value="168" />
+        <entry key="CHINESE_SIMPLIFIED" value="41" />
+        <entry key="ENGLISH" value="169" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
