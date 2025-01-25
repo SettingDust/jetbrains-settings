@@ -2207,6 +2207,7 @@
       <roots>
         <annotationsPath>
           <root type="composite">
+            <root url="jar://D:/Applications/Scoop/apps/idea-ultimate/2024.3.1-243.22562.145/IDE/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
             <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
           </root>
         </annotationsPath>
