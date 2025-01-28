@@ -1121,6 +1121,45 @@
                   </list>
                 </option>
               </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="kotlin 怎么把一个 flow 变成两个 flow" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="我怎么能通过一个条件把流分成两部分呢？" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="这样这个条件不是被计算两次了吗" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
             </list>
           </value>
         </entry>
