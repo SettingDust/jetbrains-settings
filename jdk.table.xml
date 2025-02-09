@@ -1188,7 +1188,7 @@
     <jdk version="2">
       <name value="graalvm-ce-21" />
       <type value="JavaSDK" />
-      <version value="GraalVM CE 23.1.2 - Java 21.0.2" />
+      <version value="GraalVM CE 21.0.2 - VM 23.1.2" />
       <homePath value="D:/Applications/Scoop/apps/graalvm21-jdk21/current" />
       <roots>
         <annotationsPath>
