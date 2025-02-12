@@ -571,6 +571,7 @@
         <annotationsPath>
           <root type="composite">
             <root url="jar://D:/Applications/Scoop/apps/idea-ultimate/2024.3.2.1-243.23654.153/IDE/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
           </root>
         </annotationsPath>
         <classPath>
@@ -2045,6 +2046,7 @@
           <root type="composite">
             <root url="jar://D:/Applications/Scoop/apps/idea-ultimate/2024.2.3-242.23339.11/IDE/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
             <root url="jar://D:/Applications/Scoop/apps/idea-ultimate/2024.3.2.1-243.23654.153/IDE/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
           </root>
         </annotationsPath>
         <classPath>
@@ -2361,6 +2363,53 @@
             <root url="jar://D:/Applications/Scoop/apps/temurin22-jdk/current/lib/src.zip!/jdk.management.agent" type="simple" />
             <root url="jar://D:/Applications/Scoop/apps/temurin22-jdk/current/lib/src.zip!/jdk.unsupported.desktop" type="simple" />
             <root url="jar://D:/Applications/Scoop/apps/temurin22-jdk/current/lib/src.zip!/jdk.graal.compiler.management" type="simple" />
+          </root>
+        </sourcePath>
+      </roots>
+    </jdk>
+    <jdk version="2">
+      <name value="zulu-1.8 (3)" />
+      <type value="JavaSDK" />
+      <version value="Azul Zulu 1.8.0_442" />
+      <homePath value="D:/Applications/Scoop/apps/zulufx8-jdk/current" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/cat.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/charsets.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/ext/access-bridge-64.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/ext/cldrdata.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/ext/crs-agent.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/ext/dnsns.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/ext/jaccess.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/ext/jfxrt.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/ext/localedata.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/ext/nashorn.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/ext/sunec.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/ext/sunjce_provider.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/ext/sunmscapi.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/ext/sunpkcs11.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/ext/zipfs.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/jce.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/jfr.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/jfxswt.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/jsse.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/management-agent.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/resources.jar!/" type="simple" />
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/jre/lib/rt.jar!/" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root url="jar://D:/Applications/Scoop/apps/zulufx8-jdk/current/src.zip!/" type="simple" />
           </root>
         </sourcePath>
       </roots>
