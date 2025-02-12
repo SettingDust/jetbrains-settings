@@ -108,7 +108,7 @@
     </option>
   </component>
   <component name="KotlinLibrariesCompatibilityStore">
-    <option name="ideVersion" value="2024.3" />
+    <option name="ideVersion" value="2024.3.2.2" />
     <option name="libraries">
       <list>
         <KotlinLibraryCompatibilityEntry>
