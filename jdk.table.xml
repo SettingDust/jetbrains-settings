@@ -1025,7 +1025,7 @@
     <jdk version="2">
       <name value="temurin-21 (2)" />
       <type value="JavaSDK" />
-      <version value="java version &quot;21.0.4&quot;" />
+      <version value="Eclipse Temurin 21.0.6" />
       <homePath value="D:/Applications/Scoop/apps/temurin21-jdk/current" />
       <roots>
         <annotationsPath>
@@ -1742,7 +1742,7 @@
     <jdk version="2">
       <name value="temurin-21" />
       <type value="JavaSDK" />
-      <version value="Eclipse Temurin 21.0.4" />
+      <version value="Eclipse Temurin 21.0.6" />
       <homePath value="D:/Applications/Scoop/apps/temurin21-jdk/current" />
       <roots>
         <annotationsPath>
@@ -2041,7 +2041,7 @@
     <jdk version="2">
       <name value="21" />
       <type value="JavaSDK" />
-      <version value="java version &quot;21.0.4&quot;" />
+      <version value="Eclipse Temurin 21.0.6" />
       <homePath value="D:/Applications/Scoop/apps/temurin21-jdk/current" />
       <roots>
         <annotationsPath>
