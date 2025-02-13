@@ -46,6 +46,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="BRACKET" />
       <item value="  &lt;p&gt;&lt;strong&gt;Note that this implementation is not synchronized.&lt;strong&gt;&#10;  If multiple threads access a hash map concurrently, and at least one of&#10;  the threads modifies the map structurally, it &lt;i&gt;must&lt;i&gt; be&#10;  synchronized externally.  (A structural modification is any operation&#10;  that adds or deletes one or more mappings; merely changing the value&#10;  associated with a key that an instance already contains is not a&#10;  structural modification.)  This is typically accomplished by&#10;  synchronizing on some object that naturally encapsulates the map." />
       <item value="The value of this type parameter should be mentioned in input types (argument types, receiver type or expected type)." />
       <item value="whilst" />
@@ -95,13 +96,12 @@
       <item value="Successful claiming" />
       <item value="Sale" />
       <item value="Trader block was broken by legal means!" />
-      <item value="SCHEDULED PACKETS" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="133" />
-        <entry key="CHINESE_SIMPLIFIED" value="42" />
-        <entry key="ENGLISH" value="170" />
+        <entry key="CHINESE_SIMPLIFIED" value="43" />
+        <entry key="ENGLISH" value="171" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
