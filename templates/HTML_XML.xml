@@ -4,7 +4,4 @@
     <variable name="TAGNAME" expression="firstWord(TAG)" defaultValue="&quot;&quot;" alwaysStopAt="false" />
     <context />
   </template>
-  <template name="CD" value="&lt;![CDATA[&#10;$SELECTION$&#10;]]&gt;" description="使用 CDATA 部分包围" toReformat="false" toShortenFQNames="false">
-    <context />
-  </template>
 </templateSet>
