@@ -2,7 +2,7 @@
   <component name="CosySettings">
     <option name="chatModelSelected">
       <map>
-        <entry key="chat" value="default" />
+        <entry key="chat" value="dashscope_deepseek_reasoner" />
         <entry key="developer" value="default" />
       </map>
     </option>
@@ -1606,6 +1606,137 @@
                       <option name="statLine" value="262" />
                       <option name="text" value="createCommonTarget.kt" />
                       <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+            </list>
+          </value>
+        </entry>
+        <entry key="jvm-multiplatform|1687537503358964">
+          <value>
+            <list>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="tag">
+                        <ChatAskTag>
+                          <option name="displayText" value="@workspace" />
+                          <option name="id" value="WORKSPACE" />
+                          <option name="text" value="@workspace" />
+                          <option name="type" value="agent" />
+                        </ChatAskTag>
+                      </option>
+                      <option name="type" value="tag" />
+                    </ChatInputElement>
+                    <ChatInputElement>
+                      <option name="text" value="What this hopes to achieve:&#10;&#10;    Allow source dependencies on virtual source sets to affect the compilation of said virtual source sets&#10;        thus allowing said virtual source sets to accurately reflect the common code being compiled&#10;    Reduce friction in usecases where common dependencies do not exist or are not applicable, thus the stub API covers it&#10;    Allow sources to continue working by attaching (all) original associated source files, lowest version first&#10;        Perhaps allow picking the sources via the resolution results of the dependant source sets/targets, to allow source artifact transforms to properly transform the common sources&#10;&#10;General note:&#10;The generated API stubs need not be binary compatible with the targets, as a Jar compiled against a stub should not be runnable&#10;This may be changed in the future to be stricter, to allow better compatibility with consumers not using virtual source sets&#10;&#10;Implementation would involve:&#10;&#10;    Function inputs being different would mean finding the most applicable type that is a subtype of all input types&#10;    Function outputs being different would mean picking the common subtype of both&#10;    Kotlin should have synthetic properties in the @Metadata annotation to match migrations from fields to functions or vice versa&#10;    Kotlin type aliases should be intersected via kotlin API files&#10;        Need to make sure those are compatible in the JVM mode of the Kotlin compiler&#10;    Groovy should have extension getX to match property migrations&#10;    Annotations should be intersected in that we pick only the shared annotations between intersection members&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="tag">
+                        <ChatAskTag>
+                          <option name="displayText" value="@workspace" />
+                          <option name="id" value="WORKSPACE" />
+                          <option name="text" value="@workspace" />
+                          <option name="type" value="agent" />
+                        </ChatAskTag>
+                      </option>
+                      <option name="type" value="tag" />
+                    </ChatInputElement>
+                    <ChatInputElement>
+                      <option name="text" value="Allow source dependencies on virtual source sets to affect the compilation of said virtual source sets&#10;&#10;    thus allowing said virtual source sets to accurately reflect the common code being compiled&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+            </list>
+          </value>
+        </entry>
+        <entry key="jvm-multiplatform|1687537503358964|AiDeveloper">
+          <value>
+            <list>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="https://github.com/terrarium-earth/jvm-multiplatform/issues/2&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="What this hopes to achieve:&#10;希望实现的目标：&#10;&#10;    Allow source dependencies on virtual source sets to affect the compilation of said virtual source sets&#10;    允许虚拟源集的源依赖影响所述虚拟源集的编译&#10;        thus allowing said virtual source sets to accurately reflect the common code being compiled&#10;        因此允许所述虚拟源集准确反映正在编译的通用代码&#10;    Reduce friction in usecases where common dependencies do not exist or are not applicable, thus the stub API covers it&#10;    降低使用场景中不存在或不适用常见依赖项的摩擦，因此占位符 API 涵盖了这一点&#10;    Allow sources to continue working by attaching (all) original associated source files, lowest version first&#10;    允许通过附加（所有）原始相关源文件继续工作，最低版本优先&#10;        Perhaps allow picking the sources via the resolution results of the dependant source sets/targets, to allow source artifact transforms to properly transform the common sources&#10;        可能允许通过依赖源集/目标的解析结果选择源，以便正确转换公共源工件&#10;&#10;General note:  一般备注：&#10;The generated API stubs need not be binary compatible with the targets, as a Jar compiled against a stub should not be runnable&#10;生成的 API 存根无需与目标二进制兼容，因为针对存根编译的 JAR 文件不应可执行&#10;This may be changed in the future to be stricter, to allow better compatibility with consumers not using virtual source sets&#10;这可能在未来变得更加严格，以便更好地与不使用虚拟源集的消费者兼容&#10;&#10;Implementation would involve:&#10;实施将包括：&#10;&#10;    Function inputs being different would mean finding the most applicable type that is a subtype of all input types&#10;    函数输入不同意味着找到适用于所有输入类型的最大子类型&#10;    Function outputs being different would mean picking the common subtype of both&#10;    函数输出不同意味着选择两者的共同子类型&#10;    Kotlin should have synthetic properties in the @Metadata annotation to match migrations from fields to functions or vice versa&#10;    Kotlin 应该在 @Metadata 注解中具有合成属性，以匹配从字段到函数或反之亦然的迁移&#10;    Kotlin type aliases should be intersected via kotlin API files&#10;    Kotlin 类型别名应通过 kotlin API 文件进行交集&#10;        Need to make sure those are compatible in the JVM mode of the Kotlin compiler&#10;        需要确保这些在 Kotlin 编译器的 JVM 模式下兼容&#10;    Groovy should have extension getX to match property migrations&#10;    Groovy 应该有扩展 getX 来匹配属性迁移&#10;    Annotations should be intersected in that we pick only the shared annotations between intersection members&#10;    标注应相交，我们只选择交集中成员之间的共享标注&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="tag">
+                        <ChatAskTag>
+                          <option name="displayText" value="#codebase" />
+                          <option name="id" value="eeed9e9b-31c4-47a3-83a8-38c0861d1098" />
+                          <option name="text" value="#codebase" />
+                          <option name="type" value="context" />
+                        </ChatAskTag>
+                      </option>
+                      <option name="type" value="tag" />
+                    </ChatInputElement>
+                    <ChatInputElement>
+                      <option name="text" value=" What this hopes to achieve:&#10;希望实现的目标：&#10;&#10;    Allow source dependencies on virtual source sets to affect the compilation of said virtual source sets&#10;    允许虚拟源集的源依赖影响所述虚拟源集的编译&#10;        thus allowing said virtual source sets to accurately reflect the common code being compiled&#10;        因此允许所述虚拟源集准确反映正在编译的通用代码&#10;    Reduce friction in usecases where common dependencies do not exist or are not applicable, thus the stub API covers it&#10;    降低使用场景中不存在或不适用常见依赖项的摩擦，因此占位符 API 涵盖了这一点&#10;    Allow sources to continue working by attaching (all) original associated source files, lowest version first&#10;    允许通过附加（所有）原始相关源文件继续工作，最低版本优先&#10;        Perhaps allow picking the sources via the resolution results of the dependant source sets/targets, to allow source artifact transforms to properly transform the common sources&#10;        可能允许通过依赖源集/目标的解析结果选择源，以便正确转换公共源工件&#10;&#10;General note:  一般备注：&#10;The generated API stubs need not be binary compatible with the targets, as a Jar compiled against a stub should not be runnable&#10;生成的 API 存根无需与目标二进制兼容，因为针对存根编译的 JAR 文件不应可执行&#10;This may be changed in the future to be stricter, to allow better compatibility with consumers not using virtual source sets&#10;这可能在未来变得更加严格，以便更好地与不使用虚拟源集的消费者兼容&#10;&#10;Implementation would involve:&#10;实施将包括：&#10;&#10;    Function inputs being different would mean finding the most applicable type that is a subtype of all input types&#10;    函数输入不同意味着找到适用于所有输入类型的最大子类型&#10;    Function outputs being different would mean picking the common subtype of both&#10;    函数输出不同意味着选择两者的共同子类型&#10;    Kotlin should have synthetic properties in the @Metadata annotation to match migrations from fields to functions or vice versa&#10;    Kotlin 应该在 @Metadata 注解中具有合成属性，以匹配从字段到函数或反之亦然的迁移&#10;    Kotlin type aliases should be intersected via kotlin API files&#10;    Kotlin 类型别名应通过 kotlin API 文件进行交集&#10;        Need to make sure those are compatible in the JVM mode of the Kotlin compiler&#10;        需要确保这些在 Kotlin 编译器的 JVM 模式下兼容&#10;    Groovy should have extension getX to match property migrations&#10;    Groovy 应该有扩展 getX 来匹配属性迁移&#10;    Annotations should be intersected in that we pick only the shared annotations between intersection members&#10;    标注应相交，我们只选择交集中成员之间的共享标注&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="general" />
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="eeed9e9b-31c4-47a3-83a8-38c0861d1098" />
+                      <option name="name" value="#codebase" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="sourceType" value="system" />
+                      <option name="text" value="#codebase" />
+                      <option name="type" value="codebase" />
                     </ChatContextTag>
                   </list>
                 </option>
