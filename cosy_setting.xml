@@ -934,6 +934,25 @@
             </list>
           </value>
         </entry>
+        <entry key="World In Mongo|1687537503358964|AiDeveloper">
+          <value>
+            <list>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value=" 2, 0 结果是什么" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+            </list>
+          </value>
+        </entry>
         <entry key="Worldgen Sampler|1687537503358964">
           <value>
             <list>
