@@ -14,5 +14,6 @@
     <mask>*.kts</mask>
     <mask>*.java</mask>
     <mask>*.kt</mask>
+    <mask>*.txt</mask>
   </component>
 </application>
