@@ -87,7 +87,7 @@
     <jdk version="2">
       <name value="zulu-17" />
       <type value="JavaSDK" />
-      <version value="Azul Zulu 17.0.13" />
+      <version value="Azul Zulu 17.0.14" />
       <homePath value="D:/Applications/Scoop/apps/zulufx17-jdk/current" />
       <roots>
         <annotationsPath>
