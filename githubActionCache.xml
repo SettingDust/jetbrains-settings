@@ -51,7 +51,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="CHANGELOG.md" />
-                  <entry key="expiryTime" value="1744112100074" />
+                  <entry key="expiryTime" value="1744444505173" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
@@ -1240,7 +1240,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/nick-fields/assert-action/v2/action.yml" />
-                  <entry key="expiryTime" value="1742955176386" />
+                  <entry key="expiryTime" value="1744165485094" />
                   <entry key="githubUrl" value="https://github.com/nick-fields/assert-action/tree/v2#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
