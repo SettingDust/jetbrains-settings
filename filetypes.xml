@@ -16,6 +16,7 @@
       <mapping ext="bin" type="PLAIN_TEXT" />
       <mapping ext="tiny" type="PLAIN_TEXT" />
       <mapping ext="zs" type="PLAIN_TEXT" />
+      <mapping ext="tbl" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="dockerignore" approved="true" type="DockerIgnore file" />
       <removed_mapping ext="fsh" approved="true" type="Glsl File" />
