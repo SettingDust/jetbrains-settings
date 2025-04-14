@@ -3,6 +3,7 @@
     <option name="customScope" value="项目文件" />
     <option name="defaultScopeName" value="项目文件" />
     <option name="SEARCH_SCOPE" value="项目文件" />
+    <option name="FILE_MASK" value="*.kt" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
@@ -12,8 +13,8 @@
     <mask>*.json</mask>
     <mask>*.toml</mask>
     <mask>*.kts</mask>
-    <mask>*.kt</mask>
     <mask>*.txt</mask>
     <mask>*.java</mask>
+    <mask>*.kt</mask>
   </component>
 </application>
