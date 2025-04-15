@@ -32,7 +32,7 @@
     <option name="translateDocumentation" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1742180185547" />
+    <option name="lastTrimTime" value="1744707288092" />
   </component>
   <component name="Translation.Settings">
     <option name="keepFormat" value="true" />
@@ -45,6 +45,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="Disambiguation" />
       <item value="           - Incompatible because this component declares a component, preferably in the form of class files and the consumer needed a component, preferably not packaged as a jar&#10;" />
       <item value="Re-entrance detected during prepare phase, this will cause serious problems." />
       <item value="Re-entrance" />
@@ -94,13 +95,12 @@
       <item value="Rework this to only filter type IDs other than for mc versions." />
       <item value="breadth" />
       <item value="Descending" />
-      <item value="mandatory" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="133" />
-        <entry key="CHINESE_SIMPLIFIED" value="51" />
-        <entry key="ENGLISH" value="178" />
+        <entry key="CHINESE_SIMPLIFIED" value="52" />
+        <entry key="ENGLISH" value="179" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>

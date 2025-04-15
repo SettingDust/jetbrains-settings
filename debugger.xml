@@ -136,9 +136,7 @@
     <option name="SHOW_PACKAGE_NAME" value="false" />
   </component>
   <component name="XDebuggerSettings">
-    <data-views>
-      <option name="showLibraryStackFrames" value="true" />
-    </data-views>
+    <data-views />
     <general />
     <debuggers>
       <debugger id="javascript">
