@@ -45,6 +45,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="afterEvaluate needed as the registration of a transform is dependent on a lazy provider&#10; this can potentially be changed to a no-op transform, but that's far slower" />
       <item value="Session ID, used as a check when parsing MixinMerged annotations to prevent them being applied at compile time by people trying to circumvent mixin application" />
       <item value="circumvent" />
       <item value="Mandatory" />
@@ -94,13 +95,12 @@
       <item value="e" />
       <item value="Sampler" />
       <item value="  TODO: Contemplate life, or rather, why is this a thing&#10;  TODO: No, seriously, why (actually, bec of how I designed the original yaml, but eh)" />
-      <item value="Shifting like this is discouraged because it's brittle " />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="133" />
-        <entry key="CHINESE_SIMPLIFIED" value="55" />
-        <entry key="ENGLISH" value="182" />
+        <entry key="CHINESE_SIMPLIFIED" value="56" />
+        <entry key="ENGLISH" value="183" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
