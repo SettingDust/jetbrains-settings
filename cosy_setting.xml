@@ -2,7 +2,7 @@
   <component name="CosySettings">
     <option name="chatModelSelected">
       <map>
-        <entry key="chat" value="dashscope_qwq_plus" />
+        <entry key="chat" value="default" />
         <entry key="developer" value="default" />
       </map>
     </option>
