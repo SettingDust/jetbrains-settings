@@ -3,7 +3,7 @@
     <option name="VERSION" value="1" />
     <option name="FONT_SIZE" value="14" />
     <option name="FONT_SIZE_2D" value="14.0" />
-    <option name="FONT_FAMILY" value="Sarasa Fixed SC" />
-    <option name="SECONDARY_FONT_FAMILY" value="Sarasa Mono SC" />
+    <option name="FONT_FAMILY" value="Sarasa Fixed SC Nerd Font" />
+    <option name="SECONDARY_FONT_FAMILY" value="&lt;字体缺失: Sarasa Mono SC&gt;" />
   </component>
 </application>
