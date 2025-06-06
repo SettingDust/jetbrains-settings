@@ -32,7 +32,7 @@
     <option name="translateDocumentation" value="true" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1747903437131" />
+    <option name="lastTrimTime" value="1749207199877" />
   </component>
   <component name="Translation.Settings">
     <option name="keepFormat" value="true" />
@@ -45,6 +45,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="chase" />
       <item value="mandatory" />
       <item value="cartesianed" />
       <item value="afterEvaluate needed as the registration of a transform is dependent on a lazy provider&#10; this can potentially be changed to a no-op transform, but that's far slower" />
@@ -94,13 +95,12 @@
       <item value="exclusive screaming because i have no internet or data whatsoever&#10;" />
       <item value="pending" />
       <item value="FINER" />
-      <item value="e" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="133" />
-        <entry key="CHINESE_SIMPLIFIED" value="58" />
-        <entry key="ENGLISH" value="185" />
+        <entry key="CHINESE_SIMPLIFIED" value="60" />
+        <entry key="ENGLISH" value="187" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
