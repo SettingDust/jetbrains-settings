@@ -45,6 +45,7 @@
     <option name="translationDialogLocationX" value="659" />
     <option name="translationDialogLocationY" value="389" />
     <histories>
+      <item value="Instantenous" />
       <item value="the width of the blitted portion" />
       <item value="chase" />
       <item value="mandatory" />
@@ -94,13 +95,12 @@
       <item value="does what ModLauncher does, but ahead of time." />
       <item value="formed" />
       <item value="exclusive screaming because i have no internet or data whatsoever&#10;" />
-      <item value="pending" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="133" />
-        <entry key="CHINESE_SIMPLIFIED" value="61" />
-        <entry key="ENGLISH" value="188" />
+        <entry key="CHINESE_SIMPLIFIED" value="62" />
+        <entry key="ENGLISH" value="189" />
         <entry key="HINDI" value="1" />
         <entry key="NORWEGIAN" value="1" />
       </map>
