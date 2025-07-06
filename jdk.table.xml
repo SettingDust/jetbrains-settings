@@ -1490,7 +1490,7 @@
     <jdk version="2">
       <name value="temurin-23" />
       <type value="JavaSDK" />
-      <version value="Eclipse Temurin 23.0.2" />
+      <version value="Eclipse Temurin 24.0.1" />
       <homePath value="D:/Applications/Scoop/apps/temurin-jdk/current" />
       <roots>
         <annotationsPath>
