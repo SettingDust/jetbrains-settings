@@ -7,6 +7,7 @@
     </option>
     <option name="chatModelSelected">
       <map>
+        <entry key="D:/Projects/Minecraft/MoreEnchantmentInfo-chat" value="default" />
         <entry key="D:/Projects/Minecraft/SurveyorAtlases-assistant" value="dashscope_deepseek_reasoner" />
         <entry key="D:/Projects/Minecraft/SurveyorAtlases-chat" value="default" />
         <entry key="D:/Projects/Minecraft/SurveyorAtlases-developer" value="default" />
@@ -399,6 +400,81 @@
                 </option>
                 <option name="contextTags">
                   <list />
+                </option>
+              </ChatRecentQuery>
+            </list>
+          </value>
+        </entry>
+        <entry key="MoreEnchantmentInfo|1687537503358964|AiAssistantAgent">
+          <value>
+            <list>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="我怎么让 combined 函数返回一个泛型 T 的实现类，以按序运行服务" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine" />
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent" />
+                          <entry key="startLine" />
+                        </map>
+                      </option>
+                      <option name="id" value="D:\Projects\Minecraft\MoreEnchantmentInfo\src\common\main\kotlin\settingdust\more_enchantment_info\ServiceLoaderUtil.kt" />
+                      <option name="name" value="D:\Projects\Minecraft\MoreEnchantmentInfo\src\common\main\kotlin\settingdust\more_enchantment_info\ServiceLoaderUtil.kt" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="sourceType" value="system" />
+                      <option name="text" value="ServiceLoaderUtil.kt" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                  </list>
                 </option>
               </ChatRecentQuery>
             </list>
