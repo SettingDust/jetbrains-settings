@@ -145,6 +145,12 @@
               <option value="com.intellij.writerside.llm.grazie.AIUnifiedDiffTool" />
               <option value="com.intellij.writerside.llm.grazie.AITwoSideDiffTool" />
               <option value="org.exbin.bined.intellij.diff.BinEdDiffTool" />
+              <option value="com.intellij.jupyter.diff.extensions.JupyterDiffTool" />
+              <option value="com.intellij.ml.llm.codeGeneration.diff.AIOneSideDiffTool" />
+              <option value="com.intellij.ml.llm.codeGeneration.diff.AIUnifiedDiffTool" />
+              <option value="com.intellij.ml.llm.codeGeneration.diff.AITwoSideDiffTool" />
+              <option value="com.intellij.ml.llm.core.chat.multifile.ui.change.LlmDiffChangeUnifiedDiffTool" />
+              <option value="com.intellij.ml.llm.core.chat.multifile.ui.change.LlmDiffChangeSimpleDiffTool" />
             </list>
           </option>
         </PlaceSettings>
