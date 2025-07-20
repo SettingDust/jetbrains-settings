@@ -51,7 +51,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="CHANGELOG.md" />
-                  <entry key="expiryTime" value="1754139864518" />
+                  <entry key="expiryTime" value="1754229419769" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
@@ -212,74 +212,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="actions" value="r[false]  Action name" />
-                  <entry key="assign-command" value="r[false]  For mark-assigness" />
-                  <entry key="assignee-includes" value="r[false]  Check use" />
-                  <entry key="assignees" value="r[false]  Issue assignees" />
-                  <entry key="body" value="r[false]  Issue body" />
-                  <entry key="body-includes" value="r[false]  Query use" />
-                  <entry key="close-issue" value="r[false]  For mark-duplicate" />
-                  <entry key="close-reason" value="r[false]  Issue close reason" />
-                  <entry key="comment-auth" value="r[false]  Find comments query auth" />
-                  <entry key="comment-id" value="r[false]  Comment-id" />
-                  <entry key="direction" value="r[false]  Find direction" />
-                  <entry key="duplicate-command" value="r[false]  For mark-duplicate" />
-                  <entry key="duplicate-labels" value="r[false]  For mark-duplicate add labels" />
-                  <entry key="emoji" value="r[false]  Issue reactions emoji" />
-                  <entry key="exclude-labels" value="r[false]  Query issues exclude labels" />
-                  <entry key="inactive-day" value="r[false]  Query use" />
-                  <entry key="inactive-label" value="r[false]  Issue label set use" />
-                  <entry key="inactive-mode" value="r[false]  Inactive mode" />
-                  <entry key="issue-assignee" value="r[false]  Query use" />
-                  <entry key="issue-creator" value="r[false]  Query use" />
-                  <entry key="issue-emoji" value="r[false]  For welcome" />
-                  <entry key="issue-mentioned" value="r[false]  Query use" />
-                  <entry key="issue-number" value="r[false]  Issue-number" />
-                  <entry key="issue-state" value="r[false]  Query use" />
-                  <entry key="label-color" value="r[false]  Create label color, default #ededed" />
-                  <entry key="label-desc" value="r[false]  Create label description" />
-                  <entry key="label-name" value="r[false]  Create label name" />
-                  <entry key="labels" value="r[false]  Issue labels" />
-                  <entry key="lock-reason" value="r[false]  The reason lock issue" />
-                  <entry key="random-to" value="r[false]  Issue assignees random to" />
-                  <entry key="remove-labels" value="r[false]  For remove labels" />
-                  <entry key="repo" value="r[false]  The repositorie" />
-                  <entry key="require-permission" value="r[false]  Only the allow can do. Possible admin, write, read, and none." />
-                  <entry key="state" value="r[false]  Issue state" />
-                  <entry key="title" value="r[false]  Issue title" />
-                  <entry key="title-excludes" value="r[false]  Remove some to check title whether empty." />
-                  <entry key="title-includes" value="r[false]  Query use" />
-                  <entry key="token" value="r[false] def[${{ github.token }}] Github_token" />
-                  <entry key="update-mode" value="r[false]  Body update mode" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions-cool/issues-helper/a610082f8ac0cf03e357eb8dd0d5e2ba075e017e/action.yml" />
-                  <entry key="expiryTime" value="1753019561342" />
+                  <entry key="expiryTime" value="1754229395145" />
                   <entry key="githubUrl" value="https://github.com/actions-cool/issues-helper/tree/a610082f8ac0cf03e357eb8dd0d5e2ba075e017e#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions-cool/issues-helper" />
                   <entry key="usesValue" value="actions-cool/issues-helper@a610082f8ac0cf03e357eb8dd0d5e2ba075e017e" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="check-result" value=" Check issue" />
-                  <entry key="comment-id" value=" Create comment ID" />
-                  <entry key="comments" value=" Find comments" />
-                  <entry key="issue-assignees" value=" Issue assignees" />
-                  <entry key="issue-body" value=" Issue Body" />
-                  <entry key="issue-labels" value=" Issue labels" />
-                  <entry key="issue-number" value=" Issue Number" />
-                  <entry key="issue-state" value=" Issue state" />
-                  <entry key="issue-title" value=" Issue Title" />
-                  <entry key="issues" value=" Find issues" />
                 </map>
               </option>
             </GitHubAction>
@@ -331,47 +275,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="clean" value="r[false] def[true] Whether to execute `git clean -ffdx &amp;&amp; git reset --hard HEAD` before fetching" />
-                  <entry key="fetch-depth" value="r[false] def[1] Number of commits to fetch. 0 indicates all history for all branches and tags." />
-                  <entry key="fetch-tags" value="r[false] def[false] Whether to fetch tags, even if fetch-depth &gt; 0." />
-                  <entry key="filter" value="r[false] def[null]" />
-                  <entry key="github-server-url" value="r[false]  The base URL for the GitHub instance that you are trying to clone from, will use environment defaults to fetch from the same instance that the workflow is running from unless specified. Example URLs are https://github.com or https://my-ghes-server.example.com" />
-                  <entry key="lfs" value="r[false] def[false] Whether to download Git-LFS files" />
-                  <entry key="path" value="r[false]  Relative path under $GITHUB_WORKSPACE to place the repository" />
-                  <entry key="persist-credentials" value="r[false] def[true] Whether to configure the token or SSH key with the local git config" />
-                  <entry key="ref" value="r[false] " />
-                  <entry key="repository" value="r[false] def[${{ github.repository }}] Repository name with owner. For example, actions/checkout" />
-                  <entry key="set-safe-directory" value="r[false] def[true] Add repository path as safe.directory for Git global config by running `git config --global --add safe.directory &lt;path&gt;`" />
-                  <entry key="show-progress" value="r[false] def[true] Whether to show progress status output when fetching." />
-                  <entry key="sparse-checkout" value="r[false] def[null]" />
-                  <entry key="sparse-checkout-cone-mode" value="r[false] def[true]" />
-                  <entry key="ssh-key" value="r[false] " />
-                  <entry key="ssh-known-hosts" value="r[false] " />
-                  <entry key="ssh-strict" value="r[false] def[true]" />
-                  <entry key="ssh-user" value="r[false] def[git]" />
-                  <entry key="submodules" value="r[false] def[false]" />
-                  <entry key="token" value="r[false] def[${{ github.token }}]" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/checkout/11bd71901bbe5b1630ceea73d27597364c9af683/action.yml" />
-                  <entry key="expiryTime" value="1753019560678" />
+                  <entry key="expiryTime" value="1754229395145" />
                   <entry key="githubUrl" value="https://github.com/actions/checkout/tree/11bd71901bbe5b1630ceea73d27597364c9af683#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/checkout" />
                   <entry key="usesValue" value="actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="commit" value=" The commit SHA that was checked out" />
-                  <entry key="ref" value=" The branch, tag or SHA that was checked out" />
                 </map>
               </option>
             </GitHubAction>
@@ -717,35 +632,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="compression-level" value="r[false] def[6]" />
-                  <entry key="if-no-files-found" value="r[false] def[warn]" />
-                  <entry key="include-hidden-files" value="r[false] def[false]" />
-                  <entry key="name" value="r[false] def[artifact] Artifact name" />
-                  <entry key="overwrite" value="r[false] def[false]" />
-                  <entry key="path" value="r[true]  A file, directory or wildcard pattern that describes what to upload" />
-                  <entry key="retention-days" value="r[false] " />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/upload-artifact/ea165f8d65b6e75b540449e92b4886f43607fa02/action.yml" />
-                  <entry key="expiryTime" value="1753019561342" />
+                  <entry key="expiryTime" value="1754229395145" />
                   <entry key="githubUrl" value="https://github.com/actions/upload-artifact/tree/ea165f8d65b6e75b540449e92b4886f43607fa02#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/upload-artifact" />
                   <entry key="usesValue" value="actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="artifact-digest" value="" />
-                  <entry key="artifact-id" value="" />
-                  <entry key="artifact-url" value="" />
                 </map>
               </option>
             </GitHubAction>
@@ -881,61 +779,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="add-hosts" value="r[false]  List of a customs host-to-IP mapping (e.g., docker:10.180.0.1)" />
-                  <entry key="allow" value="r[false]  List of extra privileged entitlement (e.g., network.host,security.insecure)" />
-                  <entry key="annotations" value="r[false]  List of annotation to set to the image" />
-                  <entry key="attests" value="r[false]  List of attestation parameters (e.g., type=sbom,generator=image)" />
-                  <entry key="build-args" value="r[false]  List of build-time variables" />
-                  <entry key="build-contexts" value="r[false]  List of additional build contexts (e.g., name=path)" />
-                  <entry key="builder" value="r[false]  Builder instance" />
-                  <entry key="cache-from" value="r[false]  List of external cache sources for buildx (e.g., user/app:cache, type=local,src=path/to/dir)" />
-                  <entry key="cache-to" value="r[false]  List of cache export destinations for buildx (e.g., user/app:cache, type=local,dest=path/to/dir)" />
-                  <entry key="call" value="r[false]  Set method for evaluating build (e.g., check)" />
-                  <entry key="cgroup-parent" value="r[false]  Optional parent cgroup for the container used in the build" />
-                  <entry key="context" value="r[false]  Build's context is the set of files located in the specified PATH or URL" />
-                  <entry key="file" value="r[false]  Path to the Dockerfile" />
-                  <entry key="github-token" value="r[false] def[${{ github.token }}] GitHub Token used to authenticate against a repository for Git context" />
-                  <entry key="labels" value="r[false]  List of metadata for an image" />
-                  <entry key="load" value="r[false] def[false] Load is a shorthand for --output=type=docker" />
-                  <entry key="network" value="r[false]  Set the networking mode for the RUN instructions during build" />
-                  <entry key="no-cache" value="r[false] def[false] Do not use cache when building the image" />
-                  <entry key="no-cache-filters" value="r[false]  Do not cache specified stages" />
-                  <entry key="outputs" value="r[false]  List of output destinations (format: type=local,dest=path)" />
-                  <entry key="platforms" value="r[false]  List of target platforms for build" />
-                  <entry key="provenance" value="r[false]  Generate provenance attestation for the build (shorthand for --attest=type=provenance)" />
-                  <entry key="pull" value="r[false] def[false] Always attempt to pull all referenced images" />
-                  <entry key="push" value="r[false] def[false] Push is a shorthand for --output=type=registry" />
-                  <entry key="sbom" value="r[false]  Generate SBOM attestation for the build (shorthand for --attest=type=sbom)" />
-                  <entry key="secret-envs" value="r[false]  List of secret env vars to expose to the build (e.g., key=envname, MY_SECRET=MY_ENV_VAR)" />
-                  <entry key="secret-files" value="r[false]  List of secret files to expose to the build (e.g., key=filename, MY_SECRET=./secret.txt)" />
-                  <entry key="secrets" value="r[false]  List of secrets to expose to the build (e.g., key=string, GIT_AUTH_TOKEN=mytoken)" />
-                  <entry key="shm-size" value="r[false]  Size of /dev/shm (e.g., 2g)" />
-                  <entry key="ssh" value="r[false]  List of SSH agent socket or keys to expose to the build" />
-                  <entry key="tags" value="r[false]  List of tags" />
-                  <entry key="target" value="r[false]  Sets the target stage to build" />
-                  <entry key="ulimit" value="r[false]  Ulimit options (e.g., nofile=1024:1024)" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/docker/build-push-action/263435318d21b8e681c14492fe198d362a7d2c83/action.yml" />
-                  <entry key="expiryTime" value="1753019560678" />
+                  <entry key="expiryTime" value="1754229395145" />
                   <entry key="githubUrl" value="https://github.com/docker/build-push-action/tree/263435318d21b8e681c14492fe198d362a7d2c83#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="docker/build-push-action" />
                   <entry key="usesValue" value="docker/build-push-action@263435318d21b8e681c14492fe198d362a7d2c83" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="digest" value=" Image digest" />
-                  <entry key="imageid" value=" Image ID" />
-                  <entry key="metadata" value=" Build result metadata" />
                 </map>
               </option>
             </GitHubAction>
@@ -945,23 +800,15 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="ecr" value="r[false] def[auto] Specifies whether the given registry is ECR (auto, true or false)" />
-                  <entry key="logout" value="r[false] def[true] Log out from the Docker registry at the end of a job" />
-                  <entry key="password" value="r[false]  Password or personal access token used to log against the Docker registry" />
-                  <entry key="registry" value="r[false]  Server address of Docker registry. If not set then will default to Docker Hub" />
-                  <entry key="username" value="r[false]  Username used to log against the Docker registry" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/docker/login-action/74a5d142397b4f367a81961eba4e8cd7edddf772/action.yml" />
-                  <entry key="expiryTime" value="1753019560678" />
+                  <entry key="expiryTime" value="1754229395145" />
                   <entry key="githubUrl" value="https://github.com/docker/login-action/tree/74a5d142397b4f367a81961eba4e8cd7edddf772#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="docker/login-action" />
                   <entry key="usesValue" value="docker/login-action@74a5d142397b4f367a81961eba4e8cd7edddf772" />
@@ -974,45 +821,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="annotations" value="r[false]  List of custom annotations" />
-                  <entry key="bake-target" value="r[false]  Bake target name (default docker-metadata-action)" />
-                  <entry key="context" value="r[true] def[workflow] Where to get context data. Allowed options are &quot;workflow&quot;  (default), &quot;git&quot;." />
-                  <entry key="flavor" value="r[false]  Flavors to apply" />
-                  <entry key="github-token" value="r[true] def[${{ github.token }}] GitHub Token as provided by secrets" />
-                  <entry key="images" value="r[false]  List of Docker images to use as base name for tags" />
-                  <entry key="labels" value="r[false]  List of custom labels" />
-                  <entry key="sep-annotations" value="r[false]  Separator to use for annotations output (default \n)" />
-                  <entry key="sep-labels" value="r[false]  Separator to use for labels output (default \n)" />
-                  <entry key="sep-tags" value="r[false]  Separator to use for tags output (default \n)" />
-                  <entry key="tags" value="r[false]  List of tags as key-value pair attributes" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/docker/metadata-action/902fa8ec7d6ecbf8d84d538b9b233a880e428804/action.yml" />
-                  <entry key="expiryTime" value="1753019560678" />
+                  <entry key="expiryTime" value="1754229395145" />
                   <entry key="githubUrl" value="https://github.com/docker/metadata-action/tree/902fa8ec7d6ecbf8d84d538b9b233a880e428804#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="docker/metadata-action" />
                   <entry key="usesValue" value="docker/metadata-action@902fa8ec7d6ecbf8d84d538b9b233a880e428804" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="annotations" value=" Generated annotations" />
-                  <entry key="bake-file" value=" Bake definition file with tags and labels" />
-                  <entry key="bake-file-annotations" value=" Bake definition file with annotations" />
-                  <entry key="bake-file-labels" value=" Bake definition file with labels" />
-                  <entry key="bake-file-tags" value=" Bake definition file with tags" />
-                  <entry key="json" value=" JSON output of tags and labels" />
-                  <entry key="labels" value=" Generated Docker labels" />
-                  <entry key="tags" value=" Generated Docker tags" />
-                  <entry key="version" value=" Generated Docker image version" />
                 </map>
               </option>
             </GitHubAction>
@@ -1022,49 +842,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="append" value="r[false]  Append additional nodes to the builder" />
-                  <entry key="buildkitd-config" value="r[false]  BuildKit daemon config file" />
-                  <entry key="buildkitd-config-inline" value="r[false]  Inline BuildKit daemon config" />
-                  <entry key="buildkitd-flags" value="r[false]  BuildKit daemon flags" />
-                  <entry key="cache-binary" value="r[false] def[true] Cache buildx binary to GitHub Actions cache backend" />
-                  <entry key="cleanup" value="r[false] def[true] Cleanup temp files and remove builder at the end of a job" />
-                  <entry key="config" value="r[false]  BuildKit daemon config file" />
-                  <entry key="config-inline" value="r[false]  Inline BuildKit daemon config" />
-                  <entry key="driver" value="r[false] def[docker-container] Sets the builder driver to be used" />
-                  <entry key="driver-opts" value="r[false]  List of additional driver-specific options. (eg. image=moby/buildkit:master)" />
-                  <entry key="endpoint" value="r[false]  Optional address for docker socket or context from `docker context ls`" />
-                  <entry key="install" value="r[false] def[false] Sets up docker build command as an alias to docker buildx build" />
-                  <entry key="keep-state" value="r[false] def[false] Keep BuildKit state on cleanup. This is only useful on persistent self-hosted runners." />
-                  <entry key="name" value="r[false]  Name of the builder. If not specified, one will be generated or if it already exists, it will be used instead of creating a new one." />
-                  <entry key="platforms" value="r[false]  Fixed platforms for current node. If not empty, values take priority over the detected ones" />
-                  <entry key="use" value="r[false] def[true] Switch to this builder instance" />
-                  <entry key="version" value="r[false]  Buildx version. (eg. v0.3.0)" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/docker/setup-buildx-action/e468171a9de216ec08956ac3ada2f0791b6bd435/action.yml" />
-                  <entry key="expiryTime" value="1753019560678" />
+                  <entry key="expiryTime" value="1754229395145" />
                   <entry key="githubUrl" value="https://github.com/docker/setup-buildx-action/tree/e468171a9de216ec08956ac3ada2f0791b6bd435#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="docker/setup-buildx-action" />
                   <entry key="usesValue" value="docker/setup-buildx-action@e468171a9de216ec08956ac3ada2f0791b6bd435" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="driver" value=" Builder driver" />
-                  <entry key="endpoint" value=" Builder node endpoint (deprecated, use nodes output instead)" />
-                  <entry key="flags" value=" Builder node flags (deprecated, use nodes output instead)" />
-                  <entry key="name" value=" Builder name" />
-                  <entry key="nodes" value=" Builder nodes metadata" />
-                  <entry key="platforms" value=" Builder node platforms (preferred or available)" />
-                  <entry key="status" value=" Builder node status (deprecated, use nodes output instead)" />
                 </map>
               </option>
             </GitHubAction>
@@ -1074,29 +863,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="cache-image" value="r[false] def[true] Cache binfmt image to GitHub Actions cache backend" />
-                  <entry key="image" value="r[false] def[docker.io/tonistiigi/binfmt:latest] QEMU static binaries Docker image (e.g. tonistiigi/binfmt:latest)" />
-                  <entry key="platforms" value="r[false] def[all] Platforms to install (e.g. arm64,riscv64,arm)" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/docker/setup-qemu-action/29109295f81e9208d7d86ff1c6c12d2833863392/action.yml" />
-                  <entry key="expiryTime" value="1753019560678" />
+                  <entry key="expiryTime" value="1754229395145" />
                   <entry key="githubUrl" value="https://github.com/docker/setup-qemu-action/tree/29109295f81e9208d7d86ff1c6c12d2833863392#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="docker/setup-qemu-action" />
                   <entry key="usesValue" value="docker/setup-qemu-action@29109295f81e9208d7d86ff1c6c12d2833863392" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="platforms" value=" Available platforms (comma separated)" />
                 </map>
               </option>
             </GitHubAction>
@@ -1546,25 +1324,15 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="enable-url-completion" value="r[false] " />
-                  <entry key="image-extensions" value="r[false] " />
-                  <entry key="password" value="r[true]  Docker Hub password or Personal Access Token with read/write/delete scope" />
-                  <entry key="readme-filepath" value="r[false] " />
-                  <entry key="repository" value="r[false] " />
-                  <entry key="short-description" value="r[false]  Docker Hub repository short description" />
-                  <entry key="username" value="r[true]  Docker Hub username" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/peter-evans/dockerhub-description/432a30c9e07499fd01da9f8a49f0faf9e0ca5b77/action.yml" />
-                  <entry key="expiryTime" value="1753019560678" />
+                  <entry key="expiryTime" value="1754229395145" />
                   <entry key="githubUrl" value="https://github.com/peter-evans/dockerhub-description/tree/432a30c9e07499fd01da9f8a49f0faf9e0ca5b77#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="peter-evans/dockerhub-description" />
                   <entry key="usesValue" value="peter-evans/dockerhub-description@432a30c9e07499fd01da9f8a49f0faf9e0ca5b77" />
@@ -1598,21 +1366,15 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="cosign-release" value="r[false] def[v2.5.2] cosign release version to be installed" />
-                  <entry key="install-dir" value="r[false] def[$HOME/.cosign] Where to install the cosign binary" />
-                  <entry key="use-sudo" value="r[false] def[false] set to true if install-dir location requires sudo privs" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/sigstore/cosign-installer/398d4b0eeef1380460a10c8013a76f728fb906ac/action.yml" />
-                  <entry key="expiryTime" value="1753019560678" />
+                  <entry key="expiryTime" value="1754229395145" />
                   <entry key="githubUrl" value="https://github.com/sigstore/cosign-installer/tree/398d4b0eeef1380460a10c8013a76f728fb906ac#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="sigstore/cosign-installer" />
                   <entry key="usesValue" value="sigstore/cosign-installer@398d4b0eeef1380460a10c8013a76f728fb906ac" />
