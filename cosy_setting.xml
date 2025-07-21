@@ -20,11 +20,6 @@
     <option name="dedicatedDomainUrl" value="" />
     <option name="localStoragePath" value="C:\Users\WINDOWS\.lingma" />
     <option name="manualOpenLocalModel" value="true" />
-    <option name="nesConfig">
-      <LingmaNesConfig>
-        <option name="enabled" value="true" />
-      </LingmaNesConfig>
-    </option>
     <option name="parameter">
       <ChangeUserSettingParams>
         <option name="allowReportUsage" value="true" />
@@ -32,7 +27,7 @@
           <CloudModelParam>
             <option name="autoTrigger">
               <CloudModelAutoTrigger>
-                <option name="enable" value="true" />
+                <option name="enable" value="false" />
                 <option name="generateLength" value="level_1" />
                 <option name="modelLevel" value="large" />
               </CloudModelAutoTrigger>
